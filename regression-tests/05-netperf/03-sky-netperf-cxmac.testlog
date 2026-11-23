@@ -1,0 +1,65 @@
+Random seed: 1
+830111 1 MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+839204 1 nullsec CSMA CX-MAC, channel check rate 8 Hz, radio channel 26
+841062 1 Starting 'netperf shell'
+852361 1 1.0: Contiki> 
+859868 1 -------- Broadcast --------
+860956 1 Contacting 2.0
+1036507 2 Rime started with address 2.0
+1045712 2 MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 2.
+1054807 2 nullsec CSMA CX-MAC, channel check rate 8 Hz, radio channel 26
+1056665 2 Starting 'netperf shell'
+1067963 2 2.0: Contiki> 
+1317739 1 Measuring broadcast performance to 2.0
+4323943 1 Requesting statistics from 2.0
+5270050 1 1 1 0 20 0 435 0 0 16502 94809 11486 518 # for automatic processing
+5271686 1 Remote node statistics:
+5277717 1   Remote radio duty cycle:   rx 10.31% tx 0.46%
+5281202 1   Packets:                   sent 0 received 20
+5294299 1 1 0 20 0 0 507 0 0 118729 11161 8526 62466 # for automatic processing
+5295866 1 Local node statistics:
+5301914 1   Total transfer time:       3.09 seconds, 5.04 packets/second
+5311533 1   Average round-trip-time:   131071 ms (131071 + 131071)
+5317378 1   Radio duty cycle:          rx 6.56% tx 48.09%
+5321153 1   Packets received:          0.0%, 0 of 20
+5323530 1 -------- Unicast one-way --------
+5324618 1 Contacting 2.0
+6765319 1 Measuring unicast performance to 2.0
+6799638 1 Requesting statistics from 2.0
+9428136 1 2 1 0 14 0 292 0 0 14389 60368 12727 2062 # for automatic processing
+9429772 1 Remote node statistics:
+9435524 1   Remote radio duty cycle:   rx 17.02% tx 2.75%
+9439009 1   Packets:                   sent 0 received 14
+9451361 1 2 0 20 0 0 342 0 0 79327 8295 16728 2827 # for automatic processing
+9452928 1 Local node statistics:
+9459338 1   Total transfer time:       2.06 seconds, 7.48 packets/second
+9468891 1   Average round-trip-time:   131071 ms (131071 + 131071)
+9474673 1   Radio duty cycle:          rx 19.09% tx 3.22%
+9478447 1   Packets received:          0.0%, 0 of 20
+9480905 1 -------- Unicast ping-pong--------
+9481993 1 Contacting 2.0
+12686117 1 Measuring two-way unicast performance to 2.0
+20294854 1 Requesting statistics from 2.0
+20706256 1 3 1 20 20 0 1023 0 0 148754 113229 69137 9562 # for automatic processing
+20707892 1 Remote node statistics:
+20714023 1   Remote radio duty cycle:   rx 26.38% tx 3.64%
+20717659 1   Packets:                   sent 20 received 20
+20731677 1 3 0 20 19 0 1028 0 0 154036 109157 55536 6431 # for automatic processing
+20733244 1 Local node statistics:
+20739585 1   Total transfer time:       8.00 seconds, 2.49 packets/second
+20743767 1   Average round-trip-time:   0 ms (0 + 0)
+20749813 1   Radio duty cycle:          rx 21.10% tx 2.44%
+20753943 1   Packets received:          95.0%, 19 of 20
+20756866 1 -------- Unicast stream ping-pong--------
+20757954 1 Contacting 2.0
+21094483 1 Measuring two-way unicast stream performance to 2.0
+21443549 1 Requesting statistics from 2.0
+21462560 1 4 0 20 22 0 46 0 0 11484 215 9639 1876 # for automatic processing
+21464128 1 Local node statistics:
+21470783 1   Total transfer time:       0.03 seconds, 55.65 packets/second
+21474964 1   Average round-trip-time:   0 ms (0 + 0)
+21481271 1   Radio duty cycle:          rx 82.39% tx 16.03%
+21485483 1   Packets received:          110.0%, 22 of 20
+21485891 1 Done
+TEST OK
+Test ended at simulation time: 21485891

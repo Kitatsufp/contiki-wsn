@@ -1,0 +1,9 @@
+
+   text	   data	    bss	    dec	    hex	filename
+ 117188	   2888	   9720	 129796	  1fb04	broadcast-example.stm32nucleo-spirit1
+
+   text	   data	    bss	    dec	    hex	filename
+ 124856	   2928	  10304	 138088	  21b68	unicast-sender.stm32nucleo-spirit1
+
+   text	   data	    bss	    dec	    hex	filename
+ 119388	   2928	  10284	 132600	  205f8	unicast-receiver.stm32nucleo-spirit1

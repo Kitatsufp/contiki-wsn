@@ -1,0 +1,473 @@
+-------- Start FFDC ------s
+FFDC.CWNAN.20240107.160905.931.dmp
+Product      :- Really Small Message Broker
+Version      :- 1.3.0.2
+Build        :- Mar 16 2018 08:33:43
+Features     :- bridge MQTTS 
+Pointer size :- 4 bytes
+Date/Time    :- Sun Jan  7 16:09:05 2024
+
+Reason       :- 20240107 160905.931 CWNAN0013S Failed to remove heap item at file LinkedList.c line 342
+
+=========== Start of stack trace ==========
+main (254)
+=========== End of stack trace ==========
+
+=========== Start of trace dump ==========
+
+20240107 160904.166   (2)< Persistence_read_command:1285
+20240107 160904.166   (2)> MQTTProtocol_housekeeping:386
+20240107 160904.166   (2)< MQTTProtocol_housekeeping:398 (0)
+20240107 160904.166   (2)> MQTTSProtocol_housekeeping:167
+20240107 160904.166   (2)< MQTTSProtocol_housekeeping:187
+20240107 160904.166  (1)< Protocol_timeslice:197
+20240107 160904.166  (1)> Bridge_timeslice:209
+20240107 160904.166  (1)< Bridge_timeslice:237
+20240107 160904.166  (1)> Protocol_timeslice:131
+20240107 160904.166   (2)> Socket_getReadySocket:966
+20240107 160904.166    (3)> Socket_continueWrites:1699
+20240107 160904.166    (3)< Socket_continueWrites:1719 (0)
+20240107 160904.166   (2)< Socket_getReadySocket:1159 (0)
+20240107 160904.166   (2)> MQTTProtocol_checkPendingWrites:353
+20240107 160904.166   (2)< MQTTProtocol_checkPendingWrites:375
+20240107 160904.166   (2)> add_prefix:830
+20240107 160904.166   (2)< add_prefix:837
+20240107 160904.166   (2)> Persistence_read_command:1273
+20240107 160904.166    (3)> free_prefix:849
+20240107 160904.166    (3)< free_prefix:852
+20240107 160904.166   (2)< Persistence_read_command:1285
+20240107 160904.166   (2)> MQTTProtocol_housekeeping:386
+20240107 160904.166   (2)< MQTTProtocol_housekeeping:398 (0)
+20240107 160904.166   (2)> MQTTSProtocol_housekeeping:167
+20240107 160904.166   (2)< MQTTSProtocol_housekeeping:187
+20240107 160904.166  (1)< Protocol_timeslice:197
+20240107 160904.166  (1)> Bridge_timeslice:209
+20240107 160904.166  (1)< Bridge_timeslice:237
+20240107 160905.169  (1)> Protocol_timeslice:131
+20240107 160905.169   (2)> Socket_getReadySocket:966
+20240107 160905.169    (3)> Socket_continueWrites:1699
+20240107 160905.169    (3)< Socket_continueWrites:1719 (0)
+20240107 160905.169   (2)< Socket_getReadySocket:1159 (4)
+20240107 160905.169   (2)> MQTTProtocol_checkPendingWrites:353
+20240107 160905.169   (2)< MQTTProtocol_checkPendingWrites:375
+20240107 160905.169   (2)> Socket_getParentListener:1818
+20240107 160905.169   (2)< Socket_getParentListener:1829
+20240107 160905.169   (2)> MQTTSProtocol_timeslice:199
+20240107 160905.169    (3)> MQTTSPacket_Factory:152
+20240107 160905.169     (4)> MQTTSPacket_publish:407
+20240107 160905.169     (4)< MQTTSPacket_publish:445
+20240107 160905.169    (3)< MQTTSPacket_Factory:214 (-1)
+20240107 160905.169    (3)> Protocol_getclientbyaddr:388
+20240107 160905.169    (3)< Protocol_getclientbyaddr:391
+20240107 160905.169    (3)> MQTTSProtocol_handlePublishes:613
+20240107 160905.169 4 aaaa::212:4b00:5a9:8fb4:1884 00124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1
+20240107 160905.169     (4)> MQTTSProtocol_getRegisteredTopicName:1005
+20240107 160905.169     (4)< MQTTSProtocol_getRegisteredTopicName:1012
+20240107 160905.173     (4)> Protocol_handlePublishes:444
+20240107 160905.173      (5)> Socket_getParentListener:1818
+20240107 160905.173      (5)< Socket_getParentListener:1829
+20240107 160905.173      (5)> Protocol_processPublication:214
+20240107 160905.173       (6)> SubscriptionEngines_setRetained:724
+20240107 160905.173        (7)> SubscriptionEngines_setRetained1:670
+20240107 160905.173        (7)< SubscriptionEngines_setRetained1:710
+20240107 160905.173       (6)< SubscriptionEngines_setRetained:732
+20240107 160905.173       (6)> SubscriptionEngines_getSubscribers:644
+20240107 160905.173        (7)> SubscriptionEngines_getSubscribers1:550
+20240107 160905.173        (7)< SubscriptionEngines_getSubscribers1:582
+20240107 160905.173        (7)> SubscriptionEngines_getSubscribers2:591
+20240107 160905.173        (7)< SubscriptionEngines_getSubscribers2:628
+20240107 160905.173       (6)< SubscriptionEngines_getSubscribers:652
+20240107 160905.173      (5)< Protocol_processPublication:322
+20240107 160905.173      (5)> MQTTPacket_freePublish:760
+20240107 160905.173      (5)< MQTTPacket_freePublish:764
+20240107 160905.173     (4)< Protocol_handlePublishes:526 (0)
+20240107 160905.173     (4)> MQTTSPacket_free_packet:572
+20240107 160905.173      (5)> MQTTSPacket_free_publish:639
+20240107 160905.173      (5)< MQTTSPacket_free_publish:644
+20240107 160905.173     (4)< MQTTSPacket_free_packet:576
+20240107 160905.173    (3)< MQTTSProtocol_handlePublishes:660 (0)
+20240107 160905.173   (2)< MQTTSProtocol_timeslice:256
+20240107 160905.173   (2)> add_prefix:830
+20240107 160905.173   (2)< add_prefix:837
+20240107 160905.173   (2)> Persistence_read_command:1273
+20240107 160905.173    (3)> free_prefix:849
+20240107 160905.173    (3)< free_prefix:852
+20240107 160905.173   (2)< Persistence_read_command:1285
+20240107 160905.173   (2)> MQTTProtocol_housekeeping:386
+20240107 160905.173   (2)< MQTTProtocol_housekeeping:398 (0)
+20240107 160905.173   (2)> MQTTSProtocol_housekeeping:167
+20240107 160905.173   (2)< MQTTSProtocol_housekeeping:187
+20240107 160905.173  (1)< Protocol_timeslice:197
+20240107 160905.173  (1)> Bridge_timeslice:209
+20240107 160905.173  (1)< Bridge_timeslice:237
+20240107 160905.173  (1)> Protocol_timeslice:131
+20240107 160905.173   (2)> Socket_getReadySocket:966
+20240107 160905.173    (3)> Socket_error:100
+20240107 160905.906    (3)< Socket_error:114 (4)
+20240107 160905.906   (2)< Socket_getReadySocket:1159 (0)
+20240107 160905.906   (2)> MQTTProtocol_checkPendingWrites:353
+20240107 160905.906   (2)< MQTTProtocol_checkPendingWrites:375
+20240107 160905.906   (2)> Protocol_closing:99
+20240107 160905.906   (2)< Protocol_closing:118
+20240107 160905.906   (2)> MQTTProtocol_housekeeping:386
+20240107 160905.906   (2)< MQTTProtocol_housekeeping:398 (0)
+20240107 160905.906   (2)> MQTTSProtocol_housekeeping:167
+20240107 160905.906   (2)< MQTTSProtocol_housekeeping:187
+20240107 160905.906  (1)< Protocol_timeslice:197
+20240107 160905.906  (1)> Bridge_timeslice:209
+20240107 160905.906  (1)< Bridge_timeslice:237
+20240107 160905.906  (1)> MQTTProtocol_handlePublishes:318
+20240107 160905.906   (2)> Protocol_handlePublishes:444
+20240107 160905.906   (2)< Protocol_handlePublishes:526 (0)
+20240107 160905.906  (1)< MQTTProtocol_handlePublishes:329 (0)
+20240107 160905.906  (1)> Bridge_stop:76
+20240107 160905.906  (1)< Bridge_stop:88
+20240107 160905.906  (1)> Broker_shutdown:367
+20240107 160905.906   (2)> Bridge_terminate:185
+20240107 160905.906   (2)< Bridge_terminate:196
+20240107 160905.906   (2)> Protocol_terminate:70
+20240107 160905.906    (3)> MQTTProtocol_terminate:193
+20240107 160905.906     (4)> MQTTProtocol_shutdown:180
+20240107 160905.906      (5)> MQTTProtocol_shutdownclients:159
+20240107 160905.906      (5)< MQTTProtocol_shutdownclients:170
+20240107 160905.906      (5)> MQTTProtocol_shutdownclients:159
+20240107 160905.906      (5)< MQTTProtocol_shutdownclients:170
+20240107 160905.906     (4)< MQTTProtocol_shutdown:184
+20240107 160905.906    (3)< MQTTProtocol_terminate:195
+20240107 160905.906    (3)> MQTTSProtocol_terminate:150
+20240107 160905.906     (4)> MQTTProtocol_shutdownclients:159
+20240107 160905.906      (5)> MQTTProtocol_closeSession:1069
+20240107 160905.906       (6)> MQTTSPacket_send_disconnect:1157
+20240107 160905.906        (7)> MQTTSPacket_send_ack:787
+20240107 160905.906         (8)> MQTTSPacketSerialize_ack:54
+20240107 160905.906         (8)< MQTTSPacketSerialize_ack:65
+20240107 160905.906         (8)> MQTTSPacket_sendPacketBuffer:698
+20240107 160905.906         (8)< MQTTSPacket_sendPacketBuffer:728 (0)
+20240107 160905.906        (7)< MQTTSPacket_send_ack:791 (0)
+20240107 160905.906 4 aaaa::212:4b00:5af:4ba7:1884 00124B0005AF4BA7 -> MQTT-S DISCONNECT duration: 0 (0)
+20240107 160905.906       (6)< MQTTSPacket_send_disconnect:1163 (0)
+20240107 160905.906       (6)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.906       (6)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.906       (6)> MQTTProtocol_freeClient:918
+20240107 160905.906        (7)> MQTTProtocol_removeAllSubscriptions:609
+20240107 160905.906         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.906          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906          (9)> SubscriptionEngines_unsubscribeAll:455
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906          (9)< SubscriptionEngines_unsubscribeAll:473
+20240107 160905.906         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.906         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.906          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.906        (7)< MQTTProtocol_removeAllSubscriptions:612
+20240107 160905.906        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.906         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.906         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.906        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.906        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.906         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.906         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.906        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.906        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.906         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.906         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.906        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.906        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.906         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.906         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.906        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.906        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.906         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.906         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.906        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.906        (7)> MQTTSProtocol_freeRegistrationList:1051
+20240107 160905.906         (8)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.906         (8)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.906        (7)< MQTTSProtocol_freeRegistrationList:1054
+20240107 160905.906       (6)< MQTTProtocol_freeClient:952
+20240107 160905.906      (5)< MQTTProtocol_closeSession:1205
+20240107 160905.906      (5)> MQTTProtocol_closeSession:1069
+20240107 160905.906       (6)> MQTTSPacket_send_disconnect:1157
+20240107 160905.906        (7)> MQTTSPacket_send_ack:787
+20240107 160905.906         (8)> MQTTSPacketSerialize_ack:54
+20240107 160905.906         (8)< MQTTSPacketSerialize_ack:65
+20240107 160905.906         (8)> MQTTSPacket_sendPacketBuffer:698
+20240107 160905.906         (8)< MQTTSPacket_sendPacketBuffer:728 (0)
+20240107 160905.906        (7)< MQTTSPacket_send_ack:791 (0)
+20240107 160905.906 4 aaaa::212:4b00:5a9:8ff8:1884 00124B0005A98FF81234 -> MQTT-S DISCONNECT duration: 0 (0)
+20240107 160905.906       (6)< MQTTSPacket_send_disconnect:1163 (0)
+20240107 160905.906       (6)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.906       (6)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.906       (6)> MQTTProtocol_freeClient:918
+20240107 160905.906        (7)> MQTTProtocol_removeAllSubscriptions:609
+20240107 160905.906         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.906          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906          (9)> SubscriptionEngines_unsubscribeAll:455
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906 Removing subscription 00124B0005A98FF81234, /led_d, 0
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.906           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.906 Removing subscription 00124B0005A98FF81234, /cfco2, 0
+20240107 160905.910           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.910           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.910           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.910           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.910 Removing subscription 00124B0005A98FF81234, à≈Ír_m, 0
+20240107 160905.914           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.914          (9)< SubscriptionEngines_unsubscribeAll:473
+20240107 160905.914         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.914         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.914          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.914          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.914         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.914        (7)< MQTTProtocol_removeAllSubscriptions:612
+20240107 160905.914        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.914         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.914         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.914        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.914        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.914         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.914         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.914        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.914        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.914         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.914         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.918        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.918        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.918         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.918         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.918        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.918        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.918         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.918         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.918        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.918        (7)> MQTTSProtocol_freeRegistrationList:1051
+20240107 160905.918         (8)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.918         (8)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.918        (7)< MQTTSProtocol_freeRegistrationList:1054
+20240107 160905.918       (6)< MQTTProtocol_freeClient:952
+20240107 160905.918      (5)< MQTTProtocol_closeSession:1205
+20240107 160905.918      (5)> MQTTProtocol_closeSession:1069
+20240107 160905.918       (6)> MQTTSPacket_send_disconnect:1157
+20240107 160905.918        (7)> MQTTSPacket_send_ack:787
+20240107 160905.918         (8)> MQTTSPacketSerialize_ack:54
+20240107 160905.918         (8)< MQTTSPacketSerialize_ack:65
+20240107 160905.918         (8)> MQTTSPacket_sendPacketBuffer:698
+20240107 160905.918         (8)< MQTTSPacket_sendPacketBuffer:728 (0)
+20240107 160905.918        (7)< MQTTSPacket_send_ack:791 (0)
+20240107 160905.918 4 aaaa::212:4b00:5a9:8fb4:1884 00124B0005A98FB4 -> MQTT-S DISCONNECT duration: 0 (0)
+20240107 160905.918       (6)< MQTTSPacket_send_disconnect:1163 (0)
+20240107 160905.918       (6)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.918       (6)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.918       (6)> MQTTProtocol_freeClient:918
+20240107 160905.918        (7)> MQTTProtocol_removeAllSubscriptions:609
+20240107 160905.918         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.918          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.918          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.918          (9)> SubscriptionEngines_unsubscribeAll:455
+20240107 160905.918           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.918 Removing subscription 00124B0005A98FB4, /f_control_d, 0
+20240107 160905.918           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.918           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.918           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.918           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.918 Removing subscription 00124B0005A98FB4, /a_or_m, 0
+20240107 160905.923           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.923          (9)< SubscriptionEngines_unsubscribeAll:473
+20240107 160905.923         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.923         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.923          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.923          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.923         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.923        (7)< MQTTProtocol_removeAllSubscriptions:612
+20240107 160905.923        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.923         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.923         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.923        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.923        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.923         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.923         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.923        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.923        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.923         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.923         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.927        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.927        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.927         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.927         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.927        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.927        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.927         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.927         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.927        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.927        (7)> MQTTSProtocol_freeRegistrationList:1051
+20240107 160905.927         (8)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.927         (8)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.927        (7)< MQTTSProtocol_freeRegistrationList:1054
+20240107 160905.927       (6)< MQTTProtocol_freeClient:952
+20240107 160905.927      (5)< MQTTProtocol_closeSession:1205
+20240107 160905.927      (5)> MQTTProtocol_closeSession:1069
+20240107 160905.927       (6)> MQTTSPacket_send_disconnect:1157
+20240107 160905.927        (7)> MQTTSPacket_send_ack:787
+20240107 160905.927         (8)> MQTTSPacketSerialize_ack:54
+20240107 160905.927         (8)< MQTTSPacketSerialize_ack:65
+20240107 160905.927         (8)> MQTTSPacket_sendPacketBuffer:698
+20240107 160905.927         (8)< MQTTSPacket_sendPacketBuffer:728 (0)
+20240107 160905.927        (7)< MQTTSPacket_send_ack:791 (0)
+20240107 160905.927 4 aaaa::212:4b00:5a9:8f91:1884 00124B0005A98F91 -> MQTT-S DISCONNECT duration: 0 (0)
+20240107 160905.927       (6)< MQTTSPacket_send_disconnect:1163 (0)
+20240107 160905.927       (6)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.927       (6)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.927       (6)> MQTTProtocol_freeClient:918
+20240107 160905.927        (7)> MQTTProtocol_removeAllSubscriptions:609
+20240107 160905.927         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.927          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.927          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.927          (9)> SubscriptionEngines_unsubscribeAll:455
+20240107 160905.927           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.927 Removing subscription 00124B0005A98F91, /b_control_d, 0
+20240107 160905.927           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.927           (10)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.927 Removing subscription 00124B0005A98F91, /a_or_m, 0
+20240107 160905.929           (10)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.929          (9)< SubscriptionEngines_unsubscribeAll:473
+20240107 160905.929         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.929         (8)> SubscriptionEngines_unsubscribe:486
+20240107 160905.929          (9)> SubscriptionEngines_unsubscribe1:427
+20240107 160905.929          (9)< SubscriptionEngines_unsubscribe1:446
+20240107 160905.929         (8)< SubscriptionEngines_unsubscribe:499
+20240107 160905.929        (7)< MQTTProtocol_removeAllSubscriptions:612
+20240107 160905.929        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.929         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.929         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.929        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.929        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.929         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.929         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.929        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.929        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.929         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.929         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.930        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.930        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.930         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.930         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.930        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.930        (7)> MQTTProtocol_freeMessageList:1011
+20240107 160905.930         (8)> MQTTProtocol_emptyMessageList:993
+20240107 160905.930         (8)< MQTTProtocol_emptyMessageList:1001
+20240107 160905.930        (7)< MQTTProtocol_freeMessageList:1014
+20240107 160905.930        (7)> MQTTSProtocol_freeRegistrationList:1051
+20240107 160905.930         (8)> MQTTSProtocol_emptyRegistrationList:1038
+20240107 160905.930         (8)< MQTTSProtocol_emptyRegistrationList:1045
+20240107 160905.930        (7)< MQTTSProtocol_freeRegistrationList:1054
+20240107 160905.930       (6)< MQTTProtocol_freeClient:952
+20240107 160905.930      (5)< MQTTProtocol_closeSession:1205
+20240107 160905.930     (4)< MQTTProtocol_shutdownclients:170
+20240107 160905.930     (4)> MQTTProtocol_shutdownclients:159
+20240107 160905.930     (4)< MQTTProtocol_shutdownclients:170
+20240107 160905.930    (3)< MQTTSProtocol_terminate:155
+20240107 160905.930   (2)< Protocol_terminate:75
+20240107 160905.930   (2)> Socket_terminate:657
+20240107 160905.930    (3)> Socket_close_only:1400
+20240107 160905.930    (3)< Socket_close_only:1412 (0)
+20240107 160905.930    (3)> Socket_close_only:1400
+20240107 160905.930     (4)> Socket_error:100
+20240107 160905.930     (4)< Socket_error:114 (107)
+20240107 160905.930    (3)< Socket_close_only:1412 (0)
+20240107 160905.930    (3)> Socket_outTerminate:630
+20240107 160905.930     (4)> SocketBuffer_terminate:112
+20240107 160905.930     (4)< SocketBuffer_terminate:117
+20240107 160905.930    (3)< Socket_outTerminate:643
+20240107 160905.930   (2)< Socket_terminate:674
+20240107 160905.930   (2)> SubscriptionEngines_terminate:300
+20240107 160905.930    (3)> saveOrFreeRetaineds:172
+20240107 160905.930    (3)< saveOrFreeRetaineds:194 (0)
+20240107 160905.930    (3)> saveOrFreeRetaineds:172
+20240107 160905.930    (3)< saveOrFreeRetaineds:194 (0)
+20240107 160905.930    (3)> saveOrFreeSubscriptions:212
+20240107 160905.930    (3)< saveOrFreeSubscriptions:231 (0)
+20240107 160905.930    (3)> saveOrFreeSubscriptions:212
+20240107 160905.931    (3)< saveOrFreeSubscriptions:231 (0)
+20240107 160905.931    (3)> saveOrFreeSubscriptions1:249
+20240107 160905.931    (3)< saveOrFreeSubscriptions1:258 (0)
+20240107 160905.931   (2)< SubscriptionEngines_terminate:309
+20240107 160905.931   (2)> Persistence_free_config:776
+20240107 160905.931    (3)> Users_free_list:90
+20240107 160905.931     (4)> Users_free_acl:73
+20240107 160905.931     (4)< Users_free_acl:80
+20240107 160905.931    (3)< Users_free_list:101
+20240107 160905.931   (2)< Persistence_free_config:813
+20240107 160905.931  (1)< Broker_shutdown:401
+20240107 160905.931  (1)> Messages_terminate:333
+20240107 160905.931  (1)< Messages_terminate:339
+========== End of trace dump ==========
+
+=========== Start of heap dump ==========
+à   <ÓÓ
+   Ë     º…Ë4 Ë¨ Ë$ÀË   §ÕË                             ˇeöe§ÃË    §ÀË    $ÕË        $ÃË§  ¢      ˇeöeˇˇ   )Ωøú  §ÀË                                                                                                                                                                                                                                                                 d◊Ë                                                                                                                                    ‹Í\Í‹Í(                                            )Ωø   config.mqtt <Ó   1.3.0.2 Ó   Mar 16 2018 08:33:43         4‡ÁÄ‘  1jöe[5          Persistence_free_config  bscribers   0005A98FB4 <- MQTT-S REGISTER msgid: 1 topicid: 0 topicname: /f-             1jöe[5          Broker_shutdown _command  n s d1 s 4B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ë             1jöe{5          Messages_terminate eeping 1884 00124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       M             1jöe{5          Messages_terminate et ping s picName 4 00124B0005A98F91 -> MQTT-S CONNACK returncode 0 (0)          S             0jöeÃä          Persistence_read_command g TopicName qos: 0 retained: 0 (0)                                                      0jöeÃä          MQTTProtocol_housekeeping hes UBLISH qos: 0 retained: 0 (0)                                         Ç             0jöeÃä          MQTTProtocol_housekeeping ained 0124B0005A98FF81234 -> MQTT-S PINGRESP (0)                          é            0jöeÃä          MQTTSProtocol_housekeeping ites  ISH qos: 0 retained: 0 (0)                                         ß              0jöeÃä          MQTTSProtocol_housekeeping ites  124B0005A98FB4 -> MQTT-S REGACK msgid: 1 topicid: 1 returncode: 0 (ª              0jöeÃä          Protocol_timeslice tener tained  s H qos: 0 retained: 0 (0)                                         ≈             0jöeÃä          Bridge_timeslice istener tained1 s  2 to subscribers list                                           —              0jöeÃä          Bridge_timeslice eslice  tained1 ISH qos: 0 retained: 0 (0)                                         Ì              0jöe⁄ä           Protocol_timeslice  t tRetained LISH qos: 0 retained: 0 (0)                                         É             0jöe⁄ä          Socket_getReadySocket ingWrites  s  B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ∆             0jöe⁄ä          Socket_continueWrites ingWrites  s1 2 to subscribers list                                           £             0jöe⁄ä          Socket_continueWrites er tained D9892 to subscribers list                                           ∑            0jöe⁄ä          Socket_getReadySocket dr bscribers1   to subscribers list                                           á            0jöe⁄ä          MQTTProtocol_checkPendingWrites rs2 B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       a             0jöe⁄ä          MQTTProtocol_checkPendingWrites rs2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       w             0jöe⁄ä          add_prefix _send_ack etRetained1 s e  to subscribers list                                           >             0jöe⁄ä          add_prefix Serialize_ack tained1 s  B0005A98F91 -> MQTT-S PINGRESP (0)                              E             0jöe⁄ä 	         Persistence_read_command tained rs1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ˘      ˇˇˇˇ   0jöe⁄ä 
+         free_prefix sendPacketBuffer on  s1   to subscribers list                                           Q            0jöe⁄ä          free_prefix sendPacketBuffer ed1 s e qos: 0 retained: 0 (0)                                         T             0jöe⁄ä          Persistence_read_command shes d rs  B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    0jöe⁄ä          MQTTProtocol_housekeeping 1884 00124B0005AF4BA7 -> MQTT-S PINGRESP (0)                              Ç             0jöe⁄ä          MQTTProtocol_housekeeping dTopicName  to subscribers list                                           é            0jöe⁄ä          MQTTSProtocol_housekeeping TopicName  to subscribers list                                           ß              0jöe⁄ä          MQTTSProtocol_housekeeping ined1 s2 B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ª             0jöe⁄ä          Protocol_timeslice cket  tained1 s2 B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   ≈             0jöe⁄ä          Bridge_timeslice dlePingreqs ed  s e  to subscribers list                                           —              0jöe⁄ä          Bridge_timeslice eslice ion ribers H qos: 0 retained: 0 (0)                                         Ì             1jöe⁄ñ           Protocol_timeslice _setRetained rs1 B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       É              1jöe⁄ñ          Socket_getReadySocket tRetained1 s1  qos: 0 retained: 0 (0)                                         ∆             1jöe⁄ñ          Socket_continueWrites nd tained1 s H qos: 0 retained: 0 (0)                                         £             1jöe⁄ñ          Socket_continueWrites tRetained  124B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   ∑            1jöe⁄ñ          Socket_getReadySocket tSubscribers e 0005AF4BA7 <- MQTT-S CONNECT cleansession: 1                   á           1jöe⁄ñ          MQTTProtocol_checkPendingWrites rs1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       a             1jöe⁄ñ          MQTTProtocol_checkPendingWrites D9892 to subscribers list                                           w             1jöe⁄ñ          Socket_getParentListener  scribers1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    1jöe⁄ñ          Socket_getParentListener g cribers2 P (0)                                                           %            1jöe⁄ñ 	         MQTTSProtocol_timeslice ng cribers2 B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   «              1jöe⁄ñ 
+         MQTTSPacket_Factory getSubscribers e  to subscribers list                                           ò              1jöe⁄ñ          MQTTSPacket_publish ePublish ed 0124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ó             1jöe⁄ñ          MQTTSPacket_publish blish ained Name qos: 0 retained: 0 (0)                                         Ω            1jöe⁄ñ          MQTTSPacket_Factory blishCommon  ame qos: 0 retained: 0 (0)                                         ÷      ˇˇˇˇ   1jöe⁄ñ          Protocol_getclientbyaddr tained  s 4B0005A98FB4 <- MQTT-S REGISTER msgid: 2 topicid: 0 topicname: /aÑ             1jöe⁄ñ          Protocol_getclientbyaddr tained1 s1   to subscribers list                                           á             1jöe⁄ñ          MQTTSProtocol_handlePublishes d1 124B0005A98F91 -> MQTT-S PINGRESP (0)                              e             1jöe⁄ñ          4 aaaa::212:4b00:5a9:8fb4:1884 00124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       á           1jöe⁄ñ          MQTTSProtocol_getRegisteredTopicName  to subscribers list                                           Ì            1jöe⁄ñ          MQTTSProtocol_getRegisteredTopicName  to subscribers list                                           Ù            1jöe%ß           Protocol_handlePublishes tained rs2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       º             1jöe%ß          Socket_getParentListener tained1 s2 B0005AF4BA7 -> MQTT-S PINGRESP (0)                                           1jöe%ß          Socket_getParentListener tained1 s 92 to subscribers list                                           %            1jöe%ß          Protocol_processPublication ned rs1   to subscribers list                                           ÷              1jöe%ß          SubscriptionEngines_setRetained D9892 to subscribers list                                           ‘             1jöe%ß          SubscriptionEngines_setRetained1 ISH qos: 0 retained: 0 (0)                                         û             1jöe%ß          SubscriptionEngines_setRetained1 ame  to subscribers list                                           ∆      ˇˇˇˇ   1jöe%ß          SubscriptionEngines_setRetained  ame 0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ‹             1jöe%ß          SubscriptionEngines_getSubscribers e qos: 0 retained: 0 (0)                                         Ñ             1jöe%ß 	         SubscriptionEngines_getSubscribers1  qos: 0 retained: 0 (0)                                         &             1jöe%ß 
+         SubscriptionEngines_getSubscribers1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       F             1jöe%ß          SubscriptionEngines_getSubscribers2  0005A98FF81234 -> MQTT-S PINGRESP (0)                          O            1jöe%ß          SubscriptionEngines_getSubscribers2  0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       t            1jöe%ß          SubscriptionEngines_getSubscribers  B0005A98F91 -> MQTT-S PINGRESP (0)                              å             1jöe%ß          Protocol_processPublication ned1 s  B0005A98F91 -> MQTT-S PINGRESP (0)                              B            1jöe%ß          MQTTPacket_freePublish r tained LISH qos: 0 retained: 0 (0)                                         ¯             1jöe%ß          MQTTPacket_freePublish tion tes rs   qos: 0 retained: 0 (0)                                         ¸             1jöe%ß          Protocol_handlePublishes tained rs1  qos: 0 retained: 0 (0)                                                     1jöe%ß          MQTTSPacket_free_packet etained1 9892 to subscribers list                                           <             1jöe%ß          MQTTSPacket_free_publish tained1 s1 B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                1jöe6ß           MQTTSPacket_free_publish tained  s2 2 to subscribers list                                           Ñ            1jöe6ß          MQTTSPacket_free_packet ubscribers   qos: 0 retained: 0 (0)                                         @             1jöe6ß          MQTTSProtocol_handlePublishes bers1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       î            1jöe6ß          MQTTSProtocol_timeslice 4D60C4EFD9892 to subscribers list                                                  ˇˇˇˇ   1jöe6ß          add_prefix nEngines_getSubscribers1  qos: 0 retained: 0 (0)                                         >             1jöe6ß          add_prefix nEngines_getSubscribers2  qos: 0 retained: 0 (0)                                         E             1jöe6ß          Persistence_read_command bscribers2 B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ˘             1jöe6ß          free_prefix Engines_getSubscribers e 0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Q             1jöe6ß          free_prefix rtOrQueuePublish  icName 0005A98FB4 -> MQTT-S PINGRESP (0)                              T             1jöe6ß 	         Persistence_read_command   > PUBLISH qos: 0 retained: 0 (0)                                               ˇˇˇˇ   1jöe6ß 
+         MQTTProtocol_housekeeping ommon  124B0005A98FB4 -> MQTT-S PINGRESP (0)                              Ç             1jöe6ß          MQTTProtocol_housekeeping ained1 s1 B0005A98F91 -> MQTT-S REGACK msgid: 3 topicid: 3 returncode: 0 (é            1jöe6ß          MQTTSProtocol_housekeeping ined1 s1 B0005A98FF81234 <- MQTT-S REGISTER msgid: 7 topicid: 0 topicnameß              1jöe6ß          MQTTSProtocol_housekeeping ined 0124B0005A98FB4 -> MQTT-S PINGRESP (0)                              ª              1jöe6ß          Protocol_timeslice et sh edTopicName qos: 0 retained: 0 (0)                                         ≈             1jöe6ß          Bridge_timeslice  tes sh edTopicName  to subscribers list                                           —              1jöe6ß          Bridge_timeslice  tes tRetained rs1  qos: 0 retained: 0 (0)                                         Ì             1jöe6ß          Protocol_timeslice et tRetained1 ISH qos: 0 retained: 0 (0)                                         É             1jöe6ß          Socket_getReadySocket ingWrites  124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ∆             1jöe6ß          Socket_error  heckPendingWrites Name  to subscribers list                                           d             1jöex‘           Socket_error as Listener tained Name 0005A98FB4 <- MQTT-S REGISTER msgid: 3 topicid: 0 topicname: /fr            1jöex‘          Socket_getReadySocket er tained1 s2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       á            1jöex‘          MQTTProtocol_checkPendingWrites LISH qos: 0 retained: 0 (0)                                         a             1jöex‘          MQTTProtocol_checkPendingWrites rs e 0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   w             1jöex‘          Protocol_closing tPublishCommon rs 4B0005A98F91 -> MQTT-S PINGRESP (0)                              c              1jöex‘          Protocol_closing tPublish scribers1  qos: 0 retained: 0 (0)                                         v              1jöex‘          MQTTProtocol_housekeeping sh 4EFD9892 to subscribers list                                           Ç             1jöex‘          MQTTProtocol_housekeeping n ribers1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       é            1jöex‘          MQTTSProtocol_housekeeping cribers2  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ß              1jöex‘ 	         MQTTSProtocol_housekeeping es bers2  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ª              1jöex‘ 
+         Protocol_timeslice ishes :1884 00124B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ≈              1jöex‘          Bridge_timeslice packet redTopicName  to subscribers list                                           —              1jöex‘          Bridge_timeslice publish edTopicName 0005A98FB4 -> MQTT-S PINGRESP (0)                              Ì             1jöeÉ‘          MQTTProtocol_handlePublishes es rs2 B0005A98FF81234 -> MQTT-S PINGRESP (0)                          >            1jöeÉ‘          Protocol_handlePublishes Writes  s2 2 to subscribers list                                           º             1jöeÉ‘          Protocol_handlePublishes shes d  s   0005AF4BA7 -> MQTT-S PINGRESP (0)                                          1jöeÉ‘          MQTTProtocol_handlePublishes ed1 s  B0005A98FF81234 -> MQTT-S PINGRESP (0)                          I            1jöeÉ‘          Bridge_stop Engines_setRetained  s  B0005A98FF81234 -> MQTT-S PINGRESP (0)                          L             1jöeÉ‘          Bridge_stop Engines_setRetained1 s1  qos: 0 retained: 0 (0)                                         X              1jöeÉ‘          Broker_shutdown _command tained1 9892 to subscribers list                                           o            1jöeÉ‘          Bridge_terminate es_setRetained rs1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       π              1jöeÉ‘ 	         Bridge_terminate es_getSubscribers    to subscribers list                                           ƒ       ˇˇˇˇ   1jöeÉ‘ 
+         Protocol_terminate mmand bscribers1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       F             1jöeÉ‘          MQTTProtocol_terminate ng 60C4EFD9892 to subscribers list                                           ¡              1jöeÉ‘          MQTTProtocol_shutdown ing scribers1  qos: 0 retained: 0 (0)                                         ¥              1jöe.’          MQTTProtocol_shutdownclients ibers2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ü       ˇˇˇˇ   1jöe.’          MQTTProtocol_shutdownclients ibers2  0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ™       ˇˇˇˇ   1jöe.’          MQTTProtocol_shutdownclients ibers e 0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ü              1jöe.’          MQTTProtocol_shutdownclients ed1 124B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   ™              1jöe.’          MQTTProtocol_shutdown ish hes d1 ame qos: 0 retained: 0 (0)                                         ∏              1jöe.’          MQTTProtocol_terminate shCommon 0124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       √       ˇˇˇˇ   1jöe.’          MQTTSProtocol_terminate  on opicName 0005AF4BA7 -> MQTT-S PINGRESP (0)                              ñ              1jöeS’          MQTTProtocol_shutdownclients ed Name 0005A98FF81234 -> MQTT-S PINGRESP (0)                          ü             1jöen’          MQTTProtocol_closeSession ained1 9892 to subscribers list                                           -             1jöen’          MQTTSPacket_send_disconnect ned1 124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Ö            1jöen’          MQTTSPacket_send_ack dingWrites  ame qos: 0 retained: 0 (0)                                                     1jöen’          MQTTSPacketSerialize_ack Writes rs e 0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       6             1jöen’          MQTTSPacketSerialize_ack bscribers1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       A              1jöen’          MQTTSPacket_sendPacketBuffer 4EFD9892 to subscribers list                                           ∫             1jöen’          MQTTSPacket_sendPacketBuffer ibers1 2 to subscribers list                                           ÿ            1jöen’          MQTTSPacket_send_ack etSubscribers2 2 to subscribers list                                                       1jöen’ 	         4 aaaa::212:4b00:5af:4ba7:1884 00124B0005AF4BA7 -> MQTT-S DISCONNECT duration: 0 (0)                Ò            1jöen’ 
+         MQTTSPacket_send_disconnect  PUBLISH qos: 0 retained: 0 (0)                                         ã            1jöen’          MQTTSProtocol_emptyRegistrationList 2 to subscribers list                                                 ˇˇˇˇ   1jöen’          MQTTSProtocol_emptyRegistrationList  0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    1jöen’          MQTTProtocol_freeClient   ommon rs2 B0005A98F91 -> MQTT-S PINGRESP (0)                              ñ             1jöen’          MQTTProtocol_removeAllSubscriptions  qos: 0 retained: 0 (0)                                         a             1jöen’          SubscriptionEngines_unsubscribe rs  2 to subscribers list                                           Ê             1jöen’       	   SubscriptionEngines_unsubscribe1 s1   to subscribers list                                           ´             1jöen’       	   SubscriptionEngines_unsubscribe1 s    to subscribers list                                           æ            1jöen’       	   SubscriptionEngines_unsubscribeAll  B0005AF4BA7 <- MQTT-S REGISTER msgid: 1 topicid: 0 topicname: /l«             1jöen’       
+   SubscriptionEngines_unsubscribe1 s   qos: 0 retained: 0 (0)                                         ´             1jöe÷        
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ             1jöe÷       
+   SubscriptionEngines_unsubscribe1 124B0005A98FB4 -> MQTT-S PINGRESP (0)                              ´             1jöe÷       
+   SubscriptionEngines_unsubscribe1 s1  0005A98FB4 -> MQTT-S REGACK msgid: 4 topicid: 4 returncode: 0 (æ            1jöe÷       
+   SubscriptionEngines_unsubscribe1 9892 to subscribers list                                           ´             1jöe÷       
+   SubscriptionEngines_unsubscribe1 s1 B0005AF4BA7 -> MQTT-S PINGRESP (0)                              æ             1jöe÷       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         ´            1jöe÷       
+   SubscriptionEngines_unsubscribe1 s2  qos: 0 retained: 0 (0)                                         æ             1jöe÷       
+   SubscriptionEngines_unsubscribe1 s   qos: 0 retained: 0 (0)                                         ´             1jöe÷       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ             1jöe÷ 	      	   SubscriptionEngines_unsubscribeAll   qos: 0 retained: 0 (0)                                         Ÿ             1jöe÷ 
+         SubscriptionEngines_unsubscribe LISH qos: 0 retained: 0 (0)                                         Û             1jöe÷          SubscriptionEngines_unsubscribe  124B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Ê             1jöe÷       	   SubscriptionEngines_unsubscribe1 ame 0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´             1jöe÷       	   SubscriptionEngines_unsubscribe1 ame  to subscribers list                                           æ             1jöe÷          SubscriptionEngines_unsubscribe LISH qos: 0 retained: 0 (0)                                         Û             1jöe÷          MQTTProtocol_removeAllSubscriptions  0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       d             1jöe÷          MQTTProtocol_freeMessageList on  s2  qos: 0 retained: 0 (0)                                         Û            1jöe÷          MQTTProtocol_emptyMessageList d1 s2  qos: 0 retained: 0 (0)                                         ·             1jöe÷          MQTTProtocol_emptyMessageList d  s   0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       È             1jöe÷          MQTTProtocol_freeMessageList ed1 s1 B0005A98FB4 -> MQTT-S PINGRESP (0)                              ˆ            1jöe'÷           MQTTProtocol_freeMessageList ed1 s 4B0005A98F91 <- MQTT-S REGISTER msgid: 4 topicid: 0 topicname: /rÛ             1jöe'÷          MQTTProtocol_emptyMessageList d rs1  qos: 0 retained: 0 (0)                                         ·             1jöe'÷          MQTTProtocol_emptyMessageList UBLISH qos: 0 retained: 0 (0)                                         È            1jöe'÷          MQTTProtocol_freeMessageList es rs1                                                                 ˆ             1jöe'÷          MQTTProtocol_freeMessageList es 0124B0005A98FF81234 -> MQTT-S PINGRESP (0)                          Û             1jöe'÷          MQTTProtocol_emptyMessageList bers  2 to subscribers list                                           ·            1jöe'÷          MQTTProtocol_emptyMessageList s rs2 B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       È             1jöe'÷          MQTTProtocol_freeMessageList es rs2  qos: 0 retained: 0 (0)                                         ˆ             1jöe'÷          MQTTProtocol_freeMessageList ibers e 0005AF4BA7 -> MQTT-S PINGRESP (0)                              Û             1jöe'÷ 	         MQTTProtocol_emptyMessageList  00124B0005A98FB4 -> MQTT-S PINGRESP (0)                              ·             1jöe'÷ 
+         MQTTProtocol_emptyMessageList d1 s1  qos: 0 retained: 0 (0)                                         È             1jöe'÷          MQTTProtocol_freeMessageList ed  s 4B0005A98FF81234 -> MQTT-S PINGRESP (0)                          ˆ      ˇˇˇˇ   1jöe'÷          MQTTProtocol_freeMessageList ed1 124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û             1jöe'÷          MQTTProtocol_emptyMessageList d1 ame qos: 0 retained: 0 (0)                                         ·             1jöe'÷          MQTTProtocol_emptyMessageList d  ame 0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   È      ˇˇˇˇ   1jöe'÷          MQTTProtocol_freeMessageList 4 00124B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ˆ             1jöe'÷          MQTTSProtocol_freeRegistrationList e 0005A98FF81234 -> MQTT-S PINGRESP (0)                                       1jöe'÷          MQTTSProtocol_emptyRegistrationList  0005A98FB4 -> MQTT-S PINGRESP (0)                                          1jöe'÷          MQTTSProtocol_emptyRegistrationList B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    1jöe'÷          MQTTSProtocol_freeRegistrationList e  to subscribers list                                                        1jöe2÷           MQTTProtocol_freeClient redTopicName 0005A98FB4 <- MQTT-S REGISTER msgid: 5 topicid: 0 topicname:   ∏            1jöe2÷          MQTTProtocol_closeSession n  es rs2   to subscribers list                                           µ             1jöe2÷          MQTTProtocol_closeSession ained  s2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       -             1jöe2÷          MQTTSPacket_send_disconnect ned1 ISH qos: 0 retained: 0 (0)                                         Ö             1jöe2÷          MQTTSPacket_send_ack cation ned1 s1 B0005AF4BA7 <- MQTT-S REGISTER msgid: 2 topicid: 0 topicname: /t             1jöe2÷          MQTTSPacketSerialize_ack tained D9892 to subscribers list                                           6              1jöe2÷          MQTTSPacketSerialize_ack tained1 s   qos: 0 retained: 0 (0)                                         A       ˇˇˇˇ   1jöe2÷          MQTTSPacket_sendPacketBuffer ed1 s1 B0005AF4BA7 -> MQTT-S REGACK msgid: 4 topicid: 4 returncode: 0 (∫             1jöe2÷ 	         MQTTSPacket_sendPacketBuffer ed D9892 to subscribers list                                           ÿ            1jöe2÷ 
+         MQTTSPacket_send_ack etSubscribers  B0005A98FF81234 -> MQTT-S SUBACK msgid: 2 topicid: 2 returncode:            1jöe2÷          4 aaaa::212:4b00:5a9:8ff8:1884 00124B0005A98FF81234 -> MQTT-S DISCONNECT duration: 0 (0)            &            1jöe2÷          MQTTSPacket_send_disconnect C4EFD9892 to subscribers list                                           ã            1jöe2÷          MQTTSProtocol_emptyRegistrationList  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    1jöe2÷          MQTTSProtocol_emptyRegistrationList  0005A98F91 -> MQTT-S PINGRESP (0)                                           1jöe2÷          MQTTProtocol_freeClient ubscribers2  0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   ñ            1jöe2÷          MQTTProtocol_removeAllSubscriptions 2 to subscribers list                                           a             1jöe2÷          SubscriptionEngines_unsubscribe rs   0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   Ê             1jöe2÷       	   SubscriptionEngines_unsubscribe1 s2   to subscribers list                                           ´      ˇˇˇˇ   1jöe2÷       	   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ             1jöe≥÷        	   SubscriptionEngines_unsubscribeAll 4B0005AF4BA7 -> MQTT-S PINGRESP (0)                              «             1jöe≥÷       
+   SubscriptionEngines_unsubscribe1 ame qos: 0 retained: 0 (0)                                         ´             1jöe≥÷       	   Removing subscription 00124B0005A98FF81234, /led_d, 0                                               ∏           1jöe∑÷       
+   SubscriptionEngines_unsubscribe1 s1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       æ      ˇˇˇˇ   1jöe∑÷       
+   SubscriptionEngines_unsubscribe1 9892 to subscribers list                                           ´      ˇˇˇˇ   1jöe∑÷       
+   SubscriptionEngines_unsubscribe1 s1 2 to subscribers list                                           æ            1jöe∑÷       
+   SubscriptionEngines_unsubscribe1 s2 2 to subscribers list                                           ´             1jöe∑÷          Removing subscription 00124B0005A98FF81234, /cfco2, 0                                                           1jöeïÊ       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ            1jöeïÊ       
+   SubscriptionEngines_unsubscribe1 ame 0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´             1jöeïÊ       
+   SubscriptionEngines_unsubscribe1 ame 0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       æ             1jöeïÊ       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         ´             1jöeïÊ       	   Removing subscription 00124B0005A98FF81234, à≈Ír_m, 0                                              Ê            1jöe+ı       
+   SubscriptionEngines_unsubscribe1 s 92 to subscribers list                                           æ             1jöe+ı       	   SubscriptionEngines_unsubscribeAll   0005A98F91 -> MQTT-S PINGRESP (0)                              Ÿ             1jöe+ı          SubscriptionEngines_unsubscribe D9892 to subscribers list                                           Û             1jöe+ı          SubscriptionEngines_unsubscribe  s1  0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Ê             1jöe+ı       	   SubscriptionEngines_unsubscribe1 s2  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´            1jöe+ı       	   SubscriptionEngines_unsubscribe1 s2   to subscribers list                                           æ             1jöe+ı          SubscriptionEngines_unsubscribe rs  B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û             1jöe+ı          MQTTProtocol_removeAllSubscriptions 2 to subscribers list                                           d            1jöe+ı 	         MQTTProtocol_freeMessageList  d D9892 to subscribers list                                           Û             1jöe+ı 
+         MQTTProtocol_emptyMessageList d1 s1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ·             1jöe+ı          MQTTProtocol_emptyMessageList UBLISH qos: 0 retained: 0 (0)                                         È             1jöe+ı          MQTTProtocol_freeMessageList  d rs2  qos: 0 retained: 0 (0)                                         ˆ             1jöe+ı          MQTTProtocol_freeMessageList on rs   qos: 0 retained: 0 (0)                                         Û             1jöe+ı          MQTTProtocol_emptyMessageList s rs 92 to subscribers list                                           ·             1jöe+ı          MQTTProtocol_emptyMessageList d rs1 B0005A98FB4 <- MQTT-S SUBSCRIBE msgid: 1 qos: 0 topicIdType 1   È             1jöe+ı          MQTTProtocol_freeMessageList ed1 9892 to subscribers list                                           ˆ            1jöe+ı          MQTTProtocol_freeMessageList ed1 s1 B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û            1jöe+ı          MQTTProtocol_emptyMessageList d rs2   to subscribers list                                           ·             1jöe+ı          MQTTProtocol_emptyMessageList d rs2  0005AF4BA7 <- MQTT-S REGISTER msgid: 3 topicid: 0 topicname: /hÈ             1jöe∆           MQTTProtocol_freeMessageList ed1 ISH qos: 0 retained: 0 (0)                                         ˆ             1jöe∆          MQTTProtocol_freeMessageList ed1 s  , /f_control_d, 0                                               Û             1jöe∆          MQTTProtocol_emptyMessageList UBLISH qos: 0 retained: 0 (0)                                         ·            1jöe∆          MQTTProtocol_emptyMessageList bers   0005AF4BA7 -> MQTT-S PINGRESP (0)                              È             1jöe∆          MQTTProtocol_freeMessageList  d rs1  0005A98F91 -> MQTT-S PINGRESP (0)                              ˆ             1jöe∆          MQTTProtocol_freeMessageList ed1 s1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û             1jöe∆          MQTTProtocol_emptyMessageList d1 s e  to subscribers list                                           ·             1jöe∆          MQTTProtocol_emptyMessageList d Name qos: 0 retained: 0 (0)                                         È             1jöe∆          MQTTProtocol_freeMessageList ibers H qos: 0 retained: 0 (0)                                         ˆ            1jöe∆ 	         MQTTSProtocol_freeRegistrationList   qos: 0 retained: 0 (0)                                                      1jöe∆ 
+         MQTTSProtocol_emptyRegistrationList 2 to subscribers list                                                        1jöe∆          MQTTSProtocol_emptyRegistrationList B0005A98F91 -> MQTT-S PINGRESP (0)                                          1jöe∆          MQTTSProtocol_freeRegistrationList  B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                    1jöe∆          MQTTProtocol_freeClient gWrites  s2  qos: 0 retained: 0 (0)                                         ∏             1jöe∆          MQTTProtocol_closeSession  s ed1 s e  to subscribers list                                           µ             1jöeŒ          MQTTProtocol_closeSession About to read packet for peer address 127.0.0.1:50735                     -             1jöeŒ          MQTTSPacket_send_disconnect  ibers   qos: 0 retained: 0 (0)                                         Ö             1jöeŒ          MQTTSPacket_send_ack etRetained rs1  qos: 0 retained: 0 (0)                                               ˇˇˇˇ   1jöeŒ          MQTTSPacketSerialize_ack r ined1 9892 to subscribers list                                           6              1jöeŒ          MQTTSPacketSerialize_ack r ined1 s1  qos: 0 retained: 0 (0)                                         A       ˛ˇˇˇ   1jöeŒ          MQTTSPacket_sendPacketBuffer ed rs2  0005A98F91 -> MQTT-S PINGRESP (0)                              ∫             1jöeŒ          MQTTSPacket_sendPacketBuffer  d rs2 B0005A98FF81234 -> MQTT-S PINGRESP (0)                          ÿ            1jöeŒ          MQTTSPacket_send_ack ack tained1 s   qos: 0 retained: 0 (0)                                                     1jöeŒ 	         4 aaaa::212:4b00:5a9:8fb4:1884 00124B0005A98FB4 -> MQTT-S DISCONNECT duration: 0 (0)                           1jöeŒ 
+         MQTTSPacket_send_disconnect  es rs    to subscribers list                                           ã            1jöeŒ          MQTTSProtocol_emptyRegistrationList 2 to subscribers list                                                        1jöeŒ          MQTTSProtocol_emptyRegistrationList  qos: 0 retained: 0 (0)                                               ˛ˇˇˇ   1jöeŒ          MQTTProtocol_freeClient 1:1884 00124B0005A98F91 -> MQTT-S PINGRESP (0)                              ñ             1jöeŒ          MQTTProtocol_removeAllSubscriptions B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       a             1jöeŒ          SubscriptionEngines_unsubscribe LISH qos: 0 retained: 0 (0)                                         Ê             1jöeŒ       	   SubscriptionEngines_unsubscribe1 s   qos: 0 retained: 0 (0)                                         ´             1jöeŒ       	   SubscriptionEngines_unsubscribe1 s1 2 to subscribers list                                           æ             1jöeŒ       	   SubscriptionEngines_unsubscribeAll  B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   «             1jöeŒ       
+   SubscriptionEngines_unsubscribe1 s   0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´             1jöeØ           Removing subscription 00124B0005A98FB4, /f_control_d, 0                                             ﬂ           1jöe∞       
+   SubscriptionEngines_unsubscribe1 s    to subscribers list                                           æ             1jöe∞       
+   SubscriptionEngines_unsubscribe1 124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´             1jöe∞       
+   SubscriptionEngines_unsubscribe1 ONNECT                                                             æ             1jöe∞       
+   SubscriptionEngines_unsubscribe1 ame  to subscribers list                                           ´             1jöe∞          Removing subscription 00124B0005A98FB4, /a_or_m, 0                                                  º            1jöeÕ       
+   SubscriptionEngines_unsubscribe1 s2 B0005AF4BA7 <- MQTT-S REGISTER msgid: 6 topicid: 0 topicname:   æ            1jöeÕ       	   SubscriptionEngines_unsubscribeAll  2 to subscribers list                                           Ÿ             1jöeÕ          SubscriptionEngines_unsubscribe  s 92 to subscribers list                                           Û             1jöeÕ          SubscriptionEngines_unsubscribe rs   qos: 0 retained: 0 (0)                                         Ê      ˇˇˇˇ   1jöeÕ       	   SubscriptionEngines_unsubscribe1 s1  qos: 0 retained: 0 (0)                                         ´             1jöeÕ       	   SubscriptionEngines_unsubscribe1 s1 B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       æ             1jöeÕ          SubscriptionEngines_unsubscribe rs e 0005A98FB4 -> MQTT-S PINGRESP (0)                              Û             1jöeÕ          MQTTProtocol_removeAllSubscriptions B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       d            1jöeÕ 	         MQTTProtocol_freeMessageList ibers1  0005AF4BA7 -> MQTT-S REGACK msgid: 6 topicid: 6 returncode: 0 (Û             1jöeÕ 
+         MQTTProtocol_emptyMessageList EFD9892 to subscribers list                                           ·             1jöeÕ          MQTTProtocol_emptyMessageList bers1 2 to subscribers list                                           È             1jöeÕ          MQTTProtocol_freeMessageList ibers2  qos: 0 retained: 0 (0)                                         ˆ            1jöeÕ          MQTTProtocol_freeMessageList es rs2 B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   Û             1jöeÕ          MQTTProtocol_emptyMessageList s rs  B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ·             1jöeÕ          MQTTProtocol_emptyMessageList bers1  0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       È             1jöeÕ          MQTTProtocol_freeMessageList ibers e ad packet for peer address 127.0.0.1:50735                     ˆ             1jöeÕ          MQTTProtocol_freeMessageList r 1883                                                                 Û      ˇˇˇˇ   1jöeÕ          MQTTProtocol_emptyMessageList                                                                       ·             1jöeÕ          MQTTProtocol_emptyMessageList bers 92 to subscribers list                                           È             1jöe&           MQTTProtocol_freeMessageList ibers1  qos: 0 retained: 0 (0)                                         ˆ             1jöe&          MQTTProtocol_freeMessageList ptions 2 to subscribers list                                           Û      ˇˇˇˇ   1jöe&          MQTTProtocol_emptyMessageList e rs1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ·            1jöe&          MQTTProtocol_emptyMessageList e1 s2  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       È            1jöe&          MQTTProtocol_freeMessageList EF04D60C4EFD9892, #, 0                                                 ˆ            1jöe&          MQTTProtocol_freeMessageList be1 124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û             1jöe&          MQTTProtocol_emptyMessageList eAll e  to subscribers list                                           ·            1jöe&          MQTTProtocol_emptyMessageList e1 ame  to subscribers list                                           È             1jöe&          MQTTProtocol_freeMessageList be1 s1 B0005A98F91 <- MQTT-S SUBSCRIBE msgid: 1 qos: 0 topicIdType 1   ˆ             1jöe& 	         MQTTSProtocol_freeRegistrationList H qos: 0 retained: 0 (0)                                                      1jöe& 
+         MQTTSProtocol_emptyRegistrationList  qos: 0 retained: 0 (0)                                                      1jöe&          MQTTSProtocol_emptyRegistrationList 2 to subscribers list                                                        1jöe&          MQTTSProtocol_freeRegistrationList 92 to subscribers list                                                        1jöe&          MQTTProtocol_freeClient bscribe1 s1  qos: 0 retained: 0 (0)                                         ∏             1jöe&          MQTTProtocol_closeSession cribe1 9892 to subscribers list                                           µ            1jöe&          MQTTProtocol_closeSession cribe1 s  2 to subscribers list                                           -            1jöe&          MQTTSPacket_send_disconnect ibe1 s  2 to subscribers list                                           Ö             1jöe&          MQTTSPacket_send_ack nsubscribeAll   qos: 0 retained: 0 (0)                                                      1jöe&          MQTTSPacketSerialize_ack scribe D9892 to subscribers list                                           6              1jöe&          MQTTSPacketSerialize_ack scribe rs1  0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       A              1jöe&          MQTTSPacket_sendPacketBuffer be1 s2  qos: 0 retained: 0 (0)                                         ∫             1jöe&          MQTTSPacket_sendPacketBuffer be1 s2 B0005A98F91 -> MQTT-S PINGRESP (0)                              ÿ            1jöe&          MQTTSPacket_send_ack nsubscribe rs    to subscribers list                                                       1jöe& 	         4 aaaa::212:4b00:5a9:8f91:1884 00124B0005A98F91 -> MQTT-S DISCONNECT duration: 0 (0)                d            1jöe& 
+         MQTTSPacket_send_disconnect  ed  ns 2 to subscribers list                                           ã            1jöe&          MQTTSProtocol_emptyRegistrationList  qos: 0 retained: 0 (0)                                                      1jöe&          MQTTSProtocol_emptyRegistrationList  qos: 0 retained: 0 (0)                                                      1jöe&          MQTTProtocol_freeClient List ed rs1 B0005A98F91 <- MQTT-S CONNECT cleansession: 1                   ñ             1jöe&          MQTTProtocol_removeAllSubscriptions P (0)                                                           a             1jöe&          SubscriptionEngines_unsubscribe  124B0005A98FB4 -> MQTT-S PINGRESP (0)                              Ê             1jöe&       	   SubscriptionEngines_unsubscribe1 124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ´             1jöe&       	   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ            1jöe&       	   SubscriptionEngines_unsubscribeAll e  to subscribers list                                           «             1jöe&       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         ´             1jöeŒ&           Removing subscription 00124B0005A98F91, /b_control_d, 0                                             È           1jöeœ&       
+   SubscriptionEngines_unsubscribe1 ISH qos: 0 retained: 0 (0)                                         æ             1jöeœ&       
+   SubscriptionEngines_unsubscribe1 s1 2 to subscribers list                                           ´             1jöeœ&          Removing subscription 00124B0005A98F91, /a_or_m, 0                                                  ·            1jöeõ/       
+   SubscriptionEngines_unsubscribe1 s1 B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   æ             1jöeõ/       	   SubscriptionEngines_unsubscribeAll  2 to subscribers list                                           Ÿ             1jöeõ/          SubscriptionEngines_unsubscribe rs   qos: 0 retained: 0 (0)                                         Û             1jöeõ/          SubscriptionEngines_unsubscribe  s1  qos: 0 retained: 0 (0)                                         Ê             1jöeõ/       	   SubscriptionEngines_unsubscribe1 s1 B0005AF4BA7 -> MQTT-S PINGRESP (0)                              ´             1jöeõ/       	   SubscriptionEngines_unsubscribe1 s 92 to subscribers list                                           æ             1jöeõ/          SubscriptionEngines_unsubscribe rs1   to subscribers list                                           Û             1jöeõ/          MQTTProtocol_removeAllSubscriptions  0005A98F91 -> MQTT-S PINGRESP (0)                              d             1jöeõ/ 	         MQTTProtocol_freeMessageList s   s2 B0005A98FB4 -> MQTT-S PINGRESP (0)                              Û             1jöeõ/ 
+         MQTTProtocol_emptyMessageList d1 s H qos: 0 retained: 0 (0)                                         ·             1jöeõ/          MQTTProtocol_emptyMessageList d1 124B0005A98FF81234 -> MQTT-S PINGRESP (0)                          È             1jöeõ/          MQTTProtocol_freeMessageList ed rs e  to subscribers list                                           ˆ             1jöeõ/          MQTTProtocol_freeMessageList  d1 s1  qos: 0 retained: 0 (0)                                         Û             1jöeõ/          MQTTProtocol_emptyMessageList d  s1 2 to subscribers list                                           ·             1jöeõ/          MQTTProtocol_emptyMessageList d1 s 4B0005A98FF81234 <- MQTT-S REGISTER msgid: 4 topicid: 0 topicnameÈ            1jöeõ/          MQTTProtocol_freeMessageList  s  s  B0005A98F91 -> MQTT-S PINGRESP (0)                              ˆ            1jöeõ/          MQTTProtocol_freeMessageList 4 00124B0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û             1jöeõ/          MQTTProtocol_emptyMessageList icName  to subscribers list                                           ·             1jöeõ/          MQTTProtocol_emptyMessageList icName  to subscribers list                                           È             1jöeë4           MQTTProtocol_freeMessageList ed1 s2 91, /a_or_m, 0                                                  ˆ             1jöeë4          MQTTProtocol_freeMessageList ed  s2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       Û            1jöeë4          MQTTProtocol_emptyMessageList bers    to subscribers list                                           ·             1jöeë4          MQTTProtocol_emptyMessageList bers1 2 to subscribers list                                           È             1jöeë4          MQTTProtocol_freeMessageList ed rs1 B0005A98F91 -> MQTT-S PINGRESP (0)                              ˆ      ˇˇˇˇ   1jöeë4          MQTTProtocol_freeMessageList ed1 s H qos: 0 retained: 0 (0)                                         Û      ˇˇˇˇ   1jöeë4          MQTTProtocol_emptyMessageList d1 s1  qos: 0 retained: 0 (0)                                         ·             1jöeë4          MQTTProtocol_emptyMessageList d rs1  0005A98F91 -> MQTT-S PINGRESP (0)                              È             1jöeë4          MQTTProtocol_freeMessageList ibers  B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1   ˆ            1jöeë4 	         MQTTSProtocol_freeRegistrationList  B0005A98FF81234 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1                1jöeë4 
+         MQTTSProtocol_emptyRegistrationList 2 to subscribers list                                                 ˇˇˇˇ   1jöeë4          MQTTSProtocol_emptyRegistrationList  0005AF4BA7 -> MQTT-S PINGRESP (0)                                           1jöeë4          MQTTSProtocol_freeRegistrationList  B0005A98F91 -> MQTT-S PINGRESP (0)                                          1jöeë4          MQTTProtocol_freeClient gWrites rs2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ∏             1jöeë4          MQTTProtocol_closeSession rites rs 4B0005AF4BA7 -> MQTT-S PINGRESP (0)                              µ            1jöeë4          MQTTProtocol_shutdownclients picName 0005A98FF81234 -> MQTT-S PINGRESP (0)                          ™              1jöeë4          MQTTProtocol_shutdownclients picName 0005AF4BA7 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ü             1jöeë4          MQTTProtocol_shutdownclients on  ISH qos: 0 retained: 0 (0)                                         ™       ˇˇˇˇ   1jöeë4          MQTTSProtocol_terminate  Writes  ISH qos: 0 retained: 0 (0)                                         õ              1jöeë4          Protocol_terminate yaddr on  ed 0124B0005A98F91 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       K              1jöeù4           Socket_terminate dlePublishes d rs e 0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ë             1jöeù4          Socket_close_only a9:8fb4:1884 00124B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       x      ˇˇˇˇ   1jöeù4          Socket_close_only egisteredTopicName  to subscribers list                                           Ñ            1jöeù4          Socket_close_only egisteredTopicName  to subscribers list                                           x            1jöeù4          Socket_error lePublishes eqs ibers   0005A98FF81234 -> MQTT-S PINGRESP (0)                          d       ˇˇˇˇ   1jöeù4          Socket_error entListener bscribers1   to subscribers list                                           r      k      1jöeù4          Socket_close_only stener bscribers1 2 to subscribers list                                           Ñ            1jöeù4          Socket_outTerminate ication ribers 92 to subscribers list                                           v             1jöeù4          SocketBuffer_terminate Retained rs1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       p              1jöeù4 	         SocketBuffer_terminate Retained1 ISH qos: 0 retained: 0 (0)                                         u              1jöeù4 
+         Socket_outTerminate setRetained1 s2   to subscribers list                                           É             1jöeù4          Socket_terminate es_setRetained 0124B0005A98FF81234 -> MQTT-S PINGRESP (0)                          ¢             1jöeù4          SubscriptionEngines_terminate bers 92 to subscribers list                                           ,             1jöeù4          saveOrFreeRetaineds getSubscribers1  qos: 0 retained: 0 (0)                                         ¨              1jöeù4          saveOrFreeRetaineds getSubscribers1 2 to subscribers list                                           ¬             1jöeù4          saveOrFreeRetaineds getSubscribers2 2 to subscribers list                                           ¨             1jöeù4          saveOrFreeRetaineds getSubscribers2 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       ¬             1jöeù4          saveOrFreeSubscriptions ubscribers  2 to subscribers list                                           ‘              1jöeù4          saveOrFreeSubscriptions ion ned1 s   qos: 0 retained: 0 (0)                                         Á             1jöeù4          saveOrFreeSubscriptions  Writes rs 92 to subscribers list                                           ‘              1jöe5           saveOrFreeSubscriptions  Writes rs   qos: 0 retained: 0 (0)                                         Á             1jöe5          saveOrFreeSubscriptions1 on ribers1  qos: 0 retained: 0 (0)                                         ˘              1jöe5          saveOrFreeSubscriptions1 shes d D9892 to subscribers list                                                       1jöe5          SubscriptionEngines_terminate d1 s1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       5            1jöe[5          Persistence_free_config   ained1 s2 2 to subscribers list                                                        1jöe[5          Users_free_list _packet g ained rs2  qos: 0 retained: 0 (0)                                         Z              1jöe[5          Users_free_acl andlePublishes bers H qos: 0 retained: 0 (0)                                         I              1jöe[5          Users_free_acl imeslice ng cribers1 B0005A98FF81234 -> MQTT-S PINGRESP (0)                          P       ˇˇˇˇ   1jöe[5          Users_free_list ce _getSubscribers1 B0005A98FB4 <- MQTT-S PUBLISH msgid: 0 qos: 0 retained: 1       e              µË    ¸@ÍÑ“Ë    L   û#              Ñ“Ë   ‘^Í    ¥EÍ5   Ñ”Ë   ìÍt’Ëî—Í:   t’Ë   Ñ”ËîbÍL|Í>   ‰Í   T/ÍLIÍ‰Í6   ‰Í@   (0000) 20240107 160905.906 CWNAN0046I Broker stopping ÍÏFÍlGÍDÍ   LIÍúMÍDËÍ?   Íp   (0000) 20240107 160905.910 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.911.dmp   DÍP   (0002) 20240107 160905.906 CWNAN0017I Closing client 00124B0005A98FF81234       ¥Í   úMÍÙÜÍDÍJ   TÍp   (0000) 20240107 160905.929 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.929.dmp   ÙÍ@   (0000) 20240107 160905.931 CWNAN0042I Uptime: 1074 seconds ?   å#Í   d5ÍìÍî Ín   T/Í   6Í‰ÍtÁÍi   0Í   ÏﬂÍT±Í§±Ín   d5Í   Ñ5Íå#ÍLÇÍF   Ñ5Í   D Íd5ÍtøÍn   6Í   T±ÍT/Ít·Í}   ¥EÍ@   (0000) 20240107 160905.931 CWNAN0047I Broker stopped    ÄEÍE   <HÍp   (0000) 20240107 160905.914 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.914.dmp ÍLIÍ   ‰ÍDÍÙÁÍ=   úMÍ   DÍ¥ÍîËÍF   ‘^Í   îbÍÑ“ËL–ÍE   îbÍ   t’Ë‘^ÍÙÍ;   L|Í@   (0000) 20240107 160905.931 CWNAN0043I Messages received: 1444 co‘ÄÍ   ‘¬ÍD Íd€ÍF   LÇÍP   (0000) 20240107 160905.927 CWNAN0017I Closing client 00124B0005A98F91           ÙÜÍ   ¥Íå«Íî⁄Ín   åíÍp   (0000) 20240107 160808.349 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160808.349.dmp ÍìÍ   å#ÍÑ”ËTÍn   †Í   ¸@ÍÏﬂÍåŸÍ}   T±Í   0Í6ÍÙ‡Ín   §±Íp   (0000) 20240107 160811.953 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160811.953.dmp ÍtøÍp   (0000) 20240107 160905.923 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.923.dmp Í‘¬Í   å«Í‘ÄÍ<HÍn   å«Í   ÙÜÍ‘¬ÍÍn   D Í   ‘ÄÍÑ5Í¸◊Ín   î Íp   (0000) 20240107 160905.927 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.927.dmp ÍL–ÍP   (0000) 20240107 160905.931 CWNAN0055I Maximum heap use: 143648 bytes       Ë√Íî—Í@   (0000) 20240107 160905.931 CWNAN0044I Messages sent: 1442 Íket.¸◊Íp   (0000) 20240107 160905.918 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.918.dmp t.åŸÍÄ   (0001) 20240107 160808.350 CWNAN0000I Client connected to udp port 1884 from 00124B0005A98FB4 (aaaa::212:4b00:5a9:8fb4:1884) ⁄Íî⁄Íp   (0000) 20240107 160905.906 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160905.906.dmp   d€ÍP   (0000) 20240107 160905.918 CWNAN0017I Closing client 00124B0005A98FB4 6   àLÍÏﬂÍ   †Í0Í‡Íπ   ‡Í¿   (0000) 20240107 160811.953 CWNAN0034I Duplicate connection attempt received for client identifier "00124B0005A98F91" from address aaaa::212:4b00:5a9:8f91:1884, ending oldest connection a::212:Ù‡Íp   (0000) 20240107 160811.957 CWNAN0013S Internal error; FFDC written to file FFDC.CWNAN.20240107.160811.957.dmp   t·ÍÄ   (0001) 20240107 160811.958 CWNAN0000I Client connected to udp port 1884 from 00124B0005A98F91 (aaaa::212:4b00:5a9:8f91:1884)    tÁÍp   (0000) 20240107 160904.153 CWNAN0038I Disconnection request received from client paho/28EF04D60C4EFD9892 a::212:ÙÁÍ@   (0000) 20240107 160905.906 CWNAN0016I MQTT protocol stopping   §DËÍ@   (0000) 20240107 160905.906 CWNAN0301I MQTT-S protocol stopping fîËÍP   (0000) 20240107 160905.906 CWNAN0017I Closing client 00124B0005AF4BA7    /co2 
+=========== End of heap dump ==========
+

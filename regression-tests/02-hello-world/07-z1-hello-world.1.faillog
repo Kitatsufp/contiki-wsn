@@ -1,0 +1,13 @@
+Random seed: 1
+> Rime started with address 193.12.0.0.0.0.0.1
+> MAC c1:0c:00:00:00:00:00:01 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+> CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+> Tentative link-local IPv6 address fe80:0000:0000:0000:c30c:0000:0000:0001
+> Starting 'Hello world process'
+> Timer fired: i=0 
+> Timer fired: i=1 
+> Timer fired: i=2 
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 5000000
+ FAIL ಠ_ಠ

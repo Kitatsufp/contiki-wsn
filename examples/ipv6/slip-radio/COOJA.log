@@ -1,0 +1,7 @@
+[20:38:05 - main] [Cooja.java:1350] [INFO] - > Starting Cooja
+[20:38:06 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[20:38:06 - main] [Cooja.java:2886] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[20:38:06 - main] [Cooja.java:1356] [INFO] - > Creating simulation
+[20:38:10 - AWT-EventQueue-0] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[20:38:10 - main] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[20:38:11 - main] [Cooja.java:1366] [INFO] - > Creating mote type

@@ -1,0 +1,11 @@
+obj_*/
+*.o
+*.d
+*.a
+*.elf
+*.hex
+*.sky
+*.z1
+*.cooja
+*.pcap
+*~

@@ -1,0 +1,19 @@
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS'
+make[2]: cl65: Command not found
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf 
+rm -rf obj_atarixl
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS'
+make[2]: cl65: Command not found
+mkdir obj_atarixl
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_atarixl/telnetd.o' failed
+make[2]: *** [obj_atarixl/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'

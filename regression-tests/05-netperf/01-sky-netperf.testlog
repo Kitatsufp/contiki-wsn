@@ -1,0 +1,51 @@
+Random seed: 1
+830571 1 MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+839727 1 nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+841573 1 Starting 'netperf shell'
+852775 1 1.0: Contiki> 
+860197 1 -------- Broadcast --------
+861285 1 Contacting 2.0
+1036966 2 Rime started with address 2.0
+1046172 2 MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 2.
+1055330 2 nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+1057176 2 Starting 'netperf shell'
+1068377 2 2.0: Contiki> 
+1215005 1 Measuring broadcast performance to 2.0
+4096546 1 Requesting statistics from 2.0
+4231661 1 1 1 0 19 0 384 0 0 21471 76822 27634 363 # for automatic processing
+4233297 1 Remote node statistics:
+4239423 1   Remote radio duty cycle:   rx 28.11% tx 0.36%
+4242909 1   Packets:                   sent 0 received 19
+4254203 1 1 0 20 0 0 387 0 0 99231 0 1918 64788 # for automatic processing
+4255770 1 Local node statistics:
+4262101 1   Total transfer time:       3.00 seconds, 6.61 packets/second
+4271681 1   Average round-trip-time:   131071 ms (131071 + 131071)
+4277819 1   Radio duty cycle:          rx 1.93% tx 65.29%
+4281593 1   Packets received:          0.0%, 0 of 20
+4284037 1 -------- Unicast ping-pong--------
+4285126 1 Contacting 2.0
+4340613 1 Measuring two-way unicast performance to 2.0
+10964091 1 Requesting statistics from 2.0
+11724709 1 3 0 20 20 0 943 0 0 89480 152046 19870 46391 # for automatic processing
+11726276 1 Local node statistics:
+11732633 1   Total transfer time:       7.03 seconds, 2.71 packets/second
+11736815 1   Average round-trip-time:   0 ms (0 + 0)
+11742908 1   Radio duty cycle:          rx 8.22% tx 19.20%
+11747208 1   Packets received:          100.0%, 20 of 20
+11750130 1 -------- Unicast stream ping-pong--------
+11751218 1 Contacting 2.0
+11770170 1 4 1 20 20 0 944 0 0 69155 172296 24975 25332 # for automatic processing
+11771805 1 Remote node statistics:
+11778238 1   Remote radio duty cycle:   rx 10.34% tx 10.49%
+11781874 1   Packets:                   sent 20 received 20
+11785990 1 Measuring two-way unicast stream performance to 2.0
+14971222 1 Requesting statistics from 2.0
+15230240 1 4 0 20 20 0 439 0 0 44771 67670 12815 22069 # for automatic processing
+15231807 1 Local node statistics:
+15238136 1   Total transfer time:       3.04 seconds, 5.83 packets/second
+15242319 1   Average round-trip-time:   0 ms (0 + 0)
+15248792 1   Radio duty cycle:          rx 11.39% tx 19.62%
+15253001 1   Packets received:          100.0%, 20 of 20
+15253409 1 Done
+TEST OK
+Test ended at simulation time: 15253409

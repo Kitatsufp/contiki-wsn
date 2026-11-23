@@ -1,0 +1,39 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make tests.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/verification/obj_cooja/mtype734.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype734.cooja: offsetting Cooja mote address space: 0x83ed1000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83efc020 ( 578 == 0x242 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83efc280 ( 67048 == 0x105e8 bytes)
+ INFO [main] (CompileContiki.java:140) - > make tests.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/encryption/obj_cooja/mtype716.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype716.cooja: offsetting Cooja mote address space: 0x83cc4000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83cef020 ( 578 == 0x242 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83cef280 ( 67048 == 0x105e8 bytes)
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 2000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-6] (Simulation.java:252) - Simulation main loop started, system time: 1616035989317
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.1 sec
+ INFO [Thread-5] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-6] (Simulation.java:311) - Simulation main loop stopped, system time: 1616035989370	Duration: 53 ms	Simulated time 1551 ms	Ratio 29.264150943396228
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

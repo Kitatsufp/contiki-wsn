@@ -1,0 +1,83 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/serial2pty'
+ WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/radiologger-headless'
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make sender-node.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype838.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a2a0 ( 68776 == 0x10ca8 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype838.cooja: offsetting Cooja mote address space: 0x83ec5000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83eef020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83eef2a0 ( 68776 == 0x10ca8 bytes)
+ INFO [main] (CompileContiki.java:140) - > make root-node.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype397.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a2a0 ( 68744 == 0x10c88 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype397.cooja: offsetting Cooja mote address space: 0x83de8000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83e12020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83e122a0 ( 68744 == 0x10c88 bytes)
+ INFO [main] (CompileContiki.java:140) - > make receiver-node.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib3 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype328.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a2a0 ( 68776 == 0x10ca8 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype328.cooja: offsetting Cooja mote address space: 0x83d0b000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83d35020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83d352a0 ( 68776 == 0x10ca8 bytes)
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 6000000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-8] (Simulation.java:252) - Simulation main loop started, system time: 1616034839867
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 5.00%, done in 10.7 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 10.00%, done in 8.3 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 15.00%, done in 7.1 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 20.00%, done in 6.4 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 25.00%, done in 5.7 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 30.00%, done in 5.2 sec
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 35.00%, done in 4.8 sec
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 7
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 40.00%, done in 4.3 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 45.00%, done in 3.9 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 50.00%, done in 3.5 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 55.00%, done in 3.1 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 60.00%, done in 2.8 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 65.00%, done in 2.4 sec
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 8
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 8
+ WARN [Thread-8] (Mote2MoteRelations.java:187) - No destination mote with ID: 8
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 70.00%, done in 2.1 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 75.00%, done in 1.7 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 80.00%, done in 1.4 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 85.00%, done in 1.1 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.7 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.3 sec
+ INFO [Thread-8] (LogScriptEngine.java:375) - Timeout event @ 6000000000
+ INFO [Thread-7] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-8] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034846767	Duration: 6900 ms	Simulated time 6000000 ms	Ratio 869.5652173913044
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

@@ -1,0 +1,8 @@
+00-doxygendoxygen: FAIL ಠ_ಠ
+Doxygen caused some warnings. Please fix these.
+Warnings:
+/home/user/contiki/core/sys/clock.h:40: warning: group clock: ignoring title "Clock library" that does not match old title "Clock Handling"
+
+/home/user/contiki/doc/contiki-mainpage.txt:3: warning: found more than one \mainpage comment block! (first occurrence: /home/user/contiki/apps/tinydtls/dtls.h, line 419), Skipping current block!
+/home/user/contiki/apps/tinydtls/dtls.h:308: warning: The following parameters of dtls_check_retransmit(dtls_context_t *context, clock_time_t *next, int all) are not documented:
+  parameter 'all'

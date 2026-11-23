@@ -1,0 +1,755 @@
+(standard input):
+01-sky-netperf.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-sky-netperf.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-sky-netperf.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-sky-netperf.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-sky-netperf.log: WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+01-sky-netperf.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-sky-netperf.log: WARN [main] (MspMoteType.java:286) - Old simulation config detected: SkySerial was replaced by MspSerial
+01-sky-netperf.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+01-sky-netperf.log:Message:
+01-sky-netperf.log:Message:> make clean TARGET=sky 
+01-sky-netperf.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+01-sky-netperf.log:Message:rm -f *~ *core core *.srec \
+01-sky-netperf.log:Message:*.lst *.map \
+01-sky-netperf.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+01-sky-netperf.log:Message:*.ce *.co
+01-sky-netperf.log:Message:rm -rf 
+01-sky-netperf.log:Message:rm -rf obj_sky
+01-sky-netperf.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+01-sky-netperf.log: INFO [main] (CompileContiki.java:140) - > make netperf-shell.sky TARGET=sky 
+01-sky-netperf.log:Message:
+01-sky-netperf.log:Message:> make netperf-shell.sky TARGET=sky 
+01-sky-netperf.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+01-sky-netperf.log:Message:mkdir obj_sky
+01-sky-netperf.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-reboot.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-vars.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-ps.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-blink.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-text.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-time.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-file.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-run.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-coffee.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-power.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-base64.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-crc.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-download.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-netperf.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-sky.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-exec.c
+01-sky-netperf.log:Message:  CC        ../../apps/collect-view/collect-view.c
+01-sky-netperf.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+01-sky-netperf.log:Message:  CC        ../../apps/powertrace/powertrace.c
+01-sky-netperf.log:Message:  CC        ../../apps/shell/shell-dsc.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+01-sky-netperf.log:Message:  CC        ../../dev/sht11/sht11.c
+01-sky-netperf.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+01-sky-netperf.log:Message:  CC        ../../dev/ds2411/ds2411.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/xmem.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/i2c.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/./node-id.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/sensors.c
+01-sky-netperf.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+01-sky-netperf.log:Message:  CC        ../../dev/cc2420/cc2420.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/me.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/me_tabs.c
+01-sky-netperf.log:Message:  CC        ../../core/dev/slip.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/crc16.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./flash.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+01-sky-netperf.log:Message:  CC        ../../core/dev/leds.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./lpm.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+01-sky-netperf.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+01-sky-netperf.log:Message:  CC        ../../core/loader/elfloader.c
+01-sky-netperf.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+01-sky-netperf.log:Message:  CC        ../../core/loader/symtab.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/autostart.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/ctimer.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/energest.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/arg.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/stimer.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/etimer.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/compower.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/process.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/rtimer.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/mt.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/procinit.c
+01-sky-netperf.log:Message:  CC        ../../core/sys/timer.c
+01-sky-netperf.log:Message:  CC        ../../core/dev/serial-line.c
+01-sky-netperf.log:Message:  CC        ../../core/dev/nullradio.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/settings.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/ringbuf.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/mmem.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/ccm-star.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/ifft.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/ringbufindex.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/list.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/aes-128.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/trickle-timer.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/print-stats.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/memb.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/petsciiconv.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/gcr.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/random.c
+01-sky-netperf.log:Message:  CC        ../../core/lib/assert.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rime.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rudolph2.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/trickle.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/announcement.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/polite.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/runicast.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rmh.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/packetqueue.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/ipolite.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/stunicast.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rucb.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/chameleon.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/channel.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/netflood.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/broadcast.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/collect.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/multihop.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rudolph1.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/mesh.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/route-discovery.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/unicast.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/abc.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/timesynch.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/rimestats.c
+01-sky-netperf.log:Message:  CC        ../../core/net/rime/route.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/nullmac.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/nordc.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/csma.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/frame802154.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/mac.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/framer-802154.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/phase.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/nullrdc.c
+01-sky-netperf.log:Message:  CC        ../../core/net/queuebuf.c
+01-sky-netperf.log:Message:  CC        ../../core/net/nbr-table.c
+01-sky-netperf.log:Message:  CC        ../../core/net/packetbuf.c
+01-sky-netperf.log:Message:  CC        ../../core/net/netstack.c
+01-sky-netperf.log:Message:  CC        ../../core/net/linkaddr.c
+01-sky-netperf.log:Message:  CC        ../../core/net/net-debug.c
+01-sky-netperf.log:Message:  CC        ../../core/net/link-stats.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+01-sky-netperf.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+01-sky-netperf.log:Message:  CC        ../../core/net/llsec/nullsec.c
+01-sky-netperf.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+01-sky-netperf.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+01-sky-netperf.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+01-sky-netperf.log:Message:  CC        symbols.c
+01-sky-netperf.log:Message:  AR        contiki-sky.a
+01-sky-netperf.log:Message:  CC        netperf-shell.c
+01-sky-netperf.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-netperf.log:Message:  LD        netperf-shell.sky
+01-sky-netperf.log:Message:rm obj_sky/contiki-sky-main.o netperf-shell.co
+01-sky-netperf.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+01-sky-netperf.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/netperf/netperf-shell.sky
+01-sky-netperf.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/netperf/netperf-shell.sky
+01-sky-netperf.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+01-sky-netperf.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+01-sky-netperf.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+01-sky-netperf.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+01-sky-netperf.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+01-sky-netperf.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+01-sky-netperf.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034291811
+01-sky-netperf.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 28.8 sec
+01-sky-netperf.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 18.8 sec
+01-sky-netperf.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 15.1 sec
+01-sky-netperf.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+01-sky-netperf.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034294519	Duration: 2708 ms	Simulated time 15253 ms	Ratio 5.632570162481536
+01-sky-netperf.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+03-sky-netperf-cxmac.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+03-sky-netperf-cxmac.log: WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+03-sky-netperf-cxmac.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+03-sky-netperf-cxmac.log: WARN [main] (MspMoteType.java:286) - Old simulation config detected: SkySerial was replaced by MspSerial
+03-sky-netperf-cxmac.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+03-sky-netperf-cxmac.log:Message:
+03-sky-netperf-cxmac.log:Message:> make clean TARGET=sky 
+03-sky-netperf-cxmac.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+03-sky-netperf-cxmac.log:Message:rm -f *~ *core core *.srec \
+03-sky-netperf-cxmac.log:Message:*.lst *.map \
+03-sky-netperf-cxmac.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+03-sky-netperf-cxmac.log:Message:*.ce *.co
+03-sky-netperf-cxmac.log:Message:rm -rf 
+03-sky-netperf-cxmac.log:Message:rm -rf obj_sky
+03-sky-netperf-cxmac.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+03-sky-netperf-cxmac.log: INFO [main] (CompileContiki.java:140) - > make DEFINES=NETSTACK_RDC=cxmac_driver netperf-shell.sky TARGET=sky 
+03-sky-netperf-cxmac.log:Message:
+03-sky-netperf-cxmac.log:Message:> make DEFINES=NETSTACK_RDC=cxmac_driver netperf-shell.sky TARGET=sky 
+03-sky-netperf-cxmac.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+03-sky-netperf-cxmac.log:Message:mkdir obj_sky
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-reboot.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-vars.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-ps.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-blink.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-text.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-time.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-file.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-run.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-coffee.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-power.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-base64.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-crc.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-download.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-netperf.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-sky.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-exec.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/collect-view/collect-view.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/powertrace/powertrace.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../apps/shell/shell-dsc.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../dev/sht11/sht11.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../dev/ds2411/ds2411.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/xmem.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/i2c.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/./node-id.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/sensors.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../dev/cc2420/cc2420.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/me.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/me_tabs.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/dev/slip.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/crc16.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./flash.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/dev/leds.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./lpm.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/loader/elfloader.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/loader/symtab.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/autostart.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/ctimer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/energest.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/arg.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/stimer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/etimer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/compower.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/process.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/rtimer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/mt.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/procinit.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/sys/timer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/dev/serial-line.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/dev/nullradio.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/settings.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/ringbuf.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/mmem.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/ccm-star.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/ifft.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/ringbufindex.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/list.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/aes-128.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/trickle-timer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/print-stats.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/memb.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/petsciiconv.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/gcr.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/random.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/lib/assert.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rime.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rudolph2.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/trickle.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/announcement.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/polite.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/runicast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rmh.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/packetqueue.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/ipolite.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/stunicast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rucb.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/chameleon.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/channel.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/netflood.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/broadcast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/collect.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/multihop.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rudolph1.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/mesh.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/route-discovery.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/unicast.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/abc.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/timesynch.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/rimestats.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/rime/route.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/nullmac.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/nordc.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/csma.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/frame802154.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/mac.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/framer-802154.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/phase.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/nullrdc.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/queuebuf.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/nbr-table.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/packetbuf.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/netstack.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/linkaddr.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/net-debug.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/link-stats.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/llsec/nullsec.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+03-sky-netperf-cxmac.log:Message:  CC        symbols.c
+03-sky-netperf-cxmac.log:Message:  AR        contiki-sky.a
+03-sky-netperf-cxmac.log:Message:  CC        netperf-shell.c
+03-sky-netperf-cxmac.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+03-sky-netperf-cxmac.log:Message:  LD        netperf-shell.sky
+03-sky-netperf-cxmac.log:Message:rm obj_sky/contiki-sky-main.o netperf-shell.co
+03-sky-netperf-cxmac.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+03-sky-netperf-cxmac.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/netperf/netperf-shell.sky
+03-sky-netperf-cxmac.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/netperf/netperf-shell.sky
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+03-sky-netperf-cxmac.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+03-sky-netperf-cxmac.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+03-sky-netperf-cxmac.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+03-sky-netperf-cxmac.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+03-sky-netperf-cxmac.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034302994
+03-sky-netperf-cxmac.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 24.8 sec
+03-sky-netperf-cxmac.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 19.4 sec
+03-sky-netperf-cxmac.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 16.5 sec
+03-sky-netperf-cxmac.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 15.5 sec
+03-sky-netperf-cxmac.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+03-sky-netperf-cxmac.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034307203	Duration: 4209 ms	Simulated time 21485 ms	Ratio 5.104537894986933
+03-sky-netperf-cxmac.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+02-sky-netperf-lpp.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+02-sky-netperf-lpp.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+02-sky-netperf-lpp.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+02-sky-netperf-lpp.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+02-sky-netperf-lpp.log: WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+02-sky-netperf-lpp.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+02-sky-netperf-lpp.log: WARN [main] (MspMoteType.java:286) - Old simulation config detected: SkySerial was replaced by MspSerial
+02-sky-netperf-lpp.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+02-sky-netperf-lpp.log:Message:
+02-sky-netperf-lpp.log:Message:> make clean TARGET=sky 
+02-sky-netperf-lpp.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+02-sky-netperf-lpp.log:Message:rm -f *~ *core core *.srec \
+02-sky-netperf-lpp.log:Message:*.lst *.map \
+02-sky-netperf-lpp.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+02-sky-netperf-lpp.log:Message:*.ce *.co
+02-sky-netperf-lpp.log:Message:rm -rf 
+02-sky-netperf-lpp.log:Message:rm -rf obj_sky
+02-sky-netperf-lpp.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+02-sky-netperf-lpp.log: INFO [main] (CompileContiki.java:140) - > make DEFINES=NETSTACK_RDC=lpp_driver netperf-shell.sky TARGET=sky 
+02-sky-netperf-lpp.log:Message:
+02-sky-netperf-lpp.log:Message:> make DEFINES=NETSTACK_RDC=lpp_driver netperf-shell.sky TARGET=sky 
+02-sky-netperf-lpp.log:Message:make[2]: Entering directory '/home/user/contiki/examples/netperf'
+02-sky-netperf-lpp.log:Message:mkdir obj_sky
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-reboot.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-vars.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-ps.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-blink.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-text.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-time.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-file.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-run.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-coffee.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-power.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-base64.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-crc.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-download.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-netperf.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-sky.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-exec.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/collect-view/collect-view.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/powertrace/powertrace.c
+02-sky-netperf-lpp.log:Message:  CC        ../../apps/shell/shell-dsc.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+02-sky-netperf-lpp.log:Message:  CC        ../../dev/sht11/sht11.c
+02-sky-netperf-lpp.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+02-sky-netperf-lpp.log:Message:  CC        ../../dev/ds2411/ds2411.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/xmem.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/i2c.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/./node-id.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/sensors.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+02-sky-netperf-lpp.log:Message:  CC        ../../dev/cc2420/cc2420.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/me.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/me_tabs.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/dev/slip.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/crc16.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./flash.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/dev/leds.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./lpm.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+02-sky-netperf-lpp.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/loader/elfloader.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/loader/symtab.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/autostart.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/ctimer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/energest.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/arg.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/stimer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/etimer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/compower.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/process.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/rtimer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/mt.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/procinit.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/sys/timer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/dev/serial-line.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/dev/nullradio.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/settings.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/ringbuf.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/mmem.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/ccm-star.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/ifft.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/ringbufindex.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/list.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/aes-128.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/trickle-timer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/print-stats.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/memb.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/petsciiconv.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/gcr.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/random.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/lib/assert.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rime.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rudolph2.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/trickle.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/announcement.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/polite.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/runicast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rmh.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/packetqueue.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/ipolite.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/stunicast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rucb.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/chameleon.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/channel.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/netflood.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/broadcast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/collect.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/multihop.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rudolph1.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/mesh.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/route-discovery.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/unicast.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/abc.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/timesynch.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/rimestats.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/rime/route.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/nullmac.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/nordc.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/csma.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/frame802154.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/mac.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/framer-802154.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/phase.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/nullrdc.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/queuebuf.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/nbr-table.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/packetbuf.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/netstack.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/linkaddr.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/net-debug.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/link-stats.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/llsec/nullsec.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+02-sky-netperf-lpp.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+02-sky-netperf-lpp.log:Message:  CC        symbols.c
+02-sky-netperf-lpp.log:Message:  AR        contiki-sky.a
+02-sky-netperf-lpp.log:Message:  CC        netperf-shell.c
+02-sky-netperf-lpp.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+02-sky-netperf-lpp.log:Message:  LD        netperf-shell.sky
+02-sky-netperf-lpp.log:Message:obj_sky/contiki-sky-main.o: In function `main':
+02-sky-netperf-lpp.log:Message:/home/user/contiki/examples/netperf/../../platform/sky/./contiki-sky-main.c:346: undefined reference to `lpp_driver'
+02-sky-netperf-lpp.log:Message:/home/user/contiki/examples/netperf/../../platform/sky/./contiki-sky-main.c:351: undefined reference to `lpp_driver'
+02-sky-netperf-lpp.log:Message:/home/user/contiki/examples/netperf/../../platform/sky/./contiki-sky-main.c:351: undefined reference to `lpp_driver'
+02-sky-netperf-lpp.log:Message:contiki-sky.a(shell-rime.o): In function `shell_rime_init':
+02-sky-netperf-lpp.log:Message:/home/user/contiki/examples/netperf/../../apps/shell/shell-rime.c:346: undefined reference to `lpp_driver'
+02-sky-netperf-lpp.log:Message:/home/user/contiki/examples/netperf/../../apps/shell/shell-rime.c:351: undefined reference to `lpp_driver'
+02-sky-netperf-lpp.log:Message:contiki-sky.a(shell-rime.o):/home/user/contiki/examples/netperf/../../apps/shell/shell-rime.c:352: more undefined references to `lpp_driver' follow
+02-sky-netperf-lpp.log:Message:collect2: error: ld returned 1 exit status
+02-sky-netperf-lpp.log:Message:../../Makefile.include:280: recipe for target 'netperf-shell.sky' failed
+02-sky-netperf-lpp.log:Message:rm obj_sky/contiki-sky-main.o netperf-shell.co
+02-sky-netperf-lpp.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/netperf'
+02-sky-netperf-lpp.log:Message:Process returned error code 2
+02-sky-netperf-lpp.log:Message:make[2]: *** [netperf-shell.sky] Error 1
+02-sky-netperf-lpp.log:FATAL [main] (SkyMoteType.java:176) - Compilation error: Bad return value
+02-sky-netperf-lpp.log:FATAL [main] (Cooja.java:1337) - Exception when loading simulation: 
+02-sky-netperf-lpp.log:org.contikios.cooja.Cooja$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3450)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3361)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Cooja.quickStartSimulationConfig(Cooja.java:1330)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Cooja.main(Cooja.java:3239)
+02-sky-netperf-lpp.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+02-sky-netperf-lpp.log:	at org.contikios.cooja.mspmote.SkyMoteType.configureAndInit(SkyMoteType.java:163)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.mspmote.MspMoteType.setConfigXML(MspMoteType.java:324)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Simulation.setConfigXML(Simulation.java:690)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+02-sky-netperf-lpp.log:	... 3 more
+02-sky-netperf-lpp.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+02-sky-netperf-lpp.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+02-sky-netperf-lpp.log:	at org.contikios.cooja.mspmote.SkyMoteType.configureAndInit(SkyMoteType.java:151)
+02-sky-netperf-lpp.log:	... 6 more
+02-sky-netperf-lpp.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+02-sky-netperf-lpp.log:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+02-sky-netperf-lpp.log:	at java.lang.Thread.run(Thread.java:748)
+01-sky-netperf.testlog:Random seed: 1
+01-sky-netperf.testlog:830571 1 MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+01-sky-netperf.testlog:839727 1 nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+01-sky-netperf.testlog:841573 1 Starting 'netperf shell'
+01-sky-netperf.testlog:852775 1 1.0: Contiki> 
+01-sky-netperf.testlog:860197 1 -------- Broadcast --------
+01-sky-netperf.testlog:861285 1 Contacting 2.0
+01-sky-netperf.testlog:1036966 2 Rime started with address 2.0
+01-sky-netperf.testlog:1046172 2 MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 2.
+01-sky-netperf.testlog:1055330 2 nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+01-sky-netperf.testlog:1057176 2 Starting 'netperf shell'
+01-sky-netperf.testlog:1068377 2 2.0: Contiki> 
+01-sky-netperf.testlog:1215005 1 Measuring broadcast performance to 2.0
+01-sky-netperf.testlog:4096546 1 Requesting statistics from 2.0
+01-sky-netperf.testlog:4231661 1 1 1 0 19 0 384 0 0 21471 76822 27634 363 # for automatic processing
+01-sky-netperf.testlog:4233297 1 Remote node statistics:
+01-sky-netperf.testlog:4239423 1   Remote radio duty cycle:   rx 28.11% tx 0.36%
+01-sky-netperf.testlog:4242909 1   Packets:                   sent 0 received 19
+01-sky-netperf.testlog:4254203 1 1 0 20 0 0 387 0 0 99231 0 1918 64788 # for automatic processing
+01-sky-netperf.testlog:4255770 1 Local node statistics:
+01-sky-netperf.testlog:4262101 1   Total transfer time:       3.00 seconds, 6.61 packets/second
+01-sky-netperf.testlog:4271681 1   Average round-trip-time:   131071 ms (131071 + 131071)
+01-sky-netperf.testlog:4277819 1   Radio duty cycle:          rx 1.93% tx 65.29%
+01-sky-netperf.testlog:4281593 1   Packets received:          0.0%, 0 of 20
+01-sky-netperf.testlog:4284037 1 -------- Unicast ping-pong--------
+01-sky-netperf.testlog:4285126 1 Contacting 2.0
+01-sky-netperf.testlog:4340613 1 Measuring two-way unicast performance to 2.0
+01-sky-netperf.testlog:10964091 1 Requesting statistics from 2.0
+01-sky-netperf.testlog:11724709 1 3 0 20 20 0 943 0 0 89480 152046 19870 46391 # for automatic processing
+01-sky-netperf.testlog:11726276 1 Local node statistics:
+01-sky-netperf.testlog:11732633 1   Total transfer time:       7.03 seconds, 2.71 packets/second
+01-sky-netperf.testlog:11736815 1   Average round-trip-time:   0 ms (0 + 0)
+01-sky-netperf.testlog:11742908 1   Radio duty cycle:          rx 8.22% tx 19.20%
+01-sky-netperf.testlog:11747208 1   Packets received:          100.0%, 20 of 20
+01-sky-netperf.testlog:11750130 1 -------- Unicast stream ping-pong--------
+01-sky-netperf.testlog:11751218 1 Contacting 2.0
+01-sky-netperf.testlog:11770170 1 4 1 20 20 0 944 0 0 69155 172296 24975 25332 # for automatic processing
+01-sky-netperf.testlog:11771805 1 Remote node statistics:
+01-sky-netperf.testlog:11778238 1   Remote radio duty cycle:   rx 10.34% tx 10.49%
+01-sky-netperf.testlog:11781874 1   Packets:                   sent 20 received 20
+01-sky-netperf.testlog:11785990 1 Measuring two-way unicast stream performance to 2.0
+01-sky-netperf.testlog:14971222 1 Requesting statistics from 2.0
+01-sky-netperf.testlog:15230240 1 4 0 20 20 0 439 0 0 44771 67670 12815 22069 # for automatic processing
+01-sky-netperf.testlog:15231807 1 Local node statistics:
+01-sky-netperf.testlog:15238136 1   Total transfer time:       3.04 seconds, 5.83 packets/second
+01-sky-netperf.testlog:15242319 1   Average round-trip-time:   0 ms (0 + 0)
+01-sky-netperf.testlog:15248792 1   Radio duty cycle:          rx 11.39% tx 19.62%
+01-sky-netperf.testlog:15253001 1   Packets received:          100.0%, 20 of 20
+01-sky-netperf.testlog:15253409 1 Done
+01-sky-netperf.testlog:TEST OK
+01-sky-netperf.testlog:Test ended at simulation time: 15253409
+03-sky-netperf-cxmac.testlog:Random seed: 1
+03-sky-netperf-cxmac.testlog:830111 1 MAC 01:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+03-sky-netperf-cxmac.testlog:839204 1 nullsec CSMA CX-MAC, channel check rate 8 Hz, radio channel 26
+03-sky-netperf-cxmac.testlog:841062 1 Starting 'netperf shell'
+03-sky-netperf-cxmac.testlog:852361 1 1.0: Contiki> 
+03-sky-netperf-cxmac.testlog:859868 1 -------- Broadcast --------
+03-sky-netperf-cxmac.testlog:860956 1 Contacting 2.0
+03-sky-netperf-cxmac.testlog:1036507 2 Rime started with address 2.0
+03-sky-netperf-cxmac.testlog:1045712 2 MAC 02:00:00:00:00:00:00:00 Contiki-3.x-3001-g8612334 started. Node id is set to 2.
+03-sky-netperf-cxmac.testlog:1054807 2 nullsec CSMA CX-MAC, channel check rate 8 Hz, radio channel 26
+03-sky-netperf-cxmac.testlog:1056665 2 Starting 'netperf shell'
+03-sky-netperf-cxmac.testlog:1067963 2 2.0: Contiki> 
+03-sky-netperf-cxmac.testlog:1317739 1 Measuring broadcast performance to 2.0
+03-sky-netperf-cxmac.testlog:4323943 1 Requesting statistics from 2.0
+03-sky-netperf-cxmac.testlog:5270050 1 1 1 0 20 0 435 0 0 16502 94809 11486 518 # for automatic processing
+03-sky-netperf-cxmac.testlog:5271686 1 Remote node statistics:
+03-sky-netperf-cxmac.testlog:5277717 1   Remote radio duty cycle:   rx 10.31% tx 0.46%
+03-sky-netperf-cxmac.testlog:5281202 1   Packets:                   sent 0 received 20
+03-sky-netperf-cxmac.testlog:5294299 1 1 0 20 0 0 507 0 0 118729 11161 8526 62466 # for automatic processing
+03-sky-netperf-cxmac.testlog:5295866 1 Local node statistics:
+03-sky-netperf-cxmac.testlog:5301914 1   Total transfer time:       3.09 seconds, 5.04 packets/second
+03-sky-netperf-cxmac.testlog:5311533 1   Average round-trip-time:   131071 ms (131071 + 131071)
+03-sky-netperf-cxmac.testlog:5317378 1   Radio duty cycle:          rx 6.56% tx 48.09%
+03-sky-netperf-cxmac.testlog:5321153 1   Packets received:          0.0%, 0 of 20
+03-sky-netperf-cxmac.testlog:5323530 1 -------- Unicast one-way --------
+03-sky-netperf-cxmac.testlog:5324618 1 Contacting 2.0
+03-sky-netperf-cxmac.testlog:6765319 1 Measuring unicast performance to 2.0
+03-sky-netperf-cxmac.testlog:6799638 1 Requesting statistics from 2.0
+03-sky-netperf-cxmac.testlog:9428136 1 2 1 0 14 0 292 0 0 14389 60368 12727 2062 # for automatic processing
+03-sky-netperf-cxmac.testlog:9429772 1 Remote node statistics:
+03-sky-netperf-cxmac.testlog:9435524 1   Remote radio duty cycle:   rx 17.02% tx 2.75%
+03-sky-netperf-cxmac.testlog:9439009 1   Packets:                   sent 0 received 14
+03-sky-netperf-cxmac.testlog:9451361 1 2 0 20 0 0 342 0 0 79327 8295 16728 2827 # for automatic processing
+03-sky-netperf-cxmac.testlog:9452928 1 Local node statistics:
+03-sky-netperf-cxmac.testlog:9459338 1   Total transfer time:       2.06 seconds, 7.48 packets/second
+03-sky-netperf-cxmac.testlog:9468891 1   Average round-trip-time:   131071 ms (131071 + 131071)
+03-sky-netperf-cxmac.testlog:9474673 1   Radio duty cycle:          rx 19.09% tx 3.22%
+03-sky-netperf-cxmac.testlog:9478447 1   Packets received:          0.0%, 0 of 20
+03-sky-netperf-cxmac.testlog:9480905 1 -------- Unicast ping-pong--------
+03-sky-netperf-cxmac.testlog:9481993 1 Contacting 2.0
+03-sky-netperf-cxmac.testlog:12686117 1 Measuring two-way unicast performance to 2.0
+03-sky-netperf-cxmac.testlog:20294854 1 Requesting statistics from 2.0
+03-sky-netperf-cxmac.testlog:20706256 1 3 1 20 20 0 1023 0 0 148754 113229 69137 9562 # for automatic processing
+03-sky-netperf-cxmac.testlog:20707892 1 Remote node statistics:
+03-sky-netperf-cxmac.testlog:20714023 1   Remote radio duty cycle:   rx 26.38% tx 3.64%
+03-sky-netperf-cxmac.testlog:20717659 1   Packets:                   sent 20 received 20
+03-sky-netperf-cxmac.testlog:20731677 1 3 0 20 19 0 1028 0 0 154036 109157 55536 6431 # for automatic processing
+03-sky-netperf-cxmac.testlog:20733244 1 Local node statistics:
+03-sky-netperf-cxmac.testlog:20739585 1   Total transfer time:       8.00 seconds, 2.49 packets/second
+03-sky-netperf-cxmac.testlog:20743767 1   Average round-trip-time:   0 ms (0 + 0)
+03-sky-netperf-cxmac.testlog:20749813 1   Radio duty cycle:          rx 21.10% tx 2.44%
+03-sky-netperf-cxmac.testlog:20753943 1   Packets received:          95.0%, 19 of 20
+03-sky-netperf-cxmac.testlog:20756866 1 -------- Unicast stream ping-pong--------
+03-sky-netperf-cxmac.testlog:20757954 1 Contacting 2.0
+03-sky-netperf-cxmac.testlog:21094483 1 Measuring two-way unicast stream performance to 2.0
+03-sky-netperf-cxmac.testlog:21443549 1 Requesting statistics from 2.0
+03-sky-netperf-cxmac.testlog:21462560 1 4 0 20 22 0 46 0 0 11484 215 9639 1876 # for automatic processing
+03-sky-netperf-cxmac.testlog:21464128 1 Local node statistics:
+03-sky-netperf-cxmac.testlog:21470783 1   Total transfer time:       0.03 seconds, 55.65 packets/second
+03-sky-netperf-cxmac.testlog:21474964 1   Average round-trip-time:   0 ms (0 + 0)
+03-sky-netperf-cxmac.testlog:21481271 1   Radio duty cycle:          rx 82.39% tx 16.03%
+03-sky-netperf-cxmac.testlog:21485483 1   Packets received:          110.0%, 22 of 20
+03-sky-netperf-cxmac.testlog:21485891 1 Done
+03-sky-netperf-cxmac.testlog:TEST OK
+03-sky-netperf-cxmac.testlog:Test ended at simulation time: 21485891
+02-sky-netperf-lpp.1.faillog: FAIL ಠ_ಠ

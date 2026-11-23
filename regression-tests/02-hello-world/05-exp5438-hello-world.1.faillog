@@ -1,0 +1,16 @@
+Random seed: 1
+> Contiki-3.x-3001-g8612334
+> Rime addr 0.0.0.0.0.0.0.1
+> MAC 00:00:00:00:00:00:00:01
+> Node id 1.
+> ContikiMAC 8 26
+> IPv6 fe80:0000:0000:0000:0200:0000:0000:0001
+> Starting Hello world process
+> Timer fired: i=0 
+> Timer fired: i=1 
+> Timer fired: i=2 
+> Timer fired: i=3 
+TEST TIMEOUT
+TEST FAILED
+Test ended at simulation time: 5000000
+ FAIL ಠ_ಠ

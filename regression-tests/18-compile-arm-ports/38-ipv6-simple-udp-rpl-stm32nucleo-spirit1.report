@@ -1,0 +1,354 @@
+make[2]: Entering directory '/home/user/contiki/examples/ipv6/simple-udp-rpl'
+***************************************************
+BOARD not specified, default to ids01a4 (868 MHz)!
+***************************************************
+NOT compiling files for any sensors expansion board
+***************************************************
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf *.stm32nucleo-spirit1 symbols.c symbols.h contiki-stm32nucleo-spirit1.log 
+rm -rf obj_stm32nucleo-spirit1
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/simple-udp-rpl'
+make[2]: Entering directory '/home/user/contiki/examples/ipv6/simple-udp-rpl'
+***************************************************
+BOARD not specified, default to ids01a4 (868 MHz)!
+***************************************************
+NOT compiling files for any sensors expansion board
+***************************************************
+mkdir obj_stm32nucleo-spirit1
+  CC        ../../../platform/stm32nucleo-spirit1/./contiki-spirit1-main.c
+  CC        ../../../apps/servreg-hack/servreg-hack.c
+  CC        ../../../platform/stm32nucleo-spirit1/dev/button-sensor.c
+../../../platform/stm32nucleo-spirit1/dev/button-sensor.c: In function 'active':
+../../../platform/stm32nucleo-spirit1/dev/button-sensor.c:70:3: warning: return makes integer from pointer without a cast
+   return active;
+   ^
+  CC        ../../../platform/stm32nucleo-spirit1/dev/leds-arch.c
+  CC        ../../../platform/stm32nucleo-spirit1/dev/radio-sensor.c
+  CC        ../../../platform/stm32nucleo-spirit1/./uart-msg.c
+../../../platform/stm32nucleo-spirit1/./uart-msg.c: In function 'slip_arch_writeb':
+../../../platform/stm32nucleo-spirit1/./uart-msg.c:76:17: warning: pointer targets in passing argument 1 of 'uart_send_msg' differ in signedness [-Wpointer-sign]
+   uart_send_msg(&c);
+                 ^
+../../../platform/stm32nucleo-spirit1/./uart-msg.c:42:6: note: expected 'char *' but argument is of type 'unsigned char *'
+ void uart_send_msg(char *);
+      ^
+  CC        ../../../platform/stm32nucleo-spirit1/./spirit1-arch.c
+  CC        ../../../platform/stm32nucleo-spirit1/./spirit1.c
+../../../platform/stm32nucleo-spirit1/./spirit1.c: In function 'spirit_radio_transmit':
+../../../platform/stm32nucleo-spirit1/./spirit1.c:308:33: warning: unused variable 'rtimer_rxack' [-Wunused-variable]
+   rtimer_clock_t rtimer_txdone, rtimer_rxack;
+                                 ^
+../../../platform/stm32nucleo-spirit1/./spirit1.c:308:18: warning: unused variable 'rtimer_txdone' [-Wunused-variable]
+   rtimer_clock_t rtimer_txdone, rtimer_rxack;
+                  ^
+  CC        ../../../platform/stm32nucleo-spirit1/./node-id.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/spirit1_appli.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_hal_msp.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_it.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_it.c: In function 'USART2_IRQHandler':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_it.c:342:3: warning: implicit declaration of function 'slip_input_byte' [-Wimplicit-function-declaration]
+   slip_input_byte(UartHandle.Instance->DR);
+   ^
+In file included from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc/stm32l1xx_hal_conf.h:242:0,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:48,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc/stm32cube_hal_init.h:38,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_it.c:38:
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_uart.h:473:115: warning: value computed is not used [-Wunused-value]
+                                                       (__HANDLE__)->Instance->CR2 : (__HANDLE__)->Instance->CR3)) & (((uint32_t)(__IT__)) & UART_IT_MASK))
+                                                                                                                   ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32l1xx_it.c:343:3: note: in expansion of macro '__HAL_UART_GET_IT_SOURCE'
+   __HAL_UART_GET_IT_SOURCE(&UartHandle, UART_IT_RXNE);
+   ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src/stm32cube_hal_init.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/stm32l1xx_nucleo/stm32l1xx_nucleo.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax/radio_gpio.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax/radio_shield_config.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax/radio_spi.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT1_Util.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT1_Util.c: In function 'Spirit1PacketConfig':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT1_Util.c:429:3: warning: implicit declaration of function 'BasicProtocolInit' [-Wimplicit-function-declaration]
+   BasicProtocolInit();
+   ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Aes.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Calibration.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Commands.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Csma.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_DirectRF.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_General.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Gpio.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c: In function 'SpiritIrqInit':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c:160:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+     tempRegValue[3-i]= tmpPoint[i];
+     ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c: In function 'SpiritIrq':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c:192:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+     tempValue += ((uint32_t)tempRegValue[i])<<(8*(3-i));
+     ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Irq.c:208:5: warning: array subscript has type 'char' [-Wchar-subscripts]
+     tempRegValue[j] = (uint8_t)(tempValue>>(8*(3-j)));
+     ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_LinearFifo.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Management.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Management.c: In function 'SpiritManagementWaCmdStrobeTx':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Management.c:295:14: warning: unused variable 'xtal_frequency' [-Wunused-variable]
+     uint32_t xtal_frequency = SpiritRadioGetXtalFrequency();
+              ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c
+In file included from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktBasic.h:101:0,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c:40:
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c: In function 'SpiritPktBasicSetPayloadLength':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c:484:54: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+   tempRegValue[1]=BASIC_BUILD_PCKTLEN0(nPayloadLength+overSize);
+                                                      ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktCommon.h:336:34: note: in definition of macro 'BUILD_PCKTLEN0'
+ #define BUILD_PCKTLEN0(nLength) (nLength & 0xFF)
+                                  ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c:484:19: note: in expansion of macro 'BASIC_BUILD_PCKTLEN0'
+   tempRegValue[1]=BASIC_BUILD_PCKTLEN0(nPayloadLength+overSize);
+                   ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c:486:54: warning: suggest parentheses around '+' inside '>>' [-Wparentheses]
+   tempRegValue[0]=BASIC_BUILD_PCKTLEN1(nPayloadLength+overSize);
+                                                      ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktCommon.h:345:34: note: in definition of macro 'BUILD_PCKTLEN1'
+ #define BUILD_PCKTLEN1(nLength) (nLength >> 8)
+                                  ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktBasic.c:486:19: note: in expansion of macro 'BASIC_BUILD_PCKTLEN1'
+   tempRegValue[0]=BASIC_BUILD_PCKTLEN1(nPayloadLength+overSize);
+                   ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktCommon.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktCommon.c: In function 'SpiritPktCommonSetSyncWords':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktCommon.c:527:11: warning: suggest parentheses around '-' inside '>>' [-Wparentheses]
+     if(i<3-xSyncLength>>1)
+           ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktMbus.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c
+In file included from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktStack.h:110:0,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:40:
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c: In function 'SpiritPktStackSetPayloadLength':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:505:54: warning: suggest parentheses around '+' in operand of '&' [-Wparentheses]
+   tempRegValue[1]=STACK_BUILD_PCKTLEN0(nPayloadLength+overSize);
+                                                      ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktCommon.h:336:34: note: in definition of macro 'BUILD_PCKTLEN0'
+ #define BUILD_PCKTLEN0(nLength) (nLength & 0xFF)
+                                  ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:505:19: note: in expansion of macro 'STACK_BUILD_PCKTLEN0'
+   tempRegValue[1]=STACK_BUILD_PCKTLEN0(nPayloadLength+overSize);
+                   ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:507:54: warning: suggest parentheses around '+' inside '>>' [-Wparentheses]
+   tempRegValue[0]=STACK_BUILD_PCKTLEN1(nPayloadLength+overSize);
+                                                      ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc/SPIRIT_PktCommon.h:345:34: note: in definition of macro 'BUILD_PCKTLEN1'
+ #define BUILD_PCKTLEN1(nLength) (nLength >> 8)
+                                  ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:507:19: note: in expansion of macro 'STACK_BUILD_PCKTLEN1'
+   tempRegValue[0]=STACK_BUILD_PCKTLEN1(nPayloadLength+overSize);
+                   ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c: In function 'SpiritPktStackGetPayloadLength':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_PktStack.c:534:72: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+   return (((uint16_t) tempRegValue[1])<<8 + (uint16_t) tempRegValue[0] - overSize);
+                                                                        ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Qi.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Radio.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Timer.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Timer.c: In function 'SpiritTimerGetWakeUpTimer':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Timer.c:377:12: warning: unused variable 'xtal' [-Wunused-variable]
+   uint32_t xtal=SpiritRadioGetXtalFrequency();
+            ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Timer.c: In function 'SpiritTimerGetWakeUpTimerReload':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Timer.c:480:12: warning: unused variable 'xtal' [-Wunused-variable]
+   uint32_t xtal=SpiritRadioGetXtalFrequency();
+            ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src/SPIRIT_Types.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_adc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_comp.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cortex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_crc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_cryp.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dac.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_dma.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_flash_ramfunc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_gpio.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2c.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c
+In file included from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc/stm32l1xx_hal_conf.h:206:0,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal.h:48,
+                 from ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c:139:
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c: In function 'HAL_I2S_Receive_DMA':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc/stm32l1xx_hal_i2s.h:361:62: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+ #define __HAL_I2S_CLEAR_OVRFLAG(__HANDLE__) do{__IO uint32_t tmpreg = (__HANDLE__)->Instance->DR;\
+                                                              ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_i2s.c:858:7: note: in expansion of macro '__HAL_I2S_CLEAR_OVRFLAG'
+       __HAL_I2S_CLEAR_OVRFLAG(hi2s);
+       ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_irda.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_iwdg.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_lcd.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_nor.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_opamp.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pcd.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_pwr.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rcc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_rtc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sd.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_smartcard.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c: In function 'HAL_SPI_Receive':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:457:17: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+   __IO uint16_t tmpreg = 0;
+                 ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c: In function 'HAL_SPI_TransmitReceive':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:631:17: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+   __IO uint16_t tmpreg = 0;
+                 ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c: In function 'SPI_RxCloseIRQHandler':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:1774:17: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+   __IO uint16_t tmpreg = 0;
+                 ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c: In function 'SPI_DMAReceiveCplt':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:1963:17: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+   __IO uint16_t tmpreg = 0;
+                 ^
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c: In function 'SPI_DMATransmitReceiveCplt':
+../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_spi.c:2035:17: warning: variable 'tmpreg' set but not used [-Wunused-but-set-variable]
+   __IO uint16_t tmpreg = 0;
+                 ^
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_sram.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim_ex.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_tim.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_uart.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_usart.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_hal_wwdg.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_fsmc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src/stm32l1xx_ll_sdmmc.c
+  CC        ../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS/system_stm32l1xx.c
+  CC        ../../../cpu/arm/stm32l152/./watchdog.c
+  CC        ../../../cpu/arm/stm32l152/./rtimer-arch.c
+  CC        ../../../cpu/arm/stm32l152/./clock.c
+  CC        ../../../cpu/arm/stm32l152/./syscalls.c
+../../../cpu/arm/stm32l152/./syscalls.c: In function '_sbrk':
+../../../cpu/arm/stm32l152/./syscalls.c:57:5: warning: implicit declaration of function '_write' [-Wimplicit-function-declaration]
+     _write(1, "Heap and stack collision\n", 25);
+     ^
+  CC        ../../../cpu/arm/stm32l152/./console.c
+  CC        ../../../cpu/arm/stm32l152/./crt.c
+  CC        ../../../cpu/arm/stm32l152/./uart.c
+  CC        ../../../core/sys/autostart.c
+  CC        ../../../core/sys/ctimer.c
+  CC        ../../../core/sys/energest.c
+  CC        ../../../core/sys/arg.c
+  CC        ../../../core/sys/stimer.c
+  CC        ../../../core/sys/etimer.c
+  CC        ../../../core/sys/compower.c
+  CC        ../../../core/sys/process.c
+  CC        ../../../core/sys/rtimer.c
+  CC        ../../../core/sys/mt.c
+  CC        ../../../core/sys/procinit.c
+  CC        ../../../core/sys/timer.c
+  CC        ../../../core/dev/serial-line.c
+  CC        ../../../core/dev/leds.c
+  CC        ../../../core/dev/slip.c
+  CC        ../../../core/dev/nullradio.c
+  CC        ../../../core/lib/settings.c
+  CC        ../../../core/lib/crc16.c
+  CC        ../../../core/lib/me.c
+  CC        ../../../core/lib/ringbuf.c
+  CC        ../../../core/lib/mmem.c
+  CC        ../../../core/lib/me_tabs.c
+  CC        ../../../core/lib/ccm-star.c
+  CC        ../../../core/lib/ifft.c
+  CC        ../../../core/lib/ringbufindex.c
+  CC        ../../../core/lib/sensors.c
+  CC        ../../../core/lib/list.c
+  CC        ../../../core/lib/aes-128.c
+  CC        ../../../core/lib/trickle-timer.c
+  CC        ../../../core/lib/print-stats.c
+  CC        ../../../core/lib/memb.c
+  CC        ../../../core/lib/petsciiconv.c
+  CC        ../../../core/lib/gcr.c
+  CC        ../../../core/lib/random.c
+  CC        ../../../core/lib/assert.c
+  CC        ../../../core/net/ipv6/uip-icmp6.c
+  CC        ../../../core/net/ipv6/uip-ds6.c
+  CC        ../../../core/net/ipv6/uip-ds6-route.c
+  CC        ../../../core/net/ipv6/uip6.c
+  CC        ../../../core/net/ipv6/uip-ds6-nbr.c
+  CC        ../../../core/net/ipv6/uip-nd6.c
+  CC        ../../../core/net/ipv6/sicslowpan.c
+  CC        ../../../core/net/ip/slipdev.c
+  CC        ../../../core/net/ip/dhcpc.c
+  CC        ../../../core/net/ip/uip-packetqueue.c
+  CC        ../../../core/net/ip/tcp-socket.c
+  CC        ../../../core/net/ip/uip-debug.c
+  CC        ../../../core/net/ip/ip64-addr.c
+  CC        ../../../core/net/ip/uip-udp-packet.c
+  CC        ../../../core/net/ip/psock.c
+  CC        ../../../core/net/ip/tcpip.c
+  CC        ../../../core/net/ip/resolv.c
+  CC        ../../../core/net/ip/uip-nameserver.c
+  CC        ../../../core/net/ip/uip-split.c
+  CC        ../../../core/net/ip/udp-socket.c
+  CC        ../../../core/net/ip/simple-udp.c
+  CC        ../../../core/net/ip/uiplib.c
+  CC        ../../../core/net/rpl/rpl-nbr-policy.c
+  CC        ../../../core/net/rpl/rpl-of0.c
+  CC        ../../../core/net/rpl/rpl-dag.c
+  CC        ../../../core/net/rpl/rpl-timers.c
+  CC        ../../../core/net/rpl/rpl-ext-header.c
+  CC        ../../../core/net/rpl/rpl.c
+  CC        ../../../core/net/rpl/rpl-mrhof.c
+  CC        ../../../core/net/rpl/rpl-ns.c
+  CC        ../../../core/net/rpl/rpl-icmp6.c
+  CC        ../../../core/net/rpl/rpl-dag-root.c
+  CC        ../../../core/net/queuebuf.c
+  CC        ../../../core/net/nbr-table.c
+  CC        ../../../core/net/packetbuf.c
+  CC        ../../../core/net/netstack.c
+  CC        ../../../core/net/linkaddr.c
+  CC        ../../../core/net/net-debug.c
+  CC        ../../../core/net/link-stats.c
+  CC        ../../../core/net/mac/framer-nullmac.c
+  CC        ../../../core/net/mac/nullmac.c
+  CC        ../../../core/net/mac/nullrdc-noframer.c
+  CC        ../../../core/net/mac/frame802154e-ie.c
+  CC        ../../../core/net/mac/mac-sequence.c
+  CC        ../../../core/net/mac/nordc.c
+  CC        ../../../core/net/mac/csma.c
+  CC        ../../../core/net/mac/frame802154.c
+  CC        ../../../core/net/mac/mac.c
+  CC        ../../../core/net/mac/framer-802154.c
+  CC        ../../../core/net/mac/phase.c
+  CC        ../../../core/net/mac/nullrdc.c
+  CC        ../../../core/net/mac/contikimac/contikimac.c
+  CC        ../../../core/net/mac/contikimac/contikimac-framer.c
+  CC        ../../../core/net/llsec/nullsec.c
+  CC        ../../../core/net/llsec/anti-replay.c
+  CC        ../../../core/net/llsec/ccm-star-packetbuf.c
+cp ../../../tools/empty-symbols.c symbols.c
+cp ../../../tools/empty-symbols.h symbols.h
+  CC        symbols.c
+  AR        contiki-stm32nucleo-spirit1.a
+arm-none-eabi-gcc -DCONTIKI=1 -DCONTIKI_TARGET_STM32NUCLEO_SPIRIT1=1 -DNETSTACK_CONF_WITH_IPV6=1 -DUIP_CONF_IPV6_RPL=1 -DX_NUCLEO_IDS01A4 -DUSE_STM32L152_EVAL -DSTM32L152xE -DUSE_STM32L1XX_NUCLEO -DUSE_HAL_DRIVER -DUSE_STDPERIPH_DRIVER -DNO_EEPROM -DSPIRIT1_ST_SHIELD -DSPIRIT_MODULE -DUSE_SPIRIT1_DEFAULT -I. -I../../../platform/stm32nucleo-spirit1/ -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152 -I../../../core -I../../../platform/stm32nucleo-spirit1/dev -DSTM32L1XX_MD=1 -I../../../cpu/arm/common/CMSIS -Wall -g -O0 -DWITH_UIP -DWITH_ASCII -mcpu=cortex-m3 -mthumb -mno-unaligned-access -mfix-cortex-m3-ldrd -std=gnu99 -Wl,-cref -D __SOURCEFILE__=\"broadcast-example.c\" -ffunction-sections -fdata-sections -DHSE_VALUE=32000000ul -DUSE_STDPERIPH_DRIVER -DSTM32L1XX_MD -DIAR_ARM_CM3 -DVECT_TAB_FLASH -DWITH_UIP6  -I. -I../../../platform/stm32nucleo-spirit1/. -I../../../platform/stm32nucleo-spirit1/dev -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/stm32l1xx_nucleo -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152/. -I../../../core/dev -I../../../core/lib -I../../../core/net -I../../../core/net/llsec -I../../../core/net/mac -I../../../core/net/rime -I../../../core/net/rpl -I../../../core/sys -I../../../core/cfs -I../../../core/ctk -I../../../core/lib/ctk -I../../../core/loader -I../../../core/. -I../../../apps/servreg-hack -I../../../core/sys -I../../../core/dev -I../../../core/lib -I../../../core/net/ipv6 -I../../../core/net/ip -I../../../core/net/rpl -I../../../core/net -I../../../core/net/mac -I../../../core/net/mac/contikimac -I../../../core/net/llsec -I../../../platform/stm32nucleo-spirit1/ -I../../.. -DCONTIKI_VERSION_STRING=\"Contiki-3.x-3001-g8612334\" -c -DAUTOSTART_ENABLE broadcast-example.c -o broadcast-example.co
+arm-none-eabi-as  ../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/startup_files/gcc/startup_stm32l152xe.s -o obj_stm32nucleo-spirit1/startup_stm32l152xe.o
+  LD        broadcast-example.stm32nucleo-spirit1
+arm-none-eabi-gcc -DCONTIKI=1 -DCONTIKI_TARGET_STM32NUCLEO_SPIRIT1=1 -DNETSTACK_CONF_WITH_IPV6=1 -DUIP_CONF_IPV6_RPL=1 -DX_NUCLEO_IDS01A4 -DUSE_STM32L152_EVAL -DSTM32L152xE -DUSE_STM32L1XX_NUCLEO -DUSE_HAL_DRIVER -DUSE_STDPERIPH_DRIVER -DNO_EEPROM -DSPIRIT1_ST_SHIELD -DSPIRIT_MODULE -DUSE_SPIRIT1_DEFAULT -I. -I../../../platform/stm32nucleo-spirit1/ -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152 -I../../../core -I../../../platform/stm32nucleo-spirit1/dev -DSTM32L1XX_MD=1 -I../../../cpu/arm/common/CMSIS -Wall -g -O0 -DWITH_UIP -DWITH_ASCII -mcpu=cortex-m3 -mthumb -mno-unaligned-access -mfix-cortex-m3-ldrd -std=gnu99 -Wl,-cref -D __SOURCEFILE__=\"unicast-sender.c\" -ffunction-sections -fdata-sections -DHSE_VALUE=32000000ul -DUSE_STDPERIPH_DRIVER -DSTM32L1XX_MD -DIAR_ARM_CM3 -DVECT_TAB_FLASH -DWITH_UIP6  -I. -I../../../platform/stm32nucleo-spirit1/. -I../../../platform/stm32nucleo-spirit1/dev -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/stm32l1xx_nucleo -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152/. -I../../../core/dev -I../../../core/lib -I../../../core/net -I../../../core/net/llsec -I../../../core/net/mac -I../../../core/net/rime -I../../../core/net/rpl -I../../../core/sys -I../../../core/cfs -I../../../core/ctk -I../../../core/lib/ctk -I../../../core/loader -I../../../core/. -I../../../apps/servreg-hack -I../../../core/sys -I../../../core/dev -I../../../core/lib -I../../../core/net/ipv6 -I../../../core/net/ip -I../../../core/net/rpl -I../../../core/net -I../../../core/net/mac -I../../../core/net/mac/contikimac -I../../../core/net/llsec -I../../../platform/stm32nucleo-spirit1/ -I../../.. -DCONTIKI_VERSION_STRING=\"Contiki-3.x-3001-g8612334\" -c -DAUTOSTART_ENABLE unicast-sender.c -o unicast-sender.co
+  LD        unicast-sender.stm32nucleo-spirit1
+arm-none-eabi-gcc -DCONTIKI=1 -DCONTIKI_TARGET_STM32NUCLEO_SPIRIT1=1 -DNETSTACK_CONF_WITH_IPV6=1 -DUIP_CONF_IPV6_RPL=1 -DX_NUCLEO_IDS01A4 -DUSE_STM32L152_EVAL -DSTM32L152xE -DUSE_STM32L1XX_NUCLEO -DUSE_HAL_DRIVER -DUSE_STDPERIPH_DRIVER -DNO_EEPROM -DSPIRIT1_ST_SHIELD -DSPIRIT_MODULE -DUSE_SPIRIT1_DEFAULT -I. -I../../../platform/stm32nucleo-spirit1/ -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152 -I../../../core -I../../../platform/stm32nucleo-spirit1/dev -DSTM32L1XX_MD=1 -I../../../cpu/arm/common/CMSIS -Wall -g -O0 -DWITH_UIP -DWITH_ASCII -mcpu=cortex-m3 -mthumb -mno-unaligned-access -mfix-cortex-m3-ldrd -std=gnu99 -Wl,-cref -D __SOURCEFILE__=\"unicast-receiver.c\" -ffunction-sections -fdata-sections -DHSE_VALUE=32000000ul -DUSE_STDPERIPH_DRIVER -DSTM32L1XX_MD -DIAR_ARM_CM3 -DVECT_TAB_FLASH -DWITH_UIP6  -I. -I../../../platform/stm32nucleo-spirit1/. -I../../../platform/stm32nucleo-spirit1/dev -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/stm32cube-prj/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/stm32l1xx_nucleo -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/x_nucleo_ids01ax -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/Common -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/spirit1/inc -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/CMSIS -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Src -I../../../platform/stm32nucleo-spirit1/stm32cube-lib/drivers/STM32L1xx_HAL_Driver/Inc -I../../../cpu/arm/stm32l152/. -I../../../core/dev -I../../../core/lib -I../../../core/net -I../../../core/net/llsec -I../../../core/net/mac -I../../../core/net/rime -I../../../core/net/rpl -I../../../core/sys -I../../../core/cfs -I../../../core/ctk -I../../../core/lib/ctk -I../../../core/loader -I../../../core/. -I../../../apps/servreg-hack -I../../../core/sys -I../../../core/dev -I../../../core/lib -I../../../core/net/ipv6 -I../../../core/net/ip -I../../../core/net/rpl -I../../../core/net -I../../../core/net/mac -I../../../core/net/mac/contikimac -I../../../core/net/llsec -I../../../platform/stm32nucleo-spirit1/ -I../../.. -DCONTIKI_VERSION_STRING=\"Contiki-3.x-3001-g8612334\" -c -DAUTOSTART_ENABLE unicast-receiver.c -o unicast-receiver.co
+  LD        unicast-receiver.stm32nucleo-spirit1
+rm unicast-sender.co unicast-receiver.co broadcast-example.co obj_stm32nucleo-spirit1/startup_stm32l152xe.o
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/simple-udp-rpl'

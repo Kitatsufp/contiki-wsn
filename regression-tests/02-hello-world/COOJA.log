@@ -1,0 +1,36 @@
+[10:07:47 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[10:07:47 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[10:07:48 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[10:07:48 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[10:07:48 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[10:07:48 - main] [CompileContiki.java:140] [INFO] - > make hello-world.exp5438 TARGET=exp5438 
+[10:07:48 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/hello-world/hello-world.exp5438
+[10:07:48 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[10:07:48 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[10:07:49 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[10:07:49 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 5000 ms
+[10:07:49 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[10:07:49 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1616036869539
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 0.0 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 0.0 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 0.8 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 0.6 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 0.5 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 0.4 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 0.5 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 0.5 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 0.4 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 0.3 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 0.3 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 0.2 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 0.2 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 0.1 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 0.1 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 0.1 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 0.1 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 0.0 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 0.0 sec
+[10:07:49 - Thread-2] [LogScriptEngine.java:375] [INFO] - Timeout event @ 5000000
+[10:07:49 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[10:07:49 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1616036869885	Duration: 346 ms	Simulated time 5000 ms	Ratio 14.45086705202312
+[10:07:50 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated

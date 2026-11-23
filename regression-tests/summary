@@ -1,0 +1,1085 @@
+summary-05-netperf:05-netperf01-sky-netperf.testlog:TEST OK
+summary-05-netperf:03-sky-netperf-cxmac.testlog:TEST OK
+summary-05-netperf:02-sky-netperf-lpp.1.faillog: FAIL ಠ_ಠ
+summary-05-netperf:==> 01-sky-netperf.log <==
+summary-05-netperf: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+summary-05-netperf: INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+summary-05-netperf: INFO [main] (ScriptRunner.java:387) - Test script activated
+summary-05-netperf: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034291811
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 28.8 sec
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 18.8 sec
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 15.1 sec
+summary-05-netperf: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-05-netperf: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034294519	Duration: 2708 ms	Simulated time 15253 ms	Ratio 5.632570162481536
+summary-05-netperf: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-05-netperf:
+summary-05-netperf:==> 02-sky-netperf-lpp.log <==
+summary-05-netperf:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+summary-05-netperf:	... 3 more
+summary-05-netperf:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+summary-05-netperf:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+summary-05-netperf:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+summary-05-netperf:	at org.contikios.cooja.mspmote.SkyMoteType.configureAndInit(SkyMoteType.java:151)
+summary-05-netperf:	... 6 more
+summary-05-netperf:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+summary-05-netperf:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+summary-05-netperf:	at java.lang.Thread.run(Thread.java:748)
+summary-05-netperf:
+summary-05-netperf:==> 03-sky-netperf-cxmac.log <==
+summary-05-netperf: INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+summary-05-netperf: INFO [main] (ScriptRunner.java:387) - Test script activated
+summary-05-netperf: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034302994
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 24.8 sec
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 19.4 sec
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 16.5 sec
+summary-05-netperf: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 15.5 sec
+summary-05-netperf: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-05-netperf: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034307203	Duration: 4209 ms	Simulated time 21485 ms	Ratio 5.104537894986933
+summary-05-netperf: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-05-netperf:
+summary-05-netperf:==> 02-sky-netperf-lpp.1.faillog <==
+summary-05-netperf: FAIL ಠ_ಠ
+summary-01-compile-base:01-compile-basehello-world/ avr-raven: FAIL ಠ.ಠ
+summary-01-compile-base:hello-world/ exp5438: OK
+summary-01-compile-base:hello-world/ eval-adf7xxxmb4z: FAIL ಠ.ಠ
+summary-01-compile-base:hello-world/ micaz: FAIL ಠ.ಠ
+summary-01-compile-base:hello-world/ minimal-net: OK
+summary-01-compile-base:hello-world/ native: OK
+summary-01-compile-base:hello-world/ sky: OK
+summary-01-compile-base:hello-world/ wismote: OK
+summary-01-compile-base:hello-world/ z1: OK
+summary-01-compile-base:eeprom-test/ native: OK
+summary-01-compile-base:collect/ sky: OK
+summary-01-compile-base:er-rest-example/ wismote: OK
+summary-01-compile-base:ipso-objects/ wismote: OK
+summary-01-compile-base:example-shell/ native: OK
+summary-01-compile-base:netperf/ sky: OK
+summary-01-compile-base:powertrace/ sky: OK
+summary-01-compile-base:rime/ sky: OK
+summary-01-compile-base:rime/ z1: OK
+summary-01-compile-base:ravenusbstick/ avr-ravenusb: FAIL ಠ.ಠ
+summary-01-compile-base:servreg-hack/ sky: OK
+summary-01-compile-base:sky/ sky: OK
+summary-01-compile-base:sky-ip/ sky: OK
+summary-01-compile-base:sky-shell/ sky: OK
+summary-01-compile-base:sky-shell-exec/ sky: FAIL ಠ.ಠ
+summary-01-compile-base:sky-shell-webserver/ sky: OK
+summary-01-compile-base:tcp-socket/ minimal-net: OK
+summary-01-compile-base:telnet-server/ minimal-net: OK
+summary-01-compile-base:webserver/ minimal-net: OK
+summary-01-compile-base:webserver-ipv6/ eval-adf7xxxmb4z: FAIL ಠ.ಠ
+summary-01-compile-base:wget/ minimal-net: OK
+summary-01-compile-base:zolertia/z1/ z1: OK
+summary-01-compile-base:settings-example/ avr-raven: FAIL ಠ.ಠ
+summary-01-compile-base:ipv6/multicast/ sky: OK
+summary-01-compile-base:sensniff/ z1: OK
+summary-01-compile-base:cfs-coffee/ sky: OK
+summary-01-compile-base:cfs-coffee/ z1: OK
+summary-01-compile-base:cfs-coffee/ wismote: OK
+summary-01-compile-base:cfs-coffee/ avr-raven: FAIL ಠ.ಠ
+summary-01-compile-base:==> 01-hello-world-avr-raven.faillog <==
+summary-01-compile-base:rm -rf 
+summary-01-compile-base:rm -rf obj_avr-raven
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:mkdir obj_avr-raven
+summary-01-compile-base:  CC        ../../platform/avr-raven/./contiki-raven-main.c
+summary-01-compile-base:make[2]: avr-gcc: Command not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+summary-01-compile-base:make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:
+summary-01-compile-base:==> 03-hello-world-eval-adf7xxxmb4z.faillog <==
+summary-01-compile-base:rm -rf obj_eval-adf7xxxmb4z
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:../../platform/eval-adf7xxxmb4z/Makefile.eval-adf7xxxmb4z:47: ../..
+summary-01-compile-base:mkdir obj_eval-adf7xxxmb4z
+summary-01-compile-base:  CC        ../../cpu/rl78/adf7023/ADF7023.c
+summary-01-compile-base:/bin/sh: 1: /usr/share/*rl78*/bin/rl78-elf-gcc: not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_eval-adf7xxxmb4z/ADF7023.o' failed
+summary-01-compile-base:make[2]: *** [obj_eval-adf7xxxmb4z/ADF7023.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:
+summary-01-compile-base:==> 04-hello-world-micaz.faillog <==
+summary-01-compile-base:rm -rf 
+summary-01-compile-base:rm -rf obj_micaz
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:mkdir obj_micaz
+summary-01-compile-base:  CC        ../../platform/micaz/dev/adc.c
+summary-01-compile-base:make[2]: avr-gcc: Command not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_micaz/adc.o' failed
+summary-01-compile-base:make[2]: *** [obj_micaz/adc.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-01-compile-base:
+summary-01-compile-base:==> 11-collect-sky.faillog <==
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/collect'
+summary-01-compile-base:  AR        contiki-sky.a
+summary-01-compile-base:  CC        collect-view-shell.c
+summary-01-compile-base:  CC        ../../platform/sky/./contiki-sky-main.c
+summary-01-compile-base:../../platform/sky/./contiki-sky-main.c:473:1: fatal error: opening dependency file obj_sky/contiki-sky-main.d: Permission denied
+summary-01-compile-base:compilation terminated.
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_sky/contiki-sky-main.o' failed
+summary-01-compile-base:make[2]: *** [obj_sky/contiki-sky-main.o] Error 1
+summary-01-compile-base:rm collect-view-shell.co
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/collect'
+summary-01-compile-base:
+summary-01-compile-base:==> 19-ravenusbstick-avr-ravenusb.faillog <==
+summary-01-compile-base:make[3]: Entering directory '/home/user/contiki/examples/ravenusbstick'
+summary-01-compile-base:mkdir obj_avr-ravenusb
+summary-01-compile-base:  CC        ../../core/cfs/cfs-eeprom.c
+summary-01-compile-base:make[3]: avr-gcc: Command not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_avr-ravenusb/cfs-eeprom.o' failed
+summary-01-compile-base:make[3]: *** [obj_avr-ravenusb/cfs-eeprom.o] Error 127
+summary-01-compile-base:make[3]: Leaving directory '/home/user/contiki/examples/ravenusbstick'
+summary-01-compile-base:Makefile:2: recipe for target 'all' failed
+summary-01-compile-base:make[2]: *** [all] Error 2
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/ravenusbstick'
+summary-01-compile-base:
+summary-01-compile-base:==> 24-sky-shell-exec-sky.faillog <==
+summary-01-compile-base:  CC        ../../core/net/llsec/anti-replay.c
+summary-01-compile-base:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+summary-01-compile-base:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+summary-01-compile-base:  CC        symbols.c
+summary-01-compile-base:symbols.c:320:12: error: conflicting types for built-in function ‘snprintf’ [-Werror]
+summary-01-compile-base:symbols.c:329:12: error: conflicting types for built-in function ‘strncpy’ [-Werror]
+summary-01-compile-base:cc1: all warnings being treated as errors
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_sky/symbols.o' failed
+summary-01-compile-base:make[2]: *** [obj_sky/symbols.o] Error 1
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+summary-01-compile-base:
+summary-01-compile-base:==> 29-webserver-ipv6-eval-adf7xxxmb4z.faillog <==
+summary-01-compile-base:rm -rf obj_eval-adf7xxxmb4z
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/webserver-ipv6'
+summary-01-compile-base:../../platform/eval-adf7xxxmb4z/Makefile.eval-adf7xxxmb4z:47: ../..
+summary-01-compile-base:mkdir obj_eval-adf7xxxmb4z
+summary-01-compile-base:  CC        ../../apps/webserver/webserver-nogui.c
+summary-01-compile-base:/bin/sh: 1: /usr/share/*rl78*/bin/rl78-elf-gcc: not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_eval-adf7xxxmb4z/webserver-nogui.o' failed
+summary-01-compile-base:make[2]: *** [obj_eval-adf7xxxmb4z/webserver-nogui.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+summary-01-compile-base:
+summary-01-compile-base:==> 32-settings-example-avr-raven.faillog <==
+summary-01-compile-base:rm -rf 
+summary-01-compile-base:rm -rf obj_avr-raven
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/settings-example'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/settings-example'
+summary-01-compile-base:mkdir obj_avr-raven
+summary-01-compile-base:  CC        ../../platform/avr-raven/./contiki-raven-main.c
+summary-01-compile-base:make[2]: avr-gcc: Command not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+summary-01-compile-base:make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/settings-example'
+summary-01-compile-base:
+summary-01-compile-base:==> 38-cfs-coffee-avr-raven.faillog <==
+summary-01-compile-base:rm -rf 
+summary-01-compile-base:rm -rf obj_avr-raven
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/cfs-coffee'
+summary-01-compile-base:make[2]: Entering directory '/home/user/contiki/examples/cfs-coffee'
+summary-01-compile-base:mkdir obj_avr-raven
+summary-01-compile-base:  CC        ../../platform/avr-raven/./contiki-raven-main.c
+summary-01-compile-base:make[2]: avr-gcc: Command not found
+summary-01-compile-base:../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+summary-01-compile-base:make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+summary-01-compile-base:make[2]: Leaving directory '/home/user/contiki/examples/cfs-coffee'
+summary-09-collect-lossy:09-collect-lossy01-sky-shell-collect-lossy.testlog:TEST OK
+summary-24-compile-nrf52-ports:24-compile-nrf52-portshello-world/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:nrf52dk/coap-demo/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:nrf52dk/coap-demo/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:nrf52dk/mqtt-demo/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:nrf52dk/blink-hello/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:nrf52dk/timer-test/ nrf52dk: FAIL ಠ.ಠ
+summary-24-compile-nrf52-ports:==> 01-hello-world-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-24-compile-nrf52-ports:../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-24-compile-nrf52-ports:
+summary-24-compile-nrf52-ports:==> 02-nrf52dk-coap-demo-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+summary-24-compile-nrf52-ports:../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+summary-24-compile-nrf52-ports:
+summary-24-compile-nrf52-ports:==> 03-nrf52dk-coap-demo-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+summary-24-compile-nrf52-ports:../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+summary-24-compile-nrf52-ports:
+summary-24-compile-nrf52-ports:==> 04-nrf52dk-mqtt-demo-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/mqtt-demo'
+summary-24-compile-nrf52-ports:../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/mqtt-demo'
+summary-24-compile-nrf52-ports:
+summary-24-compile-nrf52-ports:==> 05-nrf52dk-blink-hello-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/blink-hello'
+summary-24-compile-nrf52-ports:../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/blink-hello'
+summary-24-compile-nrf52-ports:
+summary-24-compile-nrf52-ports:==> 06-nrf52dk-timer-test-nrf52dk.faillog <==
+summary-24-compile-nrf52-ports:make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/timer-test'
+summary-24-compile-nrf52-ports:../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+summary-24-compile-nrf52-ports:make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/timer-test'
+summary-23-rpl-non-storing:23-rpl-non-storing02-rpl-root-reboot.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-2.testlog:TEST OK
+summary-23-rpl-non-storing:10-rpl-multi-dodag.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-1.testlog:TEST OK
+summary-23-rpl-non-storing:06-rpl-temporary-root-loss.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-4.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-0.testlog:TEST OK
+summary-23-rpl-non-storing:05-rpl-up-and-down-routes.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-5.testlog:TEST OK
+summary-23-rpl-non-storing:04-rpl-large-network.testlog:TEST OK
+summary-23-rpl-non-storing:01-rpl-up-route.testlog:TEST OK
+summary-23-rpl-non-storing:07-rpl-random-rearrangement.testlog:TEST OK
+summary-23-rpl-non-storing:09-rpl-probing.testlog:TEST OK
+summary-23-rpl-non-storing:03-rpl-28-hours.testlog:TEST OK
+summary-23-rpl-non-storing:08-rpl-dao-route-loss-3.testlog:TEST OK
+summary-17-slip-radio:17-slip-radio01-sky-slip-radio-dio.testlog:TEST OK
+summary-12-rpl:12-rpl02-rpl-root-reboot.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-4.testlog:TEST OK
+summary-12-rpl:10-rpl-multi-dodag.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-1.testlog:TEST OK
+summary-12-rpl:06-rpl-temporary-root-loss.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-0.testlog:TEST OK
+summary-12-rpl:05-rpl-up-and-down-routes.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-5.testlog:TEST OK
+summary-12-rpl:04-rpl-large-network.testlog:TEST OK
+summary-12-rpl:01-rpl-up-route.testlog:TEST OK
+summary-12-rpl:07-rpl-random-rearrangement.testlog:TEST OK
+summary-12-rpl:09-rpl-probing.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-2.testlog:TEST OK
+summary-12-rpl:03-rpl-28-hours.testlog:TEST OK
+summary-12-rpl:08-rpl-dao-route-loss-3.testlog:TEST OK
+summary-15-compile-arm-apcs-ports:15-compile-arm-apcs-portshello-world/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:hello-world/ mbxxx: OK
+summary-15-compile-arm-apcs-ports:ipv6/rpl-border-router/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:er-rest-example/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:webserver-ipv6/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:ipv6/multicast/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:econotag-flash-test/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:econotag-ecc-test/ econotag: FAIL ಠ.ಠ
+summary-15-compile-arm-apcs-ports:==> 01-hello-world-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../platform/econotag/Makefile.econotag:9: ../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 03-ipv6-rpl-border-router-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../../platform/econotag/Makefile.econotag:9: ../../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-border-router'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 04-er-rest-example-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../platform/econotag/Makefile.econotag:9: ../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/er-rest-example'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 05-webserver-ipv6-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../platform/econotag/Makefile.econotag:9: ../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 06-ipv6-multicast-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../../platform/econotag/Makefile.econotag:9: ../../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/multicast'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 07-econotag-flash-test-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../platform/econotag/Makefile.econotag:9: ../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/econotag-flash-test'
+summary-15-compile-arm-apcs-ports:
+summary-15-compile-arm-apcs-ports:==> 08-econotag-ecc-test-econotag.faillog <==
+summary-15-compile-arm-apcs-ports:../../platform/econotag/Makefile.econotag:9: ../..
+summary-15-compile-arm-apcs-ports:mkdir obj_econotag
+summary-15-compile-arm-apcs-ports:ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+summary-15-compile-arm-apcs-ports:  CC        ../../platform/econotag/./main.c
+summary-15-compile-arm-apcs-ports:../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+summary-15-compile-arm-apcs-ports: /*
+summary-15-compile-arm-apcs-ports: ^
+summary-15-compile-arm-apcs-ports:../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+summary-15-compile-arm-apcs-ports:make[2]: *** [obj_econotag/main.o] Error 1
+summary-15-compile-arm-apcs-ports:make[2]: Leaving directory '/home/user/contiki/examples/econotag-ecc-test'
+summary-06-shell:06-shell03-sky-shell-sendcmd.testlog:TEST OK
+summary-06-shell:02-sky-shell-basic-commands.testlog:TEST OK
+summary-06-shell:01-sky-shell-compile.testlog:TEST OK
+summary-19-llsec:19-llsec01-ccm-star.testlog:TEST OK
+summary-23-compile-avr:23-compile-avrexamples/avr-rss2/hello-sensors/ avr-rss2: FAIL ಠ.ಠ
+summary-23-compile-avr:examples/avr-rss2/ipv6/rpl-udp-report/ avr-rss2: FAIL ಠ.ಠ
+summary-23-compile-avr:examples/avr-rss2/ipv6/rpl-border-router/ avr-rss2: FAIL ಠ.ಠ
+summary-23-compile-avr:examples/powertrace/ avr-rss2: FAIL ಠ.ಠ
+summary-23-compile-avr:examples/rime/ avr-rss2: FAIL ಠ.ಠ
+summary-23-compile-avr:==> 01-examples-avr-rss2-hello-sensors-avr-rss2.faillog <==
+summary-23-compile-avr:rm -rf 
+summary-23-compile-avr:rm -rf obj_avr-rss2
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+summary-23-compile-avr:make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+summary-23-compile-avr:mkdir obj_avr-rss2
+summary-23-compile-avr:  CC        ../../../platform/avr-rss2/./contiki-main.c
+summary-23-compile-avr:make[2]: avr-gcc: Command not found
+summary-23-compile-avr:../../../Makefile.include:240: recipe for target 'obj_avr-rss2/contiki-main.o' failed
+summary-23-compile-avr:make[2]: *** [obj_avr-rss2/contiki-main.o] Error 127
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+summary-23-compile-avr:
+summary-23-compile-avr:==> 02-examples-avr-rss2-ipv6-rpl-udp-report-avr-rss2.faillog <==
+summary-23-compile-avr:rm -rf 
+summary-23-compile-avr:rm -rf obj_avr-rss2
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+summary-23-compile-avr:make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+summary-23-compile-avr:mkdir obj_avr-rss2
+summary-23-compile-avr:  CC        ../../../../apps/servreg-hack/servreg-hack.c
+summary-23-compile-avr:make[2]: avr-gcc: Command not found
+summary-23-compile-avr:../../../../Makefile.include:240: recipe for target 'obj_avr-rss2/servreg-hack.o' failed
+summary-23-compile-avr:make[2]: *** [obj_avr-rss2/servreg-hack.o] Error 127
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+summary-23-compile-avr:
+summary-23-compile-avr:==> 03-examples-avr-rss2-ipv6-rpl-border-router-avr-rss2.faillog <==
+summary-23-compile-avr:rm -rf 
+summary-23-compile-avr:rm -rf obj_avr-rss2
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+summary-23-compile-avr:make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+summary-23-compile-avr:mkdir obj_avr-rss2
+summary-23-compile-avr:  CC        enc28j60-ip64-driver.c
+summary-23-compile-avr:make[2]: avr-gcc: Command not found
+summary-23-compile-avr:../../../../Makefile.include:240: recipe for target 'obj_avr-rss2/enc28j60-ip64-driver.o' failed
+summary-23-compile-avr:make[2]: *** [obj_avr-rss2/enc28j60-ip64-driver.o] Error 127
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+summary-23-compile-avr:
+summary-23-compile-avr:==> 04-examples-powertrace-avr-rss2.faillog <==
+summary-23-compile-avr:rm -rf 
+summary-23-compile-avr:rm -rf obj_avr-rss2
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/powertrace'
+summary-23-compile-avr:make[2]: Entering directory '/home/user/contiki/examples/powertrace'
+summary-23-compile-avr:mkdir obj_avr-rss2
+summary-23-compile-avr:  CC        ../../apps/powertrace/powertrace.c
+summary-23-compile-avr:make[2]: avr-gcc: Command not found
+summary-23-compile-avr:../../Makefile.include:240: recipe for target 'obj_avr-rss2/powertrace.o' failed
+summary-23-compile-avr:make[2]: *** [obj_avr-rss2/powertrace.o] Error 127
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/powertrace'
+summary-23-compile-avr:
+summary-23-compile-avr:==> 05-examples-rime-avr-rss2.faillog <==
+summary-23-compile-avr:rm -rf 
+summary-23-compile-avr:rm -rf obj_avr-rss2
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/rime'
+summary-23-compile-avr:make[2]: Entering directory '/home/user/contiki/examples/rime'
+summary-23-compile-avr:mkdir obj_avr-rss2
+summary-23-compile-avr:  CC        ../../platform/avr-rss2/./contiki-main.c
+summary-23-compile-avr:make[2]: avr-gcc: Command not found
+summary-23-compile-avr:../../Makefile.include:240: recipe for target 'obj_avr-rss2/contiki-main.o' failed
+summary-23-compile-avr:make[2]: *** [obj_avr-rss2/contiki-main.o] Error 127
+summary-23-compile-avr:make[2]: Leaving directory '/home/user/contiki/examples/rime'
+summary-03-base:03-base02-sky-coffee.testlog:TEST OK
+summary-03-base:01-multithreading.testlog:TEST OK
+summary-18-compile-arm-ports:18-compile-arm-portshello-world/ ev-aducrf101mkxz: OK
+summary-18-compile-arm-ports:ipv6/rpl-border-router/ ev-aducrf101mkxz: OK
+summary-18-compile-arm-ports:webserver-ipv6/ ev-aducrf101mkxz: OK
+summary-18-compile-arm-ports:ipv6/multicast/ ev-aducrf101mkxz: OK
+summary-18-compile-arm-ports:cc26xx/cc26xx-web-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/very-sleepy-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/cc26xx-web-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/cc26xx-web-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/cc26xx-web-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/cc26xx-web-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:cc26xx/very-sleepy-demo/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:hello-world/ cc2538dk: OK
+summary-18-compile-arm-ports:ipv6/rpl-border-router/ cc2538dk: OK
+summary-18-compile-arm-ports:ipv6/rpl-border-router/ cc2538dk: OK
+summary-18-compile-arm-ports:er-rest-example/ cc2538dk: OK
+summary-18-compile-arm-ports:ipso-objects/ cc2538dk: OK
+summary-18-compile-arm-ports:webserver-ipv6/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538dk/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538dk/udp-ipv6-echo-server/ cc2538dk: OK
+summary-18-compile-arm-ports:ipv6/multicast/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538-common/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538-common/mqtt-demo/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538-common/crypto/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538-common/pka/ cc2538dk: OK
+summary-18-compile-arm-ports:cc2538-common/ zoul: OK
+summary-18-compile-arm-ports:cc2538-common/mqtt-demo/ zoul: OK
+summary-18-compile-arm-ports:cc2538-common/crypto/ zoul: OK
+summary-18-compile-arm-ports:cc2538-common/pka/ zoul: OK
+summary-18-compile-arm-ports:zolertia/zoul/ zoul: OK
+summary-18-compile-arm-ports:zolertia/zoul/cc1200-demo/ zoul: OK
+summary-18-compile-arm-ports:openmote-cc2538/ openmote-cc2538: OK
+summary-18-compile-arm-ports:er-rest-example/ zoul: OK
+summary-18-compile-arm-ports:ipso-objects/ zoul: OK
+summary-18-compile-arm-ports:hello-world/ zoul: OK
+summary-18-compile-arm-ports:er-rest-example/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:ipv6/rpl-border-router/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:ipv6/rpl-udp/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:ipv6/simple-udp-rpl/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:stm32nucleo-spirit1/sensor-demo/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:ipv6/multicast/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:udp-ipv6/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:hello-world/ stm32nucleo-spirit1: OK
+summary-18-compile-arm-ports:sensniff/ cc2538dk: OK
+summary-18-compile-arm-ports:sensniff/ openmote-cc2538: OK
+summary-18-compile-arm-ports:sensniff/ zoul: OK
+summary-18-compile-arm-ports:sensniff/ zoul: OK
+summary-18-compile-arm-ports:sensniff/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:sensniff/ srf06-cc26xx: OK
+summary-18-compile-arm-ports:sensniff/ ev-aducrf101mkxz: OK
+summary-18-compile-arm-ports:cfs-coffee/ cc2538dk: OK
+summary-18-compile-arm-ports:cfs-coffee/ openmote-cc2538: OK
+summary-18-compile-arm-ports:cfs-coffee/ zoul: OK
+summary-18-compile-arm-ports:ipv6/rpl-tsch/ zoul: OK
+summary-18-compile-arm-ports:ipv6/rpl-tsch/ zoul: OK
+summary-18-compile-arm-ports:ipv6/rpl-tsch/ zoul: OK
+summary-00-doxygen:00-doxygendoxygen: FAIL ಠ_ಠ
+summary-00-doxygen:Doxygen caused some warnings. Please fix these.
+summary-00-doxygen:Warnings:
+summary-00-doxygen:/home/user/contiki/core/sys/clock.h:40: warning: group clock: ignoring title "Clock library" that does not match old title "Clock Handling"
+summary-00-doxygen:
+summary-00-doxygen:/home/user/contiki/doc/contiki-mainpage.txt:3: warning: found more than one \mainpage comment block! (first occurrence: /home/user/contiki/apps/tinydtls/dtls.h, line 419), Skipping current block!
+summary-00-doxygen:/home/user/contiki/apps/tinydtls/dtls.h:308: warning: The following parameters of dtls_check_retransmit(dtls_context_t *context, clock_time_t *next, int all) are not documented:
+summary-00-doxygen:  parameter 'all'
+summary-04-rime:04-rime01-cooja-collect.testlog:TEST OK
+summary-04-rime:05-sky-trickle.testlog:TEST OK
+summary-04-rime:07-sky-collect.testlog:TEST OK
+summary-04-rime:02-cooja-rucb.testlog:TEST OK
+summary-04-rime:06-sky-collect.testlog:TEST OK
+summary-04-rime:09-cooja-mesh.testlog:TEST OK
+summary-04-rime:03-sky-abc.testlog:TEST OK
+summary-04-rime:08-cooja-trickle.testlog:TEST OK
+summary-04-rime:04-sky-runicast.testlog:TEST OK
+summary-10-ipv4:10-ipv4No tests
+summary-08-collect:08-collect01-sky-shell-collect.testlog:TEST OK
+summary-21-large-rpl:21-large-rpl01-cooja-http-socket-50.1.faillog: FAIL ಠ_ಠ
+summary-21-large-rpl:==> 01-cooja-http-socket-50.log <==
+summary-21-large-rpl:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+summary-21-large-rpl:	... 3 more
+summary-21-large-rpl:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+summary-21-large-rpl:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+summary-21-large-rpl:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+summary-21-large-rpl:	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:328)
+summary-21-large-rpl:	... 6 more
+summary-21-large-rpl:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+summary-21-large-rpl:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+summary-21-large-rpl:	at java.lang.Thread.run(Thread.java:748)
+summary-21-large-rpl:
+summary-21-large-rpl:==> 01-cooja-http-socket-50.1.faillog <==
+summary-21-large-rpl: FAIL ಠ_ಠ
+summary-22-compile-nxp-ports:22-compile-nxp-portshello-world/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/dr1175-sensors/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rime/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rpl/border-router/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rpl/node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rpl/coap-dongle-node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rpl/coap-dr1175-node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/rpl/coap-dr1199-node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/tsch/simple-sensor-network/node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/tsch/simple-sensor-network/rpl-border-router/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/tsch/tx-power-verification/node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/tsch/tx-power-verification/rpl-border-router/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:jn516x/tsch/uart1-test-node/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:sensniff/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+summary-22-compile-nxp-ports:==> 01-hello-world-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 02-jn516x-dr1175-sensors-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/dr1175-sensors'
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/dr1175-sensors'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 03-jn516x-rime-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rime'
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rime'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 04-jn516x-rpl-border-router-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/border-router'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/border-router'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 05-jn516x-rpl-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/node'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 06-jn516x-rpl-coap-dongle-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dongle-node'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dongle-node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 07-jn516x-rpl-coap-dr1175-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 08-jn516x-rpl-coap-dr1199-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1199-node'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1199-node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 09-jn516x-tsch-simple-sensor-network-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/node'
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 10-jn516x-tsch-simple-sensor-network-rpl-border-router-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/rpl-border-router'
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/rpl-border-router'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 11-jn516x-tsch-tx-power-verification-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/node'
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 12-jn516x-tsch-tx-power-verification-rpl-border-router-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/rpl-border-router'
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/rpl-border-router'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 13-jn516x-tsch-uart1-test-node-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/uart1-test-node'
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/uart1-test-node'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 14-sensniff-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/sensniff'
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/sensniff'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 15-ipv6-rpl-tsch-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 16-ipv6-rpl-tsch-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-22-compile-nxp-ports:
+summary-22-compile-nxp-ports:==> 17-ipv6-rpl-tsch-jn516x.faillog <==
+summary-22-compile-nxp-ports:make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+summary-22-compile-nxp-ports:make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+summary-22-compile-nxp-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+summary-20-ip64:20-ip6401-cooja-ip64-http-socket.1.faillog: FAIL ಠ_ಠ
+summary-20-ip64:==> 01-cooja-ip64-http-socket.log <==
+summary-20-ip64:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+summary-20-ip64:	... 3 more
+summary-20-ip64:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+summary-20-ip64:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+summary-20-ip64:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+summary-20-ip64:	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:328)
+summary-20-ip64:	... 6 more
+summary-20-ip64:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+summary-20-ip64:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+summary-20-ip64:	at java.lang.Thread.run(Thread.java:748)
+summary-20-ip64:
+summary-20-ip64:==> 01-cooja-ip64-http-socket.1.faillog <==
+summary-20-ip64: FAIL ಠ_ಠ
+summary-20-compile-tools:20-compile-toolstools/sky: OK
+summary-20-compile-tools:tools/tools: OK
+summary-20-compile-tools:tools/stm32w: OK
+summary-20-compile-tools:tools/z80=hex2bin: OK
+summary-20-compile-tools:Info: The following tools need fixing and are not tested: stm32w/uip6_bridge sky/uip6-bridge
+summary-16-compile-6502-ports:16-compile-6502-portsirc/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:irc-80col/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:telnet-server/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webbrowser/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webbrowser-80col/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webserver/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:wget/ c64: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:telnet-server/ apple2enh: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:telnet-server/ atarixl: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:telnet-server/ c128: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webbrowser-80col/ apple2enh: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webbrowser-80col/ atarixl: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:webbrowser-80col/ c128: FAIL ಠ.ಠ
+summary-16-compile-6502-ports:==> 01-irc-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/irc'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/irc'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/irc/irc.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/irc.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/irc.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/irc'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 02-irc-80col-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/irc-80col'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/irc-80col'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/irc/irc.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/irc.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/irc.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/irc-80col'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 03-telnet-server-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/telnetd/telnetd.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/telnetd.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/telnetd.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 04-webbrowser-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webbrowser'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 05-webbrowser-80col-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 06-webserver-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webserver'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webserver'
+summary-16-compile-6502-ports:using saved defines 'CONNECTIONS=4,WITH_LOGGING,WITH_BOOST,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/webserver/webserver-nogui.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/webserver-nogui.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/webserver-nogui.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webserver'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 07-wget-c64.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/wget'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/wget'
+summary-16-compile-6502-ports:using saved defines 'WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_PFS,WITH_ARGS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c64
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c64/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/wget'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 08-telnet-server-apple2enh.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_REBOOT'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_apple2enh
+summary-16-compile-6502-ports:  CC        ../../apps/telnetd/telnetd.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_apple2enh/telnetd.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_apple2enh/telnetd.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 09-telnet-server-atarixl.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_atarixl
+summary-16-compile-6502-ports:  CC        ../../apps/telnetd/telnetd.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_atarixl/telnetd.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_atarixl/telnetd.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 10-telnet-server-c128.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:using saved defines 'WITH_LOGGING,WITH_PFS,WITH_80COL'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c128
+summary-16-compile-6502-ports:  CC        ../../apps/telnetd/telnetd.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c128/telnetd.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c128/telnetd.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 11-webbrowser-80col-apple2enh.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_apple2enh
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_apple2enh/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_apple2enh/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 12-webbrowser-80col-atarixl.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_atarixl
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_atarixl/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_atarixl/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:
+summary-16-compile-6502-ports:==> 13-webbrowser-80col-c128.faillog <==
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+summary-16-compile-6502-ports:using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_PFS,MTU_SIZE=500'
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:mkdir obj_c128
+summary-16-compile-6502-ports:  CC        ../../apps/webbrowser/www.c
+summary-16-compile-6502-ports:make[2]: cl65: Command not found
+summary-16-compile-6502-ports:../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c128/www.o' failed
+summary-16-compile-6502-ports:make[2]: *** [obj_c128/www.o] Error 127
+summary-16-compile-6502-ports:make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+summary-14-compile-8051-ports:14-compile-8051-portshello-world/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:cc2530dk/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:cc2530dk/border-router/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:cc2530dk/udp-ipv6/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:ipv6/multicast/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:sensniff/ cc2530dk: FAIL ಠ.ಠ
+summary-14-compile-8051-ports:==> 01-hello-world-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../platform/cc2530dk/./segment.rules      ../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+summary-14-compile-8051-ports:
+summary-14-compile-8051-ports:==> 02-cc2530dk-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/cc2530dk'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../platform/cc2530dk/./segment.rules      ../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk'
+summary-14-compile-8051-ports:
+summary-14-compile-8051-ports:==> 03-cc2530dk-border-router-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk/border-router'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/cc2530dk/border-router'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../../platform/cc2530dk/./segment.rules      ../../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk/border-router'
+summary-14-compile-8051-ports:
+summary-14-compile-8051-ports:==> 04-cc2530dk-udp-ipv6-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk/udp-ipv6'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/cc2530dk/udp-ipv6'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../../platform/cc2530dk/./segment.rules      ../../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/cc2530dk/udp-ipv6'
+summary-14-compile-8051-ports:
+summary-14-compile-8051-ports:==> 05-ipv6-multicast-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/multicast'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/ipv6/multicast'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../../platform/cc2530dk/./segment.rules      ../../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/ipv6/multicast'
+summary-14-compile-8051-ports:
+summary-14-compile-8051-ports:==> 06-sensniff-cc2530dk.faillog <==
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/sensniff'
+summary-14-compile-8051-ports:make[2]: Entering directory '/home/user/contiki/examples/sensniff'
+summary-14-compile-8051-ports:mkdir obj_cc2530dk
+summary-14-compile-8051-ports:cat     ../../platform/cc2530dk/./segment.rules      ../../cpu/cc253x/./segment.rules              | \
+summary-14-compile-8051-ports:   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+summary-14-compile-8051-ports:  CC        ../../platform/cc2530dk/./contiki-main.c
+summary-14-compile-8051-ports:make[2]: sdcc: Command not found
+summary-14-compile-8051-ports:../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+summary-14-compile-8051-ports:make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+summary-14-compile-8051-ports:make[2]: Leaving directory '/home/user/contiki/examples/sensniff'
+summary-02-hello-world:02-hello-world02-hello-world-sky.1.faillog:TEST FAILED
+summary-02-hello-world:02-hello-world-sky.1.faillog: FAIL ಠ_ಠ
+summary-02-hello-world:05-exp5438-hello-world.1.faillog:TEST FAILED
+summary-02-hello-world:05-exp5438-hello-world.1.faillog: FAIL ಠ_ಠ
+summary-02-hello-world:07-z1-hello-world.1.faillog:TEST FAILED
+summary-02-hello-world:07-z1-hello-world.1.faillog: FAIL ಠ_ಠ
+summary-02-hello-world:06-wismote-hello-world.1.faillog:TEST FAILED
+summary-02-hello-world:06-wismote-hello-world.1.faillog: FAIL ಠ_ಠ
+summary-02-hello-world:03-hello-world-micaz.1.faillog: FAIL ಠ_ಠ
+summary-02-hello-world:==> 02-hello-world-sky.log <==
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+summary-02-hello-world: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-02-hello-world: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036865554	Duration: 367 ms	Simulated time 5000 ms	Ratio 13.623978201634877
+summary-02-hello-world: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-02-hello-world:
+summary-02-hello-world:==> 03-hello-world-micaz.log <==
+summary-02-hello-world:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+summary-02-hello-world:	... 3 more
+summary-02-hello-world:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+summary-02-hello-world:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+summary-02-hello-world:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+summary-02-hello-world:	at org.contikios.cooja.avrmote.MicaZMoteType.configureAndInit(MicaZMoteType.java:380)
+summary-02-hello-world:	... 6 more
+summary-02-hello-world:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+summary-02-hello-world:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+summary-02-hello-world:	at java.lang.Thread.run(Thread.java:748)
+summary-02-hello-world:
+summary-02-hello-world:==> 05-exp5438-hello-world.log <==
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+summary-02-hello-world: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-02-hello-world: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036869885	Duration: 346 ms	Simulated time 5000 ms	Ratio 14.45086705202312
+summary-02-hello-world: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-02-hello-world:
+summary-02-hello-world:==> 06-wismote-hello-world.log <==
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.2 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+summary-02-hello-world: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-02-hello-world: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036862511	Duration: 398 ms	Simulated time 5000 ms	Ratio 12.56281407035176
+summary-02-hello-world: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-02-hello-world:
+summary-02-hello-world:==> 07-z1-hello-world.log <==
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.3 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.2 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.2 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.1 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+summary-02-hello-world: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+summary-02-hello-world: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+summary-02-hello-world: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036858783	Duration: 737 ms	Simulated time 5000 ms	Ratio 6.784260515603799
+summary-02-hello-world: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+summary-02-hello-world:
+summary-02-hello-world:==> 02-hello-world-sky.1.faillog <==
+summary-02-hello-world:> Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7401:0001:0101
+summary-02-hello-world:> Starting 'Hello world process'
+summary-02-hello-world:> Timer fired: i=0 
+summary-02-hello-world:> Timer fired: i=1 
+summary-02-hello-world:> Timer fired: i=2 
+summary-02-hello-world:> Timer fired: i=3 
+summary-02-hello-world:TEST TIMEOUT
+summary-02-hello-world:TEST FAILED
+summary-02-hello-world:Test ended at simulation time: 5000000
+summary-02-hello-world: FAIL ಠ_ಠ
+summary-02-hello-world:
+summary-02-hello-world:==> 03-hello-world-micaz.1.faillog <==
+summary-02-hello-world: FAIL ಠ_ಠ
+summary-02-hello-world:
+summary-02-hello-world:==> 05-exp5438-hello-world.1.faillog <==
+summary-02-hello-world:> IPv6 fe80:0000:0000:0000:0200:0000:0000:0001
+summary-02-hello-world:> Starting Hello world process
+summary-02-hello-world:> Timer fired: i=0 
+summary-02-hello-world:> Timer fired: i=1 
+summary-02-hello-world:> Timer fired: i=2 
+summary-02-hello-world:> Timer fired: i=3 
+summary-02-hello-world:TEST TIMEOUT
+summary-02-hello-world:TEST FAILED
+summary-02-hello-world:Test ended at simulation time: 5000000
+summary-02-hello-world: FAIL ಠ_ಠ
+summary-02-hello-world:
+summary-02-hello-world:==> 06-wismote-hello-world.1.faillog <==
+summary-02-hello-world:> Tentative link-local IPv6 address fe80:0000:0000:0000:0200:0000:0000:0001
+summary-02-hello-world:> Starting 'Hello world process'
+summary-02-hello-world:> Timer fired: i=0 
+summary-02-hello-world:> Timer fired: i=1 
+summary-02-hello-world:> Timer fired: i=2 
+summary-02-hello-world:> Timer fired: i=3 
+summary-02-hello-world:TEST TIMEOUT
+summary-02-hello-world:TEST FAILED
+summary-02-hello-world:Test ended at simulation time: 5000000
+summary-02-hello-world: FAIL ಠ_ಠ
+summary-02-hello-world:
+summary-02-hello-world:==> 07-z1-hello-world.1.faillog <==
+summary-02-hello-world:> CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+summary-02-hello-world:> Tentative link-local IPv6 address fe80:0000:0000:0000:c30c:0000:0000:0001
+summary-02-hello-world:> Starting 'Hello world process'
+summary-02-hello-world:> Timer fired: i=0 
+summary-02-hello-world:> Timer fired: i=1 
+summary-02-hello-world:> Timer fired: i=2 
+summary-02-hello-world:TEST TIMEOUT
+summary-02-hello-world:TEST FAILED
+summary-02-hello-world:Test ended at simulation time: 5000000
+summary-02-hello-world: FAIL ಠ_ಠ
+summary-07-elfloader:07-elfloader01-sky-shell-exec-serial.1.faillog: FAIL ಠ_ಠ
+summary-07-elfloader:==> 01-sky-shell-exec-serial.log <==
+summary-07-elfloader:	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+summary-07-elfloader:	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkBean(NashornBottomLinker.java:95)
+summary-07-elfloader:	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:73)
+summary-07-elfloader:	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124)
+summary-07-elfloader:	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154)
+summary-07-elfloader:	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253)
+summary-07-elfloader:	at jdk.nashorn.internal.scripts.Script$Recompilation$1$40$\^eval\_.run(<eval>:24)
+summary-07-elfloader:	at jdk.nashorn.javaadapters.java.lang.Runnable.run(Unknown Source)
+summary-07-elfloader:	at org.contikios.cooja.plugins.LogScriptEngine$4.run(LogScriptEngine.java:300)
+summary-07-elfloader:	at java.lang.Thread.run(Thread.java:748)
+summary-07-elfloader:
+summary-07-elfloader:==> 01-sky-shell-exec-serial.1.faillog <==
+summary-07-elfloader:Random seed: 1
+summary-07-elfloader:Running test on:  /home/user/contiki/regression-tests/07-elfloader/../../examples/sky-shell-exec/hello-world.ce
+summary-07-elfloader:Waiting for node startup
+summary-07-elfloader:Preparing node for incoming data
+summary-07-elfloader:Uploading hello-world.b64:
+summary-07-elfloader: FAIL ಠ_ಠ
+summary-13-ipv6-apps:13-ipv6-apps01-sky-servreg-hack.testlog:TEST OK
+summary-11-ipv6:11-ipv606-exp5438-udp-fragmentation-contikimac-large-sender.testlog:TEST OK
+summary-11-ipv6:04-exp5438-udp-fragmentation-contikimac.testlog:TEST OK
+summary-11-ipv6:16-sky-ipv6-rpl-collect.testlog:TEST OK
+summary-11-ipv6:13-exp5438-unicast-fragmentation-nullrdc-large-sender.testlog:TEST OK
+summary-11-ipv6:07-exp5438-udp-fragmentation-nullrdc-large-sender.testlog:TEST OK
+summary-11-ipv6:11-exp5438-unicast-fragmentation-nullrdc.testlog:TEST OK
+summary-11-ipv6:18-cooja-multicast-31-hops.testlog:TEST OK
+summary-11-ipv6:12-exp5438-unicast-fragmentation-contikimac-large-sender.testlog:TEST OK
+summary-11-ipv6:17-cooja-multicast-11-hops.testlog:TEST OK
+summary-11-ipv6:15-exp5438-unicast-fragmentation-nullrdc-too-large-sender.testlog:TEST OK
+summary-11-ipv6:08-exp5438-udp-fragmentation-contikimac-too-large-sender.testlog:TEST OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:1: Sender -> Receiver OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:1: Receiver -> Sender OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:2: Sender -> Receiver OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:2: Receiver -> Sender OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:3: Sender -> Receiver OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:3: Receiver -> Sender OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:4: Sender -> Receiver OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:4: Receiver -> Sender OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:5: Sender -> Receiver OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:5: Receiver -> Sender OK
+summary-11-ipv6:01-cooja-ipv6-udp.testlog:TEST OK
+summary-11-ipv6:05-exp5438-udp-fragmentation-nullrdc.testlog:TEST OK
+summary-11-ipv6:14-exp5438-unicast-fragmentation-contikimac-too-large-sender.testlog:TEST OK
+summary-11-ipv6:09-exp5438-udp-fragmentation-nullrdc-too-large-sender.testlog:TEST OK

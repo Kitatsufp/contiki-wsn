@@ -1,0 +1,10 @@
+  CC        ../../core/net/llsec/anti-replay.c
+  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+  CC        symbols.c
+symbols.c:320:12: error: conflicting types for built-in function ‘snprintf’ [-Werror]
+symbols.c:329:12: error: conflicting types for built-in function ‘strncpy’ [-Werror]
+cc1: all warnings being treated as errors
+../../Makefile.include:240: recipe for target 'obj_sky/symbols.o' failed
+make[2]: *** [obj_sky/symbols.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'

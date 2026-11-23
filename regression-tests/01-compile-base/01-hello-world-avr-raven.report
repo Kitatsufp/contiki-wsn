@@ -1,0 +1,15 @@
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf 
+rm -rf obj_avr-raven
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+mkdir obj_avr-raven
+  CC        ../../platform/avr-raven/./contiki-raven-main.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'

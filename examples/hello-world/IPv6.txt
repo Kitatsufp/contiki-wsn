@@ -1,0 +1,102 @@
+SSID:	OISP - PUBLIC
+Protocol:	802.11n
+Security type:	WPA-Personal
+Network band:	5 GHz
+Network channel:	36
+IPv4 address:	172.28.4.250
+Manufacturer:	Intel Corporation
+Description:	Intel(R) Dual Band Wireless-AC 3165
+Driver version:	18.40.0.12
+Physical address (MAC):	?E0-94-67-D0-81-C1
+
+
+TelosB: 
+aaaa::212:7400:15d5:b389
+aaaa::212:7400:15d5:d298
+aaaa::212:7400:1506:8dc2
+aaaa::212:7400:1506:eb05
+
+Mote-4:
+aaaa::212:4b00:5af:8406
+aaaa::212:4b00:5af:8570
+
+UART not responding: due to deep sleep
+1. Solution 1: Set LPM_CONF_MAX_PM to 0 and switch back to ContikiMAC
+2. Solution 2: using NullRDC
+
+GW-ROCKCHIP Wireless IP addresses:
+- PERL: 		192.168.1.163
+- Karoline-506: 	192.168.1.108
+- LAN TelecomAP2:	172.28.20.158
+- WLAN TelecomAP2: 	193, 165
+
+0   aaaa::212:4b00:5af:8406
+1   aaaa::212:4b00:5af:8570
+2   aaaa::212:4b00:5af:84dd
+3   aaaa::212:4b00:5a9:8fd5
+4   aaaa::212:4b00:5af:83f8
+5   aaaa::212:4b00:5af:851f
+6   aaaa::212:4b00:5af:8422
+7   aaaa::212:4b00:5a9:8f83
+8   aaaa::212:4b00:5a9:8ff2
+9   aaaa::212:4b00:5a9:8f91
+10  aaaa::212:7402:2:202
+11  aaaa::212:7403:3:303
+
+ sudo apt-get install build-essential binutils-msp430 gcc-msp430 msp430-libc msp430mcu mspdebug gcc-arm-none-eabi gdb-arm-none-eabi openjdk-8-jdk openjdk-8-jre ant libncurses5-dev
+
+esize:
+resize2fs /dev/block/mtd/by-name/linuxroot
+
+alias tunslip0='sudo /home/ubuntu/contiki/tools/tunslip6 -B 115200 -s /dev/ttyUSB0 aaaa::1/64
+alias tunslip1='sudo /home/ubuntu/contiki/tools/tunslip6 -B 115200 -s /dev/ttyUSB1 aaaa::1/64
+
+sudo chmod +x /etc/init.d/filename 
+sudo update-rc.d filename defaults 
+
+Using SQL:
+Root pass: Son100480
+mysql -u root -p
+
+sudo gcc -o main main.c $(mysql_config --libs --cflags)
+
+DESCRIBE potluck;
+SELECT * FROM sls_db;
+
+CREATE TABLE sls_db (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, node_id INT, ipv6_addr VARCHAR(50), connected CHAR(1), rx_cmd INT, tx_reply INT, num_timeout INT, last_cmd INT, last_seen CHAR(30), retry INT);
+
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd, last_seen, retry) VALUES (NULL, "0", 'aaaa::212:4b00:5af:8406',"Y", "0","0","0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "1", 'aaaa::212:4b00:5af:8570',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "2", 'aaaa::212:4b00:5a9:8f83',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "3", 'aaaa::212:4b00:5a9:8fd5',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "4", 'aaaa::212:4b00:5af:83f8',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "5", 'aaaa::212:4b00:5af:851f',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "6", 'aaaa::212:4b00:5af:8422',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "7", 'aaaa::212:4b00:5af:84dd',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "8", 'aaaa::212:4b00:5a9:8ff2',"N", "0","0","0","0");
+INSERT INTO sls_db (id,node_id,ipv6_addr,connected,rx_cmd,tx_reply,num_timeout,last_cmd) VALUES (NULL, "9", 'aaaa::212:4b00:5a9:8f91',"N", "0","0","0","0");
+
+poweroff
+MINI-TESTBED
+LBR
+aaaa::212:4b00:5a9:8f91
+
+Node
+aaaa::212:4b00:5af:8422 (left- border)
+aaaa::212:4b00:5a9:8f83
+aaaa::212:4b00:5a9:8ff2 (near Power)
+
+0   aaaa::212:4b00:5a9:8f91
+1   aaaa::212:4b00:5a9:8ff2
+2   aaaa::212:4b00:5a9:8f83
+3   aaaa::212:4b00:5af:8422
+4   aaaa::212:4b00:5af:8406
+5   aaaa::212:4b00:5af:8570
+6   aaaa::212:4b00:5af:84dd
+7   aaaa::212:4b00:5a9:8fd5
+8   aaaa::212:4b00:5af:851f
+9   aaaa::212:4b00:5af:83f8
+
+
+10  aaaa::212:7402:2:202
+11  aaaa::212:7403:3:303

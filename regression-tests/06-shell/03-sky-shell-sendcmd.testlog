@@ -1,0 +1,10 @@
+Random seed: 1
+mote1> sendcmd 2.0 echo hello
+mote2: hello
+mote1> sendcmd 2.0 {echo hello again}
+mote2: hello again
+mote1> sendcmd 2.0 {sendcmd 3.0 {sendcmd 4.0 echo multihop}}
+mote4: multihop
+Test finished at time: 24387600
+TEST OK
+Test ended at simulation time: 24387600

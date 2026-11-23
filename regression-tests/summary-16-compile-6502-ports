@@ -1,0 +1,168 @@
+16-compile-6502-portsirc/ c64: FAIL ಠ.ಠ
+irc-80col/ c64: FAIL ಠ.ಠ
+telnet-server/ c64: FAIL ಠ.ಠ
+webbrowser/ c64: FAIL ಠ.ಠ
+webbrowser-80col/ c64: FAIL ಠ.ಠ
+webserver/ c64: FAIL ಠ.ಠ
+wget/ c64: FAIL ಠ.ಠ
+telnet-server/ apple2enh: FAIL ಠ.ಠ
+telnet-server/ atarixl: FAIL ಠ.ಠ
+telnet-server/ c128: FAIL ಠ.ಠ
+webbrowser-80col/ apple2enh: FAIL ಠ.ಠ
+webbrowser-80col/ atarixl: FAIL ಠ.ಠ
+webbrowser-80col/ c128: FAIL ಠ.ಠ
+==> 01-irc-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/irc'
+make[2]: Entering directory '/home/user/contiki/examples/irc'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/irc/irc.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/irc.o' failed
+make[2]: *** [obj_c64/irc.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/irc'
+
+==> 02-irc-80col-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/irc-80col'
+make[2]: Entering directory '/home/user/contiki/examples/irc-80col'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/irc/irc.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/irc.o' failed
+make[2]: *** [obj_c64/irc.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/irc-80col'
+
+==> 03-telnet-server-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/telnetd.o' failed
+make[2]: *** [obj_c64/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+
+==> 04-webbrowser-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+make[2]: *** [obj_c64/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'
+
+==> 05-webbrowser-80col-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+make[2]: *** [obj_c64/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+
+==> 06-webserver-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webserver'
+make[2]: Entering directory '/home/user/contiki/examples/webserver'
+using saved defines 'CONNECTIONS=4,WITH_LOGGING,WITH_BOOST,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/webserver/webserver-nogui.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/webserver-nogui.o' failed
+make[2]: *** [obj_c64/webserver-nogui.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webserver'
+
+==> 07-wget-c64.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/wget'
+make[2]: Entering directory '/home/user/contiki/examples/wget'
+using saved defines 'WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_PFS,WITH_ARGS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+make[2]: *** [obj_c64/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/wget'
+
+==> 08-telnet-server-apple2enh.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_REBOOT'
+make[2]: cl65: Command not found
+mkdir obj_apple2enh
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_apple2enh/telnetd.o' failed
+make[2]: *** [obj_apple2enh/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+
+==> 09-telnet-server-atarixl.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS'
+make[2]: cl65: Command not found
+mkdir obj_atarixl
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_atarixl/telnetd.o' failed
+make[2]: *** [obj_atarixl/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+
+==> 10-telnet-server-c128.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'WITH_LOGGING,WITH_PFS,WITH_80COL'
+make[2]: cl65: Command not found
+mkdir obj_c128
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c128/telnetd.o' failed
+make[2]: *** [obj_c128/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+
+==> 11-webbrowser-80col-apple2enh.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_apple2enh
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_apple2enh/www.o' failed
+make[2]: *** [obj_apple2enh/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+
+==> 12-webbrowser-80col-atarixl.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_MOUSE'
+make[2]: cl65: Command not found
+mkdir obj_atarixl
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_atarixl/www.o' failed
+make[2]: *** [obj_atarixl/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+
+==> 13-webbrowser-80col-c128.faillog <==
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser-80col'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_GUI,WITH_PFS,MTU_SIZE=500'
+make[2]: cl65: Command not found
+mkdir obj_c128
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c128/www.o' failed
+make[2]: *** [obj_c128/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser-80col'

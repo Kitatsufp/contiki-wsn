@@ -1,0 +1,28 @@
+Random seed: 1
+RECV=1, sent=0, timedout=0
+recv=1, SENT=1, timedout=0
+RECV=2, sent=1, timedout=0
+recv=2, SENT=2, timedout=0
+recv=2, sent=2, TIMEDOUT=1
+RECV=3, sent=2, timedout=1
+recv=3, SENT=3, timedout=1
+RECV=4, sent=3, timedout=1
+recv=4, SENT=4, timedout=1
+recv=4, sent=4, TIMEDOUT=2
+RECV=5, sent=4, timedout=2
+recv=5, SENT=5, timedout=2
+RECV=6, sent=5, timedout=2
+recv=6, SENT=6, timedout=2
+recv=6, sent=6, TIMEDOUT=3
+RECV=7, sent=6, timedout=3
+recv=7, SENT=7, timedout=3
+RECV=8, sent=7, timedout=3
+recv=8, SENT=8, timedout=3
+recv=8, sent=8, TIMEDOUT=4
+RECV=9, sent=8, timedout=4
+recv=9, SENT=9, timedout=4
+RECV=10, sent=9, timedout=4
+recv=10, SENT=10, timedout=4
+recv=10, sent=10, timedout=4
+TEST OK
+Test ended at simulation time: 58665678

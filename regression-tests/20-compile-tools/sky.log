@@ -1,0 +1,3 @@
+make[2]: Entering directory '/home/user/contiki/tools/sky'
+cc -O2 -o serialdump-linux serialdump.c
+make[2]: Leaving directory '/home/user/contiki/tools/sky'

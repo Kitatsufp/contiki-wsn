@@ -1,0 +1,38 @@
+[10:07:29 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[10:07:29 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[10:07:29 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[10:07:29 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[10:07:30 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[10:07:30 - main] [CompileContiki.java:140] [INFO] - > echo make clean TARGET=cooja-ip64 
+[10:07:30 - main] [CompileContiki.java:140] [INFO] - > make router.cooja-ip64 TARGET=cooja-ip64 
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> > echo make clean TARGET=cooja-ip64 
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> make clean TARGET=cooja-ip64
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> 
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> > make router.cooja-ip64 TARGET=cooja-ip64 
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >>   CC        ../../../../platform/cooja-ip64/./contiki-cooja-ip64-main.c
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> ../../../../platform/cooja-ip64/./contiki-cooja-ip64-main.c:38:17: fatal error: jni.h: No such file or directory
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> compilation terminated.
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> ../../../../Makefile.include:253: recipe for target 'contiki-cooja-ip64-main.o' failed
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> make: *** [contiki-cooja-ip64-main.o] Error 1
+[10:07:30 - main] [ContikiMoteType.java:350] [FATAL] - >> Process returned error code 2
+[10:07:30 - main] [ContikiMoteType.java:353] [FATAL] - Compilation error: Bad return value
+[10:07:30 - main] [Cooja.java:1337] [FATAL] - Exception when loading simulation: 
+org.contikios.cooja.Cooja$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3450)
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3361)
+	at org.contikios.cooja.Cooja.quickStartSimulationConfig(Cooja.java:1330)
+	at org.contikios.cooja.Cooja.main(Cooja.java:3239)
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:340)
+	at org.contikios.cooja.contikimote.ContikiMoteType.setConfigXML(ContikiMoteType.java:1333)
+	at org.contikios.cooja.Simulation.setConfigXML(Simulation.java:690)
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+	... 3 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:328)
+	... 6 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+	at java.lang.Thread.run(Thread.java:748)

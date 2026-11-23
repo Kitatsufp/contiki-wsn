@@ -1,0 +1,53 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make example-servreg-server.sky TARGET=sky 
+Message:
+Message:> make example-servreg-server.sky TARGET=sky 
+Message:make[2]: Entering directory '/home/user/contiki/examples/servreg-hack'
+Message:  CC        example-servreg-server.c
+Message:  CC        ../../platform/sky/./contiki-sky-main.c
+Message:  LD        example-servreg-server.sky
+Message:rm example-servreg-server.co obj_sky/contiki-sky-main.o
+Message:make[2]: Leaving directory '/home/user/contiki/examples/servreg-hack'
+ INFO [main] (CompileContiki.java:140) - > make example-servreg-client.sky TARGET=sky 
+Message:
+Message:> make example-servreg-client.sky TARGET=sky 
+Message:make[2]: Entering directory '/home/user/contiki/examples/servreg-hack'
+Message:make[2]: 'example-servreg-client.sky' is up to date.
+Message:make[2]: Leaving directory '/home/user/contiki/examples/servreg-hack'
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-server.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 120000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036883219
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 27.5 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 16.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 13.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 10.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 9.2 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 8.1 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 7.1 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 6.4 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 5.7 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 5.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 4.6 sec
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036889124	Duration: 5905 ms	Simulated time 70818 ms	Ratio 11.992887383573242
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

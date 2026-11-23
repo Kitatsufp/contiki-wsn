@@ -1,0 +1,299 @@
+(standard input):
+01-sky-shell-exec-serial.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-sky-shell-exec-serial.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > echo CLEANING 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> echo CLEANING 
+01-sky-shell-exec-serial.log:Message:CLEANING
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make TARGET=sky clean CLEAN=symbols.? 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make TARGET=sky clean CLEAN=symbols.? 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:rm -f *~ *core core *.srec \
+01-sky-shell-exec-serial.log:Message:*.lst *.map \
+01-sky-shell-exec-serial.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+01-sky-shell-exec-serial.log:Message:*.ce *.co
+01-sky-shell-exec-serial.log:Message:rm -rf symbols.?
+01-sky-shell-exec-serial.log:Message:rm -rf obj_sky
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > echo COMPILING FIRMWARE WITH CORE 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> echo COMPILING FIRMWARE WITH CORE 
+01-sky-shell-exec-serial.log:Message:COMPILING FIRMWARE WITH CORE
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:mkdir obj_sky
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-reboot.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-vars.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-ps.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-blink.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-text.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-time.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-file.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-run.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-coffee.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-power.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-base64.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-crc.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-download.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-netperf.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-sky.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/collect-view/collect-view.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/powertrace/powertrace.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../apps/shell/shell-dsc.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../dev/sht11/sht11.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../dev/ds2411/ds2411.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/xmem.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/i2c.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./node-id.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/sensors.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../dev/cc2420/cc2420.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/me.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/me_tabs.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/dev/slip.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/crc16.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./flash.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/dev/leds.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./lpm.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/loader/elfloader.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/loader/symtab.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/autostart.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/ctimer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/energest.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/arg.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/stimer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/etimer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/compower.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/process.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/rtimer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/mt.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/procinit.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/sys/timer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/dev/serial-line.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/dev/nullradio.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/settings.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/ringbuf.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/mmem.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/ccm-star.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/ifft.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/ringbufindex.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/list.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/aes-128.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/trickle-timer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/print-stats.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/memb.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/petsciiconv.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/gcr.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/random.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/lib/assert.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rime.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rudolph2.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/trickle.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/announcement.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/polite.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/runicast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rmh.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/packetqueue.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/ipolite.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/stunicast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rucb.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/chameleon.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/channel.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/netflood.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/broadcast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/collect.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/multihop.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rudolph1.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/mesh.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/route-discovery.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/unicast.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/abc.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/timesynch.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/rimestats.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/rime/route.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/nullmac.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/nordc.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/csma.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/frame802154.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/mac.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/framer-802154.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/phase.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/nullrdc.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/queuebuf.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/nbr-table.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/packetbuf.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/netstack.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/linkaddr.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/net-debug.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/link-stats.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/llsec/nullsec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+01-sky-shell-exec-serial.log:Message:cp ../../tools/empty-symbols.c symbols.c
+01-sky-shell-exec-serial.log:Message:cp ../../tools/empty-symbols.h symbols.h
+01-sky-shell-exec-serial.log:Message:  CC        symbols.c
+01-sky-shell-exec-serial.log:Message:  AR        contiki-sky.a
+01-sky-shell-exec-serial.log:Message:  CC        sky-shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-exec-serial.log:Message:  LD        sky-shell-exec.sky
+01-sky-shell-exec-serial.log:Message:rm sky-shell-exec.co obj_sky/contiki-sky-main.o
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:msp430-nm sky-shell-exec.sky | awk -f ../../tools/mknmlist > symbols.c
+01-sky-shell-exec-serial.log:Message:  CC        symbols.c
+01-sky-shell-exec-serial.log:Message:symbols.c:320:12: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:symbols.c:329:12: warning: conflicting types for built-in function ‘strncpy’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:  AR        contiki-sky.a
+01-sky-shell-exec-serial.log:Message:  CC        sky-shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-exec-serial.log:Message:  LD        sky-shell-exec.sky
+01-sky-shell-exec-serial.log:Message:rm sky-shell-exec.co obj_sky/contiki-sky-main.o
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:msp430-nm sky-shell-exec.sky | awk -f ../../tools/mknmlist > symbols.c
+01-sky-shell-exec-serial.log:Message:  CC        symbols.c
+01-sky-shell-exec-serial.log:Message:symbols.c:320:12: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:symbols.c:329:12: warning: conflicting types for built-in function ‘strncpy’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:  AR        contiki-sky.a
+01-sky-shell-exec-serial.log:Message:  CC        sky-shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-exec-serial.log:Message:  LD        sky-shell-exec.sky
+01-sky-shell-exec-serial.log:Message:rm sky-shell-exec.co obj_sky/contiki-sky-main.o
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:msp430-nm sky-shell-exec.sky | awk -f ../../tools/mknmlist > symbols.c
+01-sky-shell-exec-serial.log:Message:  CC        symbols.c
+01-sky-shell-exec-serial.log:Message:symbols.c:320:12: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:symbols.c:329:12: warning: conflicting types for built-in function ‘strncpy’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:  AR        contiki-sky.a
+01-sky-shell-exec-serial.log:Message:  CC        sky-shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-exec-serial.log:Message:  LD        sky-shell-exec.sky
+01-sky-shell-exec-serial.log:Message:rm sky-shell-exec.co obj_sky/contiki-sky-main.o
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:msp430-nm sky-shell-exec.sky | awk -f ../../tools/mknmlist > symbols.c
+01-sky-shell-exec-serial.log:Message:  CC        symbols.c
+01-sky-shell-exec-serial.log:Message:symbols.c:320:12: warning: conflicting types for built-in function ‘snprintf’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:symbols.c:329:12: warning: conflicting types for built-in function ‘strncpy’ [enabled by default]
+01-sky-shell-exec-serial.log:Message:  AR        contiki-sky.a
+01-sky-shell-exec-serial.log:Message:  CC        sky-shell-exec.c
+01-sky-shell-exec-serial.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-exec-serial.log:Message:  LD        sky-shell-exec.sky
+01-sky-shell-exec-serial.log:Message:rm sky-shell-exec.co obj_sky/contiki-sky-main.o
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > echo COMPILING CONTIKI EXECUTABLE 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> echo COMPILING CONTIKI EXECUTABLE 
+01-sky-shell-exec-serial.log:Message:COMPILING CONTIKI EXECUTABLE
+01-sky-shell-exec-serial.log: INFO [main] (CompileContiki.java:140) - > make hello-world.ce TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:
+01-sky-shell-exec-serial.log:Message:> make hello-world.ce TARGET=sky SMALL=0 
+01-sky-shell-exec-serial.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log:Message:  CC        hello-world.c
+01-sky-shell-exec-serial.log:Message:msp430-strip --strip-unneeded -g -x hello-world.ce
+01-sky-shell-exec-serial.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+01-sky-shell-exec-serial.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell-exec/sky-shell-exec.sky
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.MoteInterfaceViewer
+01-sky-shell-exec-serial.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+01-sky-shell-exec-serial.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 50000 ms
+01-sky-shell-exec-serial.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+01-sky-shell-exec-serial.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036880032
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+01-sky-shell-exec-serial.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.MoteInterfaceViewer
+01-sky-shell-exec-serial.log:FATAL [Thread-1] (LogScriptEngine.java:312) - Test script error, terminating Cooja.
+01-sky-shell-exec-serial.log:FATAL [Thread-1] (LogScriptEngine.java:313) - Script error:
+01-sky-shell-exec-serial.log:<eval>:24 TypeError: Java method [jdk.internal.dynalink.beans.SimpleDynamicMethod Runtime java.lang.Runtime.getRuntime()] cannot be used as a constructor.
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkBean(NashornBottomLinker.java:95)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:73)
+01-sky-shell-exec-serial.log:	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124)
+01-sky-shell-exec-serial.log:	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154)
+01-sky-shell-exec-serial.log:	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.internal.scripts.Script$Recompilation$1$40$\^eval\_.run(<eval>:24)
+01-sky-shell-exec-serial.log:	at jdk.nashorn.javaadapters.java.lang.Runnable.run(Unknown Source)
+01-sky-shell-exec-serial.log:	at org.contikios.cooja.plugins.LogScriptEngine$4.run(LogScriptEngine.java:300)
+01-sky-shell-exec-serial.log:	at java.lang.Thread.run(Thread.java:748)
+01-sky-shell-exec-serial.1.faillog:Random seed: 1
+01-sky-shell-exec-serial.1.faillog:Running test on:  /home/user/contiki/regression-tests/07-elfloader/../../examples/sky-shell-exec/hello-world.ce
+01-sky-shell-exec-serial.1.faillog:Waiting for node startup
+01-sky-shell-exec-serial.1.faillog:Preparing node for incoming data
+01-sky-shell-exec-serial.1.faillog:Uploading hello-world.b64:
+01-sky-shell-exec-serial.1.faillog: FAIL ಠ_ಠ

@@ -1,0 +1,68 @@
+[09:52:09 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[09:52:09 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[09:52:09 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[09:52:09 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[09:52:09 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[09:52:09 - main] [CompileContiki.java:140] [INFO] - > make TARGET=cooja clean 
+[09:52:09 - main] [CompileContiki.java:140] [INFO] - > make sender-node.cooja TARGET=cooja 
+[09:52:13 - main] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype652.cooja
+[09:52:13 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+[09:52:13 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a2a0 ( 68776 == 0x10ca8 bytes)
+[09:52:13 - main] [ContikiMoteType.java:500] [INFO] - mtype652.cooja: offsetting Cooja mote address space: 0x83e74000
+[09:52:13 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83e9e020 ( 610 == 0x262 bytes)
+[09:52:13 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83e9e2a0 ( 68776 == 0x10ca8 bytes)
+[09:52:13 - main] [CompileContiki.java:140] [INFO] - > make TARGET=cooja clean 
+[09:52:13 - main] [CompileContiki.java:140] [INFO] - > make root-node.cooja TARGET=cooja 
+[09:52:17 - main] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype324.cooja
+[09:52:18 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+[09:52:18 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a2a0 ( 68744 == 0x10c88 bytes)
+[09:52:18 - main] [ContikiMoteType.java:500] [INFO] - mtype324.cooja: offsetting Cooja mote address space: 0x83a23000
+[09:52:18 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83a4d020 ( 610 == 0x262 bytes)
+[09:52:18 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83a4d2a0 ( 68744 == 0x10c88 bytes)
+[09:52:18 - main] [CompileContiki.java:140] [INFO] - > make TARGET=cooja clean 
+[09:52:18 - main] [CompileContiki.java:140] [INFO] - > make receiver-node.cooja TARGET=cooja 
+[09:52:22 - main] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib3 and Contiki library '/home/user/contiki/regression-tests/12-rpl/code/obj_cooja/mtype240.cooja
+[09:52:22 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+[09:52:22 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2a2a0 ( 68776 == 0x10ca8 bytes)
+[09:52:22 - main] [ContikiMoteType.java:500] [INFO] - mtype240.cooja: offsetting Cooja mote address space: 0x83623000
+[09:52:22 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x8364d020 ( 610 == 0x262 bytes)
+[09:52:22 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x8364d2a0 ( 68776 == 0x10ca8 bytes)
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:52:22 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[09:52:22 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[09:52:22 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[09:52:22 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[09:52:23 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[09:52:23 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 1000000 ms
+[09:52:23 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[09:52:23 - Thread-8] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1616035943476
+[09:52:23 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 4.0 sec
+[09:52:23 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 2.5 sec
+[09:52:23 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 2.1 sec
+[09:52:23 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 1.8 sec
+[09:52:23 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 1.5 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 1.3 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 1.2 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 40.00%, done in 1.1 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 45.00%, done in 1.0 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 50.00%, done in 0.9 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 55.00%, done in 0.8 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 60.00%, done in 0.7 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 65.00%, done in 0.6 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 70.00%, done in 0.5 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 75.00%, done in 0.4 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 80.00%, done in 0.3 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 85.00%, done in 0.2 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 90.00%, done in 0.2 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:389] [INFO] - Test script at 95.00%, done in 0.1 sec
+[09:52:24 - Thread-8] [LogScriptEngine.java:375] [INFO] - Timeout event @ 1000000000
+[09:52:24 - Thread-7] [LogScriptEngine.java:309] [INFO] - Test script finished
+[09:52:24 - Thread-8] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1616035944958	Duration: 1482 ms	Simulated time 1000000 ms	Ratio 674.7638326585695
+[09:52:25 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated

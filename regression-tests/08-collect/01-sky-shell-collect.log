@@ -1,0 +1,57 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make collect-view-shell.sky TARGET=sky 
+Message:
+Message:> make collect-view-shell.sky TARGET=sky 
+Message:make[2]: Entering directory '/home/user/contiki/examples/collect'
+Message:make[2]: 'collect-view-shell.sky' is up to date.
+Message:make[2]: Leaving directory '/home/user/contiki/examples/collect'
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/collect/collect-view-shell.sky
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 500000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036710978
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 240.5 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 223.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 203.6 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 184.7 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 168.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 156.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 143.7 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 130.5 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 118.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 107.7 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 96.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 84.9 sec
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036847981	Duration: 137003 ms	Simulated time 323690 ms	Ratio 2.362648993087743
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

@@ -1,0 +1,25 @@
+11-ipv606-exp5438-udp-fragmentation-contikimac-large-sender.testlog:TEST OK
+04-exp5438-udp-fragmentation-contikimac.testlog:TEST OK
+16-sky-ipv6-rpl-collect.testlog:TEST OK
+13-exp5438-unicast-fragmentation-nullrdc-large-sender.testlog:TEST OK
+07-exp5438-udp-fragmentation-nullrdc-large-sender.testlog:TEST OK
+11-exp5438-unicast-fragmentation-nullrdc.testlog:TEST OK
+18-cooja-multicast-31-hops.testlog:TEST OK
+12-exp5438-unicast-fragmentation-contikimac-large-sender.testlog:TEST OK
+17-cooja-multicast-11-hops.testlog:TEST OK
+15-exp5438-unicast-fragmentation-nullrdc-too-large-sender.testlog:TEST OK
+08-exp5438-udp-fragmentation-contikimac-too-large-sender.testlog:TEST OK
+01-cooja-ipv6-udp.testlog:1: Sender -> Receiver OK
+01-cooja-ipv6-udp.testlog:1: Receiver -> Sender OK
+01-cooja-ipv6-udp.testlog:2: Sender -> Receiver OK
+01-cooja-ipv6-udp.testlog:2: Receiver -> Sender OK
+01-cooja-ipv6-udp.testlog:3: Sender -> Receiver OK
+01-cooja-ipv6-udp.testlog:3: Receiver -> Sender OK
+01-cooja-ipv6-udp.testlog:4: Sender -> Receiver OK
+01-cooja-ipv6-udp.testlog:4: Receiver -> Sender OK
+01-cooja-ipv6-udp.testlog:5: Sender -> Receiver OK
+01-cooja-ipv6-udp.testlog:5: Receiver -> Sender OK
+01-cooja-ipv6-udp.testlog:TEST OK
+05-exp5438-udp-fragmentation-nullrdc.testlog:TEST OK
+14-exp5438-unicast-fragmentation-contikimac-too-large-sender.testlog:TEST OK
+09-exp5438-udp-fragmentation-nullrdc-too-large-sender.testlog:TEST OK

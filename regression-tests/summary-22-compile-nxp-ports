@@ -1,0 +1,152 @@
+22-compile-nxp-portshello-world/ jn516x: FAIL ಠ.ಠ
+jn516x/dr1175-sensors/ jn516x: FAIL ಠ.ಠ
+jn516x/rime/ jn516x: FAIL ಠ.ಠ
+jn516x/rpl/border-router/ jn516x: FAIL ಠ.ಠ
+jn516x/rpl/node/ jn516x: FAIL ಠ.ಠ
+jn516x/rpl/coap-dongle-node/ jn516x: FAIL ಠ.ಠ
+jn516x/rpl/coap-dr1175-node/ jn516x: FAIL ಠ.ಠ
+jn516x/rpl/coap-dr1199-node/ jn516x: FAIL ಠ.ಠ
+jn516x/tsch/simple-sensor-network/node/ jn516x: FAIL ಠ.ಠ
+jn516x/tsch/simple-sensor-network/rpl-border-router/ jn516x: FAIL ಠ.ಠ
+jn516x/tsch/tx-power-verification/node/ jn516x: FAIL ಠ.ಠ
+jn516x/tsch/tx-power-verification/rpl-border-router/ jn516x: FAIL ಠ.ಠ
+jn516x/tsch/uart1-test-node/ jn516x: FAIL ಠ.ಠ
+sensniff/ jn516x: FAIL ಠ.ಠ
+ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+ipv6/rpl-tsch/ jn516x: FAIL ಠ.ಠ
+==> 01-hello-world-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 02-jn516x-dr1175-sensors-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/dr1175-sensors'
+../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/dr1175-sensors'
+
+==> 03-jn516x-rime-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rime'
+../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rime'
+
+==> 04-jn516x-rpl-border-router-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/border-router'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/border-router'
+
+==> 05-jn516x-rpl-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/node'
+
+==> 06-jn516x-rpl-coap-dongle-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dongle-node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dongle-node'
+
+==> 07-jn516x-rpl-coap-dr1175-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'
+
+==> 08-jn516x-rpl-coap-dr1199-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1199-node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1199-node'
+
+==> 09-jn516x-tsch-simple-sensor-network-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/node'
+../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/node'
+
+==> 10-jn516x-tsch-simple-sensor-network-rpl-border-router-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/rpl-border-router'
+../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/simple-sensor-network/rpl-border-router'
+
+==> 11-jn516x-tsch-tx-power-verification-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/node'
+../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/node'
+
+==> 12-jn516x-tsch-tx-power-verification-rpl-border-router-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/rpl-border-router'
+../../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/tx-power-verification/rpl-border-router'
+
+==> 13-jn516x-tsch-uart1-test-node-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/tsch/uart1-test-node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/tsch/uart1-test-node'
+
+==> 14-sensniff-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/sensniff'
+../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/sensniff'
+
+==> 15-ipv6-rpl-tsch-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+
+==> 16-ipv6-rpl-tsch-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+
+==> 17-ipv6-rpl-tsch-jn516x.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/ipv6/rpl-tsch'
+../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-tsch'

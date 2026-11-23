@@ -1,0 +1,15 @@
+23-rpl-non-storing02-rpl-root-reboot.testlog:TEST OK
+08-rpl-dao-route-loss-2.testlog:TEST OK
+10-rpl-multi-dodag.testlog:TEST OK
+08-rpl-dao-route-loss-1.testlog:TEST OK
+06-rpl-temporary-root-loss.testlog:TEST OK
+08-rpl-dao-route-loss-4.testlog:TEST OK
+08-rpl-dao-route-loss-0.testlog:TEST OK
+05-rpl-up-and-down-routes.testlog:TEST OK
+08-rpl-dao-route-loss-5.testlog:TEST OK
+04-rpl-large-network.testlog:TEST OK
+01-rpl-up-route.testlog:TEST OK
+07-rpl-random-rearrangement.testlog:TEST OK
+09-rpl-probing.testlog:TEST OK
+03-rpl-28-hours.testlog:TEST OK
+08-rpl-dao-route-loss-3.testlog:TEST OK

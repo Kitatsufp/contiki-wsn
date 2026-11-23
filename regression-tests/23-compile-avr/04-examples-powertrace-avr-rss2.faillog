@@ -1,0 +1,10 @@
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/powertrace'
+make[2]: Entering directory '/home/user/contiki/examples/powertrace'
+mkdir obj_avr-rss2
+  CC        ../../apps/powertrace/powertrace.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-rss2/powertrace.o' failed
+make[2]: *** [obj_avr-rss2/powertrace.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/powertrace'

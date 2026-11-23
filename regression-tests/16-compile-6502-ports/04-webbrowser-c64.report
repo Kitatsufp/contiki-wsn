@@ -1,0 +1,19 @@
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf 
+rm -rf obj_c64
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'
+make[2]: Entering directory '/home/user/contiki/examples/webbrowser'
+using saved defines 'WITH_CLIENT,WITH_DNS,WITH_GUI,WITH_MOUSE,WITH_PFS'
+make[2]: cl65: Command not found
+mkdir obj_c64
+  CC        ../../apps/webbrowser/www.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_c64/www.o' failed
+make[2]: *** [obj_c64/www.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webbrowser'

@@ -1,0 +1,51 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make TARGET=cooja clean 
+ INFO [main] (CompileContiki.java:140) - > make udp-server.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/examples/udp-ipv6/obj_cooja/mtype306.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2e020 ( 642 == 0x282 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2e2c0 ( 73544 == 0x11f48 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype306.cooja: offsetting Cooja mote address space: 0x83f6e000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83f9c020 ( 642 == 0x282 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83f9c2c0 ( 73544 == 0x11f48 bytes)
+ INFO [main] (CompileContiki.java:140) - > make udp-client.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/examples/udp-ipv6/obj_cooja/mtype437.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2f020 ( 642 == 0x282 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2f2c0 ( 73640 == 0x11fa8 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype437.cooja: offsetting Cooja mote address space: 0x83d6d000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83d9c020 ( 642 == 0x282 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83d9c2c0 ( 73640 == 0x11fa8 bytes)
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.RadioLogger
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-6] (Simulation.java:252) - Simulation main loop started, system time: 1616037060265
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 5.00%, done in 2.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 10.00%, done in 1.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.7 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.5 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.4 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.3 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.3 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.2 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 45.00%, done in 0.2 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 50.00%, done in 0.2 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 55.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 60.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 65.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.0 sec
+ INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+ INFO [Thread-5] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-6] (Simulation.java:311) - Simulation main loop stopped, system time: 1616037060454	Duration: 189 ms	Simulated time 91893 ms	Ratio 486.2063492063492
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

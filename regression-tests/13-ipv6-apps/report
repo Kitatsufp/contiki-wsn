@@ -1,0 +1,57 @@
+(standard input):
+01-sky-servreg-hack.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-sky-servreg-hack.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-sky-servreg-hack.log: INFO [main] (CompileContiki.java:140) - > make example-servreg-server.sky TARGET=sky 
+01-sky-servreg-hack.log:Message:
+01-sky-servreg-hack.log:Message:> make example-servreg-server.sky TARGET=sky 
+01-sky-servreg-hack.log:Message:make[2]: Entering directory '/home/user/contiki/examples/servreg-hack'
+01-sky-servreg-hack.log:Message:  CC        example-servreg-server.c
+01-sky-servreg-hack.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-servreg-hack.log:Message:  LD        example-servreg-server.sky
+01-sky-servreg-hack.log:Message:rm example-servreg-server.co obj_sky/contiki-sky-main.o
+01-sky-servreg-hack.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/servreg-hack'
+01-sky-servreg-hack.log: INFO [main] (CompileContiki.java:140) - > make example-servreg-client.sky TARGET=sky 
+01-sky-servreg-hack.log:Message:
+01-sky-servreg-hack.log:Message:> make example-servreg-client.sky TARGET=sky 
+01-sky-servreg-hack.log:Message:make[2]: Entering directory '/home/user/contiki/examples/servreg-hack'
+01-sky-servreg-hack.log:Message:make[2]: 'example-servreg-client.sky' is up to date.
+01-sky-servreg-hack.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/servreg-hack'
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-server.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/servreg-hack/example-servreg-client.sky
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+01-sky-servreg-hack.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+01-sky-servreg-hack.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+01-sky-servreg-hack.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 120000 ms
+01-sky-servreg-hack.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+01-sky-servreg-hack.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036883219
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 27.5 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 16.8 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 13.0 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 10.8 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 9.2 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 8.1 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 7.1 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 6.4 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 5.7 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 5.0 sec
+01-sky-servreg-hack.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 4.6 sec
+01-sky-servreg-hack.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+01-sky-servreg-hack.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036889124	Duration: 5905 ms	Simulated time 70818 ms	Ratio 11.992887383573242
+01-sky-servreg-hack.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+01-sky-servreg-hack.testlog:Random seed: 1
+01-sky-servreg-hack.testlog:TEST OK
+01-sky-servreg-hack.testlog:Test ended at simulation time: 70818223

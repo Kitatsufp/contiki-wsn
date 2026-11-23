@@ -1,0 +1,30 @@
+[10:12:59 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[10:12:59 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[10:12:59 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[10:12:59 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[10:12:59 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[10:12:59 - main] [Cooja.java:4260] [WARN] - Replaced [CONTIKI_DIR]/regression-tests/11-ipv6/code/sender/udp-sender.exp5438 with /home/user/contiki/regression-tests/11-ipv6/code/sender/udp-sender.exp5438 (default: ../..), but could not find it. This does not have to be an error, as the file might be created later.
+[10:12:59 - main] [CompileContiki.java:140] [INFO] - > make clean TARGET=exp5438 
+[10:12:59 - main] [CompileContiki.java:140] [INFO] - > make udp-sender.exp5438 DEFINES=NETSTACK_CONF_RDC=contikimac_driver,SIZE=500,BUFSIZE=200 TARGET=exp5438 
+[10:13:04 - main] [CompileContiki.java:140] [INFO] - > make clean TARGET=exp5438 
+[10:13:04 - main] [CompileContiki.java:140] [INFO] - > make udp-receiver.exp5438 DEFINES=NETSTACK_CONF_RDC=contikimac_driver TARGET=exp5438 
+[10:13:09 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/regression-tests/11-ipv6/code/sender/udp-sender.exp5438
+[10:13:09 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/regression-tests/11-ipv6/code/receiver/udp-receiver.exp5438
+[10:13:09 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[10:13:09 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[10:13:09 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[10:13:10 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+[10:13:10 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[10:13:10 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[10:13:10 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 200000 ms
+[10:13:10 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[10:13:10 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1616037190620
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 9.3 sec
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 5.8 sec
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 4.4 sec
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 3.5 sec
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 3.0 sec
+[10:13:11 - Thread-2] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 2.6 sec
+[10:13:11 - Thread-1] [LogScriptEngine.java:309] [INFO] - Test script finished
+[10:13:11 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1616037191761	Duration: 1141 ms	Simulated time 60916 ms	Ratio 53.388255915863276
+[10:13:12 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated

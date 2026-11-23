@@ -1,0 +1,6 @@
+Random seed: 1
+Running test on:  /home/user/contiki/regression-tests/07-elfloader/../../examples/sky-shell-exec/hello-world.ce
+Waiting for node startup
+Preparing node for incoming data
+Uploading hello-world.b64:
+ FAIL ಠ_ಠ

@@ -1,0 +1,716 @@
+(standard input):
+03-sky-shell-sendcmd.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+03-sky-shell-sendcmd.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+03-sky-shell-sendcmd.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+03-sky-shell-sendcmd.log:Message:
+03-sky-shell-sendcmd.log:Message:> make clean TARGET=sky 
+03-sky-shell-sendcmd.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+03-sky-shell-sendcmd.log:Message:rm -f *~ *core core *.srec \
+03-sky-shell-sendcmd.log:Message:*.lst *.map \
+03-sky-shell-sendcmd.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+03-sky-shell-sendcmd.log:Message:*.ce *.co
+03-sky-shell-sendcmd.log:Message:rm -rf 
+03-sky-shell-sendcmd.log:Message:rm -rf obj_sky
+03-sky-shell-sendcmd.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+03-sky-shell-sendcmd.log: INFO [main] (CompileContiki.java:140) - > make sky-shell.sky TARGET=sky 
+03-sky-shell-sendcmd.log:Message:
+03-sky-shell-sendcmd.log:Message:> make sky-shell.sky TARGET=sky 
+03-sky-shell-sendcmd.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+03-sky-shell-sendcmd.log:Message:mkdir obj_sky
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/powertrace/powertrace.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/collect-view/collect-view.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-reboot.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-vars.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-ps.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-blink.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-text.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-time.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-file.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-run.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-coffee.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-power.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-base64.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-crc.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-download.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-netperf.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-sky.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-exec.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../apps/shell/shell-dsc.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../dev/sht11/sht11.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../dev/ds2411/ds2411.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/xmem.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/i2c.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/./node-id.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/sensors.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../dev/cc2420/cc2420.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/me.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/me_tabs.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/dev/slip.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/crc16.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./flash.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/dev/leds.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./lpm.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/loader/elfloader.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/loader/symtab.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/autostart.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/ctimer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/energest.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/arg.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/stimer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/etimer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/compower.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/process.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/rtimer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/mt.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/procinit.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/sys/timer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/dev/serial-line.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/dev/nullradio.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/settings.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/ringbuf.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/mmem.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/ccm-star.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/ifft.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/ringbufindex.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/list.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/aes-128.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/trickle-timer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/print-stats.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/memb.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/petsciiconv.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/gcr.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/random.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/lib/assert.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rime.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rudolph2.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/trickle.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/announcement.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/polite.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/runicast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rmh.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/packetqueue.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/ipolite.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/stunicast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rucb.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/chameleon.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/channel.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/netflood.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/broadcast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/collect.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/multihop.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rudolph1.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/mesh.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/route-discovery.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/unicast.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/abc.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/timesynch.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/rimestats.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/rime/route.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/nullmac.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/nordc.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/csma.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/frame802154.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/mac.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/framer-802154.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/phase.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/nullrdc.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/queuebuf.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/nbr-table.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/packetbuf.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/netstack.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/linkaddr.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/net-debug.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/link-stats.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/llsec/nullsec.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+03-sky-shell-sendcmd.log:Message:  CC        symbols.c
+03-sky-shell-sendcmd.log:Message:  AR        contiki-sky.a
+03-sky-shell-sendcmd.log:Message:  CC        sky-shell.c
+03-sky-shell-sendcmd.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+03-sky-shell-sendcmd.log:Message:  LD        sky-shell.sky
+03-sky-shell-sendcmd.log:Message:rm sky-shell.co obj_sky/contiki-sky-main.o
+03-sky-shell-sendcmd.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+03-sky-shell-sendcmd.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+03-sky-shell-sendcmd.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+03-sky-shell-sendcmd.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+03-sky-shell-sendcmd.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+03-sky-shell-sendcmd.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+03-sky-shell-sendcmd.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 150000 ms
+03-sky-shell-sendcmd.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+03-sky-shell-sendcmd.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616035963589
+03-sky-shell-sendcmd.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+03-sky-shell-sendcmd.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 22.6 sec
+03-sky-shell-sendcmd.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 14.3 sec
+03-sky-shell-sendcmd.log:MSP430: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:Stack Trace: number of calls: 12 PC: $0633c
+03-sky-shell-sendcmd.log:  recv_uc (local in shell-rime-sendcmd.c) called from PC: $0a61c (elapsed: 197)
+03-sky-shell-sendcmd.log:  recv_from_broadcast (local in unicast.c) called from PC: $09990 (elapsed: 293)
+03-sky-shell-sendcmd.log:  recv_from_abc (local in broadcast.c) called from PC: $0a69a (elapsed: 334)
+03-sky-shell-sendcmd.log:  abc_input (memset.c) called from PC: $09098 (elapsed: 347)
+03-sky-shell-sendcmd.log:  input (local in rime.c) called from PC: $0b62e (elapsed: 1461)
+03-sky-shell-sendcmd.log:  input (local in nullsec.c) called from PC: $0a7d2 (elapsed: 1466)
+03-sky-shell-sendcmd.log:  input_packet (local in csma.c) called from PC: $0b0a0 (elapsed: 1471)
+03-sky-shell-sendcmd.log:  input_packet (local in contikimac.c) called from PC: $07722 (elapsed: 4764)
+03-sky-shell-sendcmd.log:  process_thread_cc2420_process (local in cc2420.c) called from PC: $08af4 (elapsed: 8957)
+03-sky-shell-sendcmd.log:  call_process (local in process.c) called from PC: $08bd2 (elapsed: 8992)
+03-sky-shell-sendcmd.log:  do_poll (local in process.c) called from PC: $08c22 (elapsed: 9074)
+03-sky-shell-sendcmd.log:  process_run (memset.c) called from PC: $04252 (elapsed: 9094)
+03-sky-shell-sendcmd.log: WARN [Thread-2] (MspMote.java:229) - 2: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:MSP430: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:Stack Trace: number of calls: 12 PC: $0633c
+03-sky-shell-sendcmd.log:  recv_uc (local in shell-rime-sendcmd.c) called from PC: $0a61c (elapsed: 197)
+03-sky-shell-sendcmd.log:  recv_from_broadcast (local in unicast.c) called from PC: $09990 (elapsed: 293)
+03-sky-shell-sendcmd.log:  recv_from_abc (local in broadcast.c) called from PC: $0a69a (elapsed: 334)
+03-sky-shell-sendcmd.log:  abc_input (memset.c) called from PC: $09098 (elapsed: 347)
+03-sky-shell-sendcmd.log:  input (local in rime.c) called from PC: $0b62e (elapsed: 1075)
+03-sky-shell-sendcmd.log:  input (local in nullsec.c) called from PC: $0a7d2 (elapsed: 1080)
+03-sky-shell-sendcmd.log:  input_packet (local in csma.c) called from PC: $0b0a0 (elapsed: 1085)
+03-sky-shell-sendcmd.log:  input_packet (local in contikimac.c) called from PC: $07722 (elapsed: 3962)
+03-sky-shell-sendcmd.log:  process_thread_cc2420_process (local in cc2420.c) called from PC: $08af4 (elapsed: 7201)
+03-sky-shell-sendcmd.log:  call_process (local in process.c) called from PC: $08bd2 (elapsed: 7236)
+03-sky-shell-sendcmd.log:  do_poll (local in process.c) called from PC: $08c22 (elapsed: 7318)
+03-sky-shell-sendcmd.log:  process_run (memset.c) called from PC: $04252 (elapsed: 7338)
+03-sky-shell-sendcmd.log: WARN [Thread-2] (MspMote.java:229) - 2: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 12.1 sec
+03-sky-shell-sendcmd.log:MSP430: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:Stack Trace: number of calls: 12 PC: $0633c
+03-sky-shell-sendcmd.log:  recv_uc (local in shell-rime-sendcmd.c) called from PC: $0a61c (elapsed: 197)
+03-sky-shell-sendcmd.log:  recv_from_broadcast (local in unicast.c) called from PC: $09990 (elapsed: 293)
+03-sky-shell-sendcmd.log:  recv_from_abc (local in broadcast.c) called from PC: $0a69a (elapsed: 334)
+03-sky-shell-sendcmd.log:  abc_input (memset.c) called from PC: $09098 (elapsed: 347)
+03-sky-shell-sendcmd.log:  input (local in rime.c) called from PC: $0b62e (elapsed: 1075)
+03-sky-shell-sendcmd.log:  input (local in nullsec.c) called from PC: $0a7d2 (elapsed: 1080)
+03-sky-shell-sendcmd.log:  input_packet (local in csma.c) called from PC: $0b0a0 (elapsed: 1085)
+03-sky-shell-sendcmd.log:  input_packet (local in contikimac.c) called from PC: $07722 (elapsed: 3792)
+03-sky-shell-sendcmd.log:  process_thread_cc2420_process (local in cc2420.c) called from PC: $08af4 (elapsed: 8840)
+03-sky-shell-sendcmd.log:  call_process (local in process.c) called from PC: $08bd2 (elapsed: 8875)
+03-sky-shell-sendcmd.log:  do_poll (local in process.c) called from PC: $08c22 (elapsed: 8957)
+03-sky-shell-sendcmd.log:  process_run (memset.c) called from PC: $04252 (elapsed: 8977)
+03-sky-shell-sendcmd.log: WARN [Thread-2] (MspMote.java:229) - 2: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:MSP430: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:Stack Trace: number of calls: 12 PC: $0633c
+03-sky-shell-sendcmd.log:  recv_uc (local in shell-rime-sendcmd.c) called from PC: $0a61c (elapsed: 197)
+03-sky-shell-sendcmd.log:  recv_from_broadcast (local in unicast.c) called from PC: $09990 (elapsed: 293)
+03-sky-shell-sendcmd.log:  recv_from_abc (local in broadcast.c) called from PC: $0a69a (elapsed: 334)
+03-sky-shell-sendcmd.log:  abc_input (memset.c) called from PC: $09098 (elapsed: 347)
+03-sky-shell-sendcmd.log:  input (local in rime.c) called from PC: $0b62e (elapsed: 1461)
+03-sky-shell-sendcmd.log:  input (local in nullsec.c) called from PC: $0a7d2 (elapsed: 1466)
+03-sky-shell-sendcmd.log:  input_packet (local in csma.c) called from PC: $0b0a0 (elapsed: 1471)
+03-sky-shell-sendcmd.log:  input_packet (local in contikimac.c) called from PC: $07722 (elapsed: 4357)
+03-sky-shell-sendcmd.log:  process_thread_cc2420_process (local in cc2420.c) called from PC: $08af4 (elapsed: 7914)
+03-sky-shell-sendcmd.log:  call_process (local in process.c) called from PC: $08bd2 (elapsed: 7949)
+03-sky-shell-sendcmd.log:  do_poll (local in process.c) called from PC: $08c22 (elapsed: 8031)
+03-sky-shell-sendcmd.log:  process_run (memset.c) called from PC: $04252 (elapsed: 8051)
+03-sky-shell-sendcmd.log: WARN [Thread-2] (MspMote.java:229) - 3: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:MSP430: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log:Stack Trace: number of calls: 12 PC: $0633c
+03-sky-shell-sendcmd.log:  recv_uc (local in shell-rime-sendcmd.c) called from PC: $0a61c (elapsed: 197)
+03-sky-shell-sendcmd.log:  recv_from_broadcast (local in unicast.c) called from PC: $09990 (elapsed: 293)
+03-sky-shell-sendcmd.log:  recv_from_abc (local in broadcast.c) called from PC: $0a69a (elapsed: 334)
+03-sky-shell-sendcmd.log:  abc_input (memset.c) called from PC: $09098 (elapsed: 347)
+03-sky-shell-sendcmd.log:  input (local in rime.c) called from PC: $0b62e (elapsed: 1461)
+03-sky-shell-sendcmd.log:  input (local in nullsec.c) called from PC: $0a7d2 (elapsed: 1466)
+03-sky-shell-sendcmd.log:  input_packet (local in csma.c) called from PC: $0b0a0 (elapsed: 1471)
+03-sky-shell-sendcmd.log:  input_packet (local in contikimac.c) called from PC: $07722 (elapsed: 4178)
+03-sky-shell-sendcmd.log:  process_thread_cc2420_process (local in cc2420.c) called from PC: $08af4 (elapsed: 8168)
+03-sky-shell-sendcmd.log:  call_process (local in process.c) called from PC: $08bd2 (elapsed: 8203)
+03-sky-shell-sendcmd.log:  do_poll (local in process.c) called from PC: $08c22 (elapsed: 8285)
+03-sky-shell-sendcmd.log:  process_run (memset.c) called from PC: $04252 (elapsed: 8305)
+03-sky-shell-sendcmd.log: WARN [Thread-2] (MspMote.java:229) - 4: # MSP430[MISALIGNED_READ]: **** Illegal read - misaligned word from $2baf at $633c
+03-sky-shell-sendcmd.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+03-sky-shell-sendcmd.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616035965911	Duration: 2322 ms	Simulated time 24387 ms	Ratio 10.502583979328165
+03-sky-shell-sendcmd.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+02-sky-shell-basic-commands.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+02-sky-shell-basic-commands.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+02-sky-shell-basic-commands.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+02-sky-shell-basic-commands.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+02-sky-shell-basic-commands.log: WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+02-sky-shell-basic-commands.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+02-sky-shell-basic-commands.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+02-sky-shell-basic-commands.log:Message:
+02-sky-shell-basic-commands.log:Message:> make clean TARGET=sky 
+02-sky-shell-basic-commands.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+02-sky-shell-basic-commands.log:Message:rm -f *~ *core core *.srec \
+02-sky-shell-basic-commands.log:Message:*.lst *.map \
+02-sky-shell-basic-commands.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+02-sky-shell-basic-commands.log:Message:*.ce *.co
+02-sky-shell-basic-commands.log:Message:rm -rf 
+02-sky-shell-basic-commands.log:Message:rm -rf obj_sky
+02-sky-shell-basic-commands.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+02-sky-shell-basic-commands.log: INFO [main] (CompileContiki.java:140) - > make sky-shell.sky TARGET=sky 
+02-sky-shell-basic-commands.log:Message:
+02-sky-shell-basic-commands.log:Message:> make sky-shell.sky TARGET=sky 
+02-sky-shell-basic-commands.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+02-sky-shell-basic-commands.log:Message:mkdir obj_sky
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/powertrace/powertrace.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/collect-view/collect-view.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-reboot.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-vars.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-ps.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-blink.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-text.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-time.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-file.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-run.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-coffee.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-power.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-base64.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-crc.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-download.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-netperf.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-sky.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-exec.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../apps/shell/shell-dsc.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../dev/sht11/sht11.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../dev/ds2411/ds2411.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/xmem.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/i2c.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/./node-id.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/sensors.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../dev/cc2420/cc2420.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/me.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/me_tabs.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/dev/slip.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/crc16.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./flash.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/dev/leds.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./lpm.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/loader/elfloader.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/loader/symtab.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/autostart.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/ctimer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/energest.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/arg.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/stimer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/etimer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/compower.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/process.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/rtimer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/mt.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/procinit.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/sys/timer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/dev/serial-line.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/dev/nullradio.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/settings.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/ringbuf.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/mmem.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/ccm-star.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/ifft.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/ringbufindex.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/list.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/aes-128.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/trickle-timer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/print-stats.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/memb.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/petsciiconv.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/gcr.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/random.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/lib/assert.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rime.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rudolph2.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/trickle.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/announcement.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/polite.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/runicast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rmh.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/packetqueue.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/ipolite.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/stunicast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rucb.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/chameleon.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/channel.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/netflood.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/broadcast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/collect.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/multihop.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rudolph1.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/mesh.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/route-discovery.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/unicast.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/abc.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/timesynch.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/rimestats.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/rime/route.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/nullmac.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/nordc.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/csma.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/frame802154.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/mac.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/framer-802154.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/phase.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/nullrdc.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/queuebuf.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/nbr-table.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/packetbuf.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/netstack.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/linkaddr.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/net-debug.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/link-stats.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/llsec/nullsec.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+02-sky-shell-basic-commands.log:Message:  CC        symbols.c
+02-sky-shell-basic-commands.log:Message:  AR        contiki-sky.a
+02-sky-shell-basic-commands.log:Message:  CC        sky-shell.c
+02-sky-shell-basic-commands.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+02-sky-shell-basic-commands.log:Message:  LD        sky-shell.sky
+02-sky-shell-basic-commands.log:Message:rm sky-shell.co obj_sky/contiki-sky-main.o
+02-sky-shell-basic-commands.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+02-sky-shell-basic-commands.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+02-sky-shell-basic-commands.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+02-sky-shell-basic-commands.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+02-sky-shell-basic-commands.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+02-sky-shell-basic-commands.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 3000 ms
+02-sky-shell-basic-commands.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+02-sky-shell-basic-commands.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616035974636
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.1 sec
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.1 sec
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.2 sec
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.3 sec
+02-sky-shell-basic-commands.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.6 sec
+02-sky-shell-basic-commands.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+02-sky-shell-basic-commands.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616035974916	Duration: 280 ms	Simulated time 986 ms	Ratio 3.5214285714285714
+02-sky-shell-basic-commands.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+01-sky-shell-compile.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-sky-shell-compile.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-sky-shell-compile.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-sky-shell-compile.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-sky-shell-compile.log: WARN [main] (Cooja.java:3624) - Loaded simulation may depend on not found  extension: '/home/user/contiki/tools/cooja/apps/native_gateway'
+01-sky-shell-compile.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-sky-shell-compile.log: INFO [main] (CompileContiki.java:140) - > make clean TARGET=sky 
+01-sky-shell-compile.log:Message:
+01-sky-shell-compile.log:Message:> make clean TARGET=sky 
+01-sky-shell-compile.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+01-sky-shell-compile.log:Message:rm -f *~ *core core *.srec \
+01-sky-shell-compile.log:Message:*.lst *.map \
+01-sky-shell-compile.log:Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+01-sky-shell-compile.log:Message:*.ce *.co
+01-sky-shell-compile.log:Message:rm -rf 
+01-sky-shell-compile.log:Message:rm -rf obj_sky
+01-sky-shell-compile.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+01-sky-shell-compile.log: INFO [main] (CompileContiki.java:140) - > make sky-shell.sky TARGET=sky 
+01-sky-shell-compile.log:Message:
+01-sky-shell-compile.log:Message:> make sky-shell.sky TARGET=sky 
+01-sky-shell-compile.log:Message:make[2]: Entering directory '/home/user/contiki/examples/sky-shell'
+01-sky-shell-compile.log:Message:mkdir obj_sky
+01-sky-shell-compile.log:Message:  CC        ../../apps/serial-shell/serial-shell.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/powertrace/powertrace.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/collect-view/collect-view.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/collect-view/collect-view-sky.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-reboot.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-vars.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-ps.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-blink.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-text.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-time.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-file.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-run.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-coffee.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-power.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-base64.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-memdebug.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-powertrace.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-crc.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-sendtest.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-ping.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-sniff.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-netcmd.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-debug.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-debug-runicast.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-sendcmd.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-download.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-neighbors.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-rime-unicast.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-netperf.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-collect-view.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-sky.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-exec.c
+01-sky-shell-compile.log:Message:  CC        ../../apps/shell/shell-dsc.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/./contiki-sky-platform.c
+01-sky-shell-compile.log:Message:  CC        ../../dev/sht11/sht11.c
+01-sky-shell-compile.log:Message:  CC        ../../dev/sht11/sht11-sensor.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/light-sensor.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/battery-sensor.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/button-sensor.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/radio-sensor.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/f1xxx/spi.c
+01-sky-shell-compile.log:Message:  CC        ../../dev/ds2411/ds2411.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/xmem.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/i2c.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/./node-id.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/sensors.c
+01-sky-shell-compile.log:Message:  CC        ../../core/cfs/cfs-coffee.c
+01-sky-shell-compile.log:Message:  CC        ../../dev/cc2420/cc2420.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./cc2420-arch.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./cc2420-arch-sfd.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/dev/sky-sensors.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./uip-ipchksum.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/f1xxx/uart1.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./slip_uart1.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/dev/uart1-putchar.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/me.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/me_tabs.c
+01-sky-shell-compile.log:Message:  CC        ../../core/dev/slip.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/crc16.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/f1xxx/msp430.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./flash.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/f1xxx/clock.c
+01-sky-shell-compile.log:Message:  CC        ../../core/dev/leds.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./leds-arch.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./watchdog.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./lpm.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/f1xxx/rtimer-arch.c
+01-sky-shell-compile.log:Message:  CC        ../../cpu/msp430/./mtarch.c
+01-sky-shell-compile.log:Message:  CC        ../../core/loader/elfloader.c
+01-sky-shell-compile.log:Message:  CC        ../../core/loader/elfloader-msp430.c
+01-sky-shell-compile.log:Message:  CC        ../../core/loader/symtab.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/autostart.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/ctimer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/energest.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/arg.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/stimer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/etimer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/compower.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/process.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/rtimer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/mt.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/procinit.c
+01-sky-shell-compile.log:Message:  CC        ../../core/sys/timer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/dev/serial-line.c
+01-sky-shell-compile.log:Message:  CC        ../../core/dev/nullradio.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/settings.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/ringbuf.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/mmem.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/ccm-star.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/ifft.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/ringbufindex.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/list.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/aes-128.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/trickle-timer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/print-stats.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/memb.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/petsciiconv.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/gcr.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/random.c
+01-sky-shell-compile.log:Message:  CC        ../../core/lib/assert.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/chameleon-bitopt.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rime.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/broadcast-announcement.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rudolph2.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/polite-announcement.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/trickle.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/stbroadcast.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/announcement.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/polite.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/chameleon-raw.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/runicast.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rmh.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/collect-neighbor.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/packetqueue.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/ipolite.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/stunicast.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rucb.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/chameleon.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/channel.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/netflood.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/broadcast.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/neighbor-discovery.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/collect.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/multihop.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rudolph1.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/mesh.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/route-discovery.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/unicast.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/abc.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/collect-link-estimate.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/timesynch.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/rimestats.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/rime/route.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/framer-nullmac.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/nullmac.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/nullrdc-noframer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/frame802154e-ie.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/mac-sequence.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/nordc.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/csma.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/frame802154.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/mac.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/framer-802154.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/phase.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/nullrdc.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/queuebuf.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/nbr-table.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/packetbuf.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/netstack.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/linkaddr.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/net-debug.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/link-stats.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/contikimac/contikimac.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/contikimac/contikimac-framer.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/mac/cxmac/cxmac.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/llsec/nullsec.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/llsec/anti-replay.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+01-sky-shell-compile.log:Message:  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+01-sky-shell-compile.log:Message:  CC        symbols.c
+01-sky-shell-compile.log:Message:  AR        contiki-sky.a
+01-sky-shell-compile.log:Message:  CC        sky-shell.c
+01-sky-shell-compile.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+01-sky-shell-compile.log:Message:  LD        sky-shell.sky
+01-sky-shell-compile.log:Message:rm sky-shell.co obj_sky/contiki-sky-main.o
+01-sky-shell-compile.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/sky-shell'
+01-sky-shell-compile.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/sky-shell/sky-shell.sky
+01-sky-shell-compile.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+01-sky-shell-compile.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+01-sky-shell-compile.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+01-sky-shell-compile.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 2000 ms
+01-sky-shell-compile.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+01-sky-shell-compile.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616035983697
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.0 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.0 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.0 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.1 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.2 sec
+01-sky-shell-compile.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.2 sec
+01-sky-shell-compile.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+01-sky-shell-compile.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616035983902	Duration: 205 ms	Simulated time 833 ms	Ratio 4.0634146341463415
+01-sky-shell-compile.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+03-sky-shell-sendcmd.testlog:Random seed: 1
+03-sky-shell-sendcmd.testlog:mote1> sendcmd 2.0 echo hello
+03-sky-shell-sendcmd.testlog:mote2: hello
+03-sky-shell-sendcmd.testlog:mote1> sendcmd 2.0 {echo hello again}
+03-sky-shell-sendcmd.testlog:mote2: hello again
+03-sky-shell-sendcmd.testlog:mote1> sendcmd 2.0 {sendcmd 3.0 {sendcmd 4.0 echo multihop}}
+03-sky-shell-sendcmd.testlog:mote4: multihop
+03-sky-shell-sendcmd.testlog:Test finished at time: 24387600
+03-sky-shell-sendcmd.testlog:TEST OK
+03-sky-shell-sendcmd.testlog:Test ended at simulation time: 24387600
+02-sky-shell-basic-commands.testlog:Random seed: 1
+02-sky-shell-basic-commands.testlog:Shell started
+02-sky-shell-basic-commands.testlog:> echo Hello
+02-sky-shell-basic-commands.testlog:> help
+02-sky-shell-basic-commands.testlog:TEST OK
+02-sky-shell-basic-commands.testlog:Test ended at simulation time: 986217
+01-sky-shell-compile.testlog:Random seed: 1
+01-sky-shell-compile.testlog:TEST OK
+01-sky-shell-compile.testlog:Test ended at simulation time: 833688

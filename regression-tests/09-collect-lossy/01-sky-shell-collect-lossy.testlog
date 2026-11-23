@@ -1,0 +1,3871 @@
+Random seed: 1
+Node 20 booted
+Node 5 booted
+Node 17 booted
+Node 11 booted
+Node 9 booted
+Node 18 booted
+Node 10 booted
+Node 15 booted
+Node 19 booted
+Node 7 booted
+Node 13 booted
+Node 1 booted
+Node 3 booted
+Node 14 booted
+Node 2 booted
+Node 6 booted
+Node 16 booted
+Node 8 booted
+Node 4 booted
+Node 12 booted
+All nodes booted, creating sink at node 12
+Writing collect command
+Writing netcmd
+41333750 12 netcmd sending '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41337896 12 12.0: Contiki> 
+41389183 17 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41397199 4 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41401754 15 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41414070 16 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41421692 19 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41434361 7 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41442259 2 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41442832 20 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41446433 3 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41466893 13 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41475726 1 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41708524 8 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41728618 10 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41745424 6 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41807487 18 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+41938897 11 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+42115839 5 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+42119959 14 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+42419634 9 netcmd server got command string '  repeat 10 60 { randwait 60 collect-view-data | blink | send 31 }'
+47940298 12 30 0 46 0 14 0 2 0 22 5675 0 3409 41980 445 799 16 8 16 9 32 252 1 189 182 65535 65535 0 0 0 0 
+Time 47940298
+Received 1 messages, 0.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 2 hops/message
+Received:
+Node 1 received: ________ hops: ________
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: ________ hops: ________
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: ________ hops: ________
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: ________ hops: ________
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: ________ hops: ________
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.510630328934323% lpm 92.48936967106567% rx 1.7603384079843134% tx 0.9804137566370706% average latency 0 ms 
+48314160 12 30 0 47 0 8 0 1 0 22 5976 0 3644 44154 355 1199 12 8 8 8 32 252 1 133 182 65535 65535 0 0 0 0 
+Time 48314160
+Received 2 messages, 0.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.5 hops/message
+Received:
+Node 1 received: ________ hops: ________
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: ________ hops: ________
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: ________ hops: ________
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: ________ hops: ________
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.568652279824439% lpm 92.43134772017557% rx 2.144075890413899% tx 0.8584888450105701% average latency 0 ms 
+51187133 12 30 0 49 0 13 0 1 0 22 6441 0 3604 47913 381 1000 12 8 8 2 32 252 1 189 182 65535 65535 0 0 0 0 
+Time 51187133
+Received 3 messages, 0.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3333333333333333 hops/message
+Received:
+Node 1 received: ________ hops: ________
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: ________ hops: ________
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: ________ hops: ________
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.36468929677134% lpm 92.63531070322865% rx 2.071815568332596% tx 0.8161488279522335% average latency 0 ms 
+59938738 12 30 0 58 0 1 0 1 0 22 7557 0 4580 55865 442 1337 12 8 8 11 32 252 1 189 182 65535 65535 0 0 0 0 
+Time 59938738
+Received 4 messages, 0.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.25 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: ________ hops: ________
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: ________ hops: ________
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.427284559027829% lpm 92.57271544097217% rx 2.1130982846613926% tx 0.7911322989631926% average latency 0 ms 
+63437508 12 30 0 62 0 15 0 1 0 22 8028 0 5037 59178 607 1475 12 16 16 6 64 252 1 133 182 65535 65535 0 0 0 0 
+Time 63437508
+Received 5 messages, 0.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: ________ hops: ________
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.52661825633715% lpm 92.47338174366286% rx 2.156932626483123% tx 0.8278760339169302% average latency 0 ms 
+63937982 12 30 0 62 0 4 0 1 0 22 7987 0 4725 59161 414 1393 12 16 16 6 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 63937982
+Received 6 messages, 0.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.1666666666666667 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: ________ hops: ________
+Node 20 received: ________ hops: ________
+Stats: cpu 7.501575393848462% lpm 92.49842460615154% rx 2.1614403600900225% tx 0.7933983495873969% average latency 0 ms 
+65562828 12 30 0 64 0 19 0 1 0 22 8303 0 5186 61227 572 1279 12 8 8 5 64 252 1 133 182 65535 65535 0 0 0 0 
+Time 65562828
+Received 7 messages, 0.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.1428571428571428 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: ________ hops: ________
+Node 18 received: ________ hops: ________
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: ________ hops: ________
+Stats: cpu 7.552613076516965% lpm 92.44738692348304% rx 2.1222880276633065% tx 0.8046779411654319% average latency 0 ms 
+66312609 12 30 0 65 0 17 0 1 0 22 8428 0 5383 62031 632 1592 12 16 16 12 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 66312609
+Received 8 messages, 0.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.125 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: ________ hops: ________
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: ________ hops: ________
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: ________ hops: ________
+Stats: cpu 7.615018508725542% lpm 92.38498149127446% rx 2.15681782661103% tx 0.8238470316457458% average latency 0 ms 
+66691566 12 30 0 65 0 6 0 1 0 22 7907 0 5029 58217 571 1492 12 16 16 13 32 252 1 189 182 65535 65535 0 0 0 0 
+Time 66691566
+Received 9 messages, 0.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.1111111111111112 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: ________ hops: ________
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: ________ hops: ________
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: ________ hops: ________
+Stats: cpu 7.655146014787214% lpm 92.34485398521278% rx 2.180935015075718% tx 0.8332657644492131% average latency 0 ms 
+67063882 12 30 0 65 0 3 0 1 0 22 7926 0 4837 58561 657 887 12 16 16 2 64 252 1 133 182 65535 65535 0 0 0 0 
+Time 67063882
+Received 10 messages, 0.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.1 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: ________ hops: ________
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: ________ hops: ________
+Stats: cpu 7.652415865364372% lpm 92.34758413463562% rx 2.0974498122855683% tx 0.8549470205702678% average latency 0 ms 
+71437035 12 30 0 70 0 20 0 1 0 22 9083 0 3071 33255 437 833 12 16 16 5 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 71437035
+Received 11 messages, 0.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.0909090909090908 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: ________ hops: ________
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.6986320068185385% lpm 92.30136799318146% rx 2.10873157081932% tx 0.8750140862507083% average latency 0 ms 
+74438457 12 30 0 73 0 18 0 2 0 22 9429 0 3255 34455 463 724 20 16 32 15 16 252 1 189 182 65535 65535 0 0 0 0 
+Time 74438457
+Received 12 messages, 0.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.1666666666666667 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: ________ hops: ________
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.751322711705006% lpm 92.248677288295% rx 2.0980686087903235% tx 0.8949363316296197% average latency 0 ms 
+76065331 12 30 0 74 0 9 0 2 0 22 9639 0 2889 35662 272 756 16 8 16 11 64 252 1 133 182 65535 65535 0 0 0 0 
+Time 76065331
+Received 13 messages, 0.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2307692307692308 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: ________ hops: ________
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.737276089184888% lpm 92.26272391081511% rx 2.090589374607112% tx 0.8845999195818255% average latency 0 ms 
+79936863 12 30 0 78 0 16 0 1 0 22 10080 0 3686 36628 582 1158 12 8 8 1 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 79936863
+Received 14 messages, 0.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2142857142857142 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: ________ hops: ________
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.813190610509736% lpm 92.18680938949026% rx 2.1328061589398652% tx 0.9147868667143481% average latency 0 ms 
+81312338 12 30 0 80 0 10 0 2 0 22 10196 0 3252 37526 352 796 16 16 24 13 64 252 1 133 182 65535 65535 0 0 0 0 
+Time 81312338
+Received 15 messages, 0.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2666666666666666 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: ________ hops: ________
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.821564643129286% lpm 92.17843535687071% rx 2.1234442468884938% tx 0.9121158242316485% average latency 0 ms 
+83189307 12 30 0 81 0 2 0 1 0 22 10478 0 3192 38715 304 830 12 16 16 8 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 83189307
+Received 16 messages, 0.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.25 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: ________ hops: ________
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.81122069390467% lpm 92.18877930609533% rx 2.116224751509393% tx 0.9026813954301603% average latency 0 ms 
+91063526 12 30 0 89 0 5 0 2 0 22 11561 0 3403 42835 242 854 16 16 24 13 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 91063526
+Received 17 messages, 0.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2941176470588236 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: ________ hops: ________
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.78737814732538% lpm 92.21262185267462% rx 2.102005036862754% tx 0.8826502349964879% average latency 0 ms 
+92316825 12 30 0 91 0 7 0 1 0 22 11706 0 3389 43429 220 934 12 16 16 9 64 252 1 189 182 65535 65535 0 0 0 0 
+Time 92316825
+Received 18 messages, 0.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2777777777777777 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: ________ hops: ________
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.75952634700221% lpm 92.24047365299779% rx 2.0965715233590245% tx 0.8616997863097284% average latency 0 ms 
+95817297 12 30 0 94 0 11 0 2 0 22 12146 0 3924 44654 418 904 20 8 24 18 32 252 1 189 182 65535 65535 0 0 0 0 
+Time 95817297
+Received 19 messages, 0.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 1_______ hops: 2_______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.775446705824556% lpm 92.22455329417545% rx 2.0847816705649467% tx 0.8616383487771142% average latency 0 ms 
+107689227 12 30 0 106 0 9 1 2 0 22 13181 0 4392 52279 470 1005 16 11 19 12 64 187 1 124 117 65535 65535 0 0 0 0 
+Time 107689227
+Received 20 messages, 1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.35 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 1_______ hops: 2_______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.774043121333733% lpm 92.22595687866627% rx 2.0676091754475423% tx 0.859857611627735% average latency 0 ms 
+108564128 12 30 0 107 0 14 1 2 0 22 13621 0 4960 58607 557 1078 16 11 19 9 64 194 1 131 124 65535 65535 0 0 0 0 
+Time 108564128
+Received 21 messages, 1.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.380952380952381 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 1_______ hops: 1_______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.7757178244815925% lpm 92.22428217551841% rx 2.045952130677002% tx 0.8608120207591972% average latency 0 ms 
+110813933 12 30 0 109 0 8 1 1 0 22 14021 0 4272 60086 165 1140 12 8 8 8 64 187 1 124 117 65535 65535 0 0 0 0 
+Time 110813933
+Received 22 messages, 1.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3636363636363635 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 1_______ hops: 1_______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.712344996309075% lpm 92.28765500369093% rx 2.0306576076750464% tx 0.8271478974710459% average latency 0 ms 
+116312281 12 30 0 115 0 13 1 1 0 22 14765 0 4363 62228 164 1068 12 8 8 2 64 194 1 131 124 65535 65535 0 0 0 0 
+Time 116312281
+Received 23 messages, 1.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3478260869565217 hops/message
+Received:
+Node 1 received: 1_______ hops: 1_______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.649116950106699% lpm 92.3508830498933% rx 2.00740020685231% tx 0.7954976892764096% average latency 0 ms 
+120564989 12 30 0 119 0 1 1 1 0 22 15214 0 4341 56915 182 1120 12 8 8 11 64 194 1 131 124 65535 65535 0 0 0 0 
+Time 120564989
+Received 24 messages, 1.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3333333333333333 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 1_______ hops: 1_______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.622270497372571% lpm 92.37772950262743% rx 1.9988561490559333% tx 0.771709792236774% average latency 0 ms 
+122565194 12 30 0 121 0 3 1 1 0 22 15545 0 4706 56244 472 782 12 16 16 4 64 187 1 124 117 65535 65535 0 0 0 0 
+Time 122565194
+Received 25 messages, 1.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.32 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 1_______ hops: 1_______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.626750495040667% lpm 92.37324950495933% rx 1.9664012068429424% tx 0.7718320000833127% average latency 0 ms 
+124564187 12 30 0 123 0 7 1 1 0 22 15832 0 4968 61047 336 967 12 13 13 10 64 194 1 131 180 65535 65535 0 0 0 0 
+Time 124564187
+Received 26 messages, 1.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3076923076923077 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 1_______ hops: 1_______
+Stats: cpu 7.622014125581682% lpm 92.37798587441831% rx 1.9429233473416863% tx 0.7595283153318788% average latency 0 ms 
+125316436 12 30 0 124 0 20 1 1 0 22 15279 0 4264 45303 651 1070 12 16 16 8 64 194 1 131 124 65535 65535 0 0 0 0 
+Time 125316436
+Received 27 messages, 1.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2962962962962963 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 1_______ hops: 2_______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.655303455815266% lpm 92.34469654418473% rx 1.95024919241929% tx 0.778332452004088% average latency 0 ms 
+128438151 12 30 0 127 0 10 1 2 0 22 15959 0 3472 42631 289 757 16 11 22 13 64 187 1 124 117 65535 65535 0 0 0 0 
+Time 128438151
+Received 28 messages, 1.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3214285714285714 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 1_______ hops: 1_______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.651497092666162% lpm 92.34850290733384% rx 1.9408121677083756% tx 0.7736954181852952% average latency 0 ms 
+129813444 12 30 0 128 0 6 1 1 0 22 16429 0 5110 63064 355 1328 12 19 19 17 128 194 1 131 180 65535 65535 0 0 0 0 
+Time 129813444
+Received 29 messages, 1.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3103448275862069 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 1_______ hops: 1_______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.644742417225842% lpm 92.35525758277416% rx 1.94112157784973% tx 0.7627400198069741% average latency 0 ms 
+133564089 12 30 0 132 0 16 1 1 0 22 16932 0 6834 47981 1778 1794 12 14 14 3 128 194 1 131 180 65535 65535 0 0 0 0 
+Time 133564089
+Received 30 messages, 1.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 1_______ hops: 1_______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.807021205543497% lpm 92.19297879445651% rx 1.9859325429954917% tx 0.8462205219372771% average latency 0 ms 
+133937900 12 30 0 132 0 2 1 1 0 22 16994 0 3591 48536 174 728 12 16 16 11 128 194 1 131 124 65535 65535 0 0 0 0 
+Time 133937900
+Received 31 messages, 1.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2903225806451613 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 1_______ hops: 1_______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.778554369518212% lpm 92.22144563048178% rx 1.9676587543534576% tx 0.8303318888726962% average latency 0 ms 
+135316627 12 30 0 134 0 19 1 1 0 22 17226 0 2674 33017 226 698 12 11 11 7 128 187 1 124 117 65535 65535 0 0 0 0 
+Time 135316627
+Received 32 messages, 1.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.28125 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 1_______ hops: 2_______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.7725989704256575% lpm 92.22740102957434% rx 1.9674096268346355% tx 0.8262339922624657% average latency 0 ms 
+137437959 12 30 0 136 0 5 1 2 0 22 17515 0 3882 43749 372 843 8 8 16 13 8 194 1 131 180 65535 65535 0 0 0 0 
+Time 137437959
+Received 33 messages, 1.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.303030303030303 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 1_______ hops: 2_______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.782790966285945% lpm 92.21720903371406% rx 1.9620767182198262% tx 0.8250130210030622% average latency 0 ms 
+145438935 12 30 0 144 0 18 1 2 0 22 18207 0 6685 63538 1130 1546 8 16 24 15 8 194 1 131 124 65535 65535 0 0 0 0 
+Time 145438935
+Received 34 messages, 1.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3235294117647058 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 1_______ hops: 1_______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.84927071750932% lpm 92.15072928249067% rx 1.9712429415483899% tx 0.8550264896330695% average latency 0 ms 
+147189855 12 30 0 145 0 4 1 1 0 22 18661 0 3016 39679 156 855 12 16 16 9 128 187 1 124 117 65535 65535 0 0 0 0 
+Time 147189855
+Received 35 messages, 1.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3142857142857143 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 1_______ hops: 1_______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.831413542845729% lpm 92.16858645715428% rx 1.9719555230041947% tx 0.8438910713096744% average latency 0 ms 
+150940738 12 30 0 149 0 17 1 1 0 22 19253 0 3307 39992 249 931 12 16 16 15 128 194 1 131 124 65535 65535 0 0 0 0 
+Time 150940738
+Received 36 messages, 1.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3055555555555556 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1_______ hops: 2_______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.827044048078956% lpm 92.17295595192104% rx 1.975973017805208% tx 0.8378308864492361% average latency 0 ms 
+153940409 12 30 0 152 0 11 1 2 0 22 19616 0 4309 55450 239 906 20 8 24 18 64 194 1 131 124 65535 65535 0 0 0 0 
+Time 153940409
+Received 37 messages, 1.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3243243243243243 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 11______ hops: 22______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 1_______ hops: 1_______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.808443911003301% lpm 92.1915560889967% rx 1.9620961678582411% tx 0.8246176467469488% average latency 0 ms 
+157313557 12 30 0 156 0 15 1 1 0 22 19106 0 3037 41274 122 855 12 16 16 7 128 187 1 124 173 65535 65535 0 0 0 0 
+Time 157313557
+Received 38 messages, 1.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 11______ hops: 22______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 11______ hops: 11______
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.7875524016863364% lpm 92.21244759831366% rx 1.9613837601197979% tx 0.8125965554163884% average latency 0 ms 
+167941010 12 30 0 166 0 16 2 1 0 22 21335 0 5222 65223 337 1571 12 14 14 5 128 185 1 122 115 65535 65535 0 0 0 0 
+Time 167941010
+Received 39 messages, 1.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3076923076923077 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 11______ hops: 22______
+Node 12 sink
+Node 13 received: 11______ hops: 11______
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.774954908602518% lpm 92.22504509139748% rx 1.9704188977700818% tx 0.8013596864053791% average latency 0 ms 
+168437676 12 30 0 167 0 13 2 1 0 22 21445 0 3962 49477 450 1002 12 11 11 3 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 168437676
+Received 40 messages, 2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 11______ hops: 11______
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 11______ hops: 22______
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.765979034062667% lpm 92.23402096593733% rx 1.968046586007443% tx 0.8023724907243134% average latency 0 ms 
+171563288 12 30 0 170 0 6 2 1 0 22 21787 0 3260 39603 305 976 12 17 17 17 128 185 1 122 115 65535 65535 0 0 0 0 
+Time 171563288
+Received 41 messages, 2.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2926829268292683 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 11______ hops: 22______
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.762842740399116% lpm 92.23715725960088% rx 1.9740897863600626% tx 0.8005964888744694% average latency 0 ms 
+172062498 12 30 0 170 0 11 2 2 0 22 21943 0 3663 33567 623 694 7 8 19 18 16 178 1 115 164 65535 65535 0 0 0 0 
+Time 172062498
+Received 42 messages, 2.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3095238095238095 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 11______ hops: 11______
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.797521538137793% lpm 92.20247846186221% rx 1.9722522469165051% tx 0.8151760583760821% average latency 0 ms 
+172938366 12 30 0 171 0 2 2 1 0 22 21987 0 2740 37203 133 648 12 13 13 11 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 172938366
+Received 43 messages, 2.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.302325581395349 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 11______ hops: 22______
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.781011203069295% lpm 92.2189887969307% rx 1.9660910562339773% tx 0.8066862259021168% average latency 0 ms 
+174063908 12 30 0 172 0 9 2 2 0 22 22189 0 2772 33259 261 746 16 12 26 15 128 171 1 108 101 65535 65535 0 0 0 0 
+Time 174063908
+Received 44 messages, 2.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3181818181818181 hops/message
+Received:
+Node 1 received: 11______ hops: 11______
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.779641123879732% lpm 92.22035887612027% rx 1.9677224101236823% tx 0.8053994129375036% average latency 0 ms 
+174438302 12 30 0 173 0 1 2 1 0 22 22182 0 3728 52015 126 1146 12 8 8 11 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 174438302
+Received 45 messages, 2.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3111111111111111 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 11______ hops: 22______
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.753857546777335% lpm 92.24614245322266% rx 1.9698039092744652% tx 0.7917174693849193% average latency 0 ms 
+178438153 12 30 0 177 0 5 2 2 0 22 22769 0 3205 38826 295 716 8 8 16 14 32 185 1 122 115 65535 65535 0 0 0 0 
+Time 178438153
+Received 46 messages, 2.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.326086956521739 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 11______ hops: 11______
+Node 8 received: 11______ hops: 11______
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.751608865712732% lpm 92.24839113428727% rx 1.965145023723511% tx 0.790145471179857% average latency 0 ms 
+181562406 12 30 0 180 0 7 2 1 0 22 23120 0 4520 53783 471 1196 12 9 9 10 128 185 1 122 115 65535 65535 0 0 0 0 
+Time 181562406
+Received 47 messages, 2.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3191489361702127 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 11______ hops: 11______
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.751632414543078% lpm 92.24836758545692% rx 1.9671875330180935% tx 0.7905649121495205% average latency 0 ms 
+189188919 12 30 0 187 0 8 2 1 0 22 24053 0 3790 36337 649 1055 12 8 8 8 128 171 1 108 101 65535 65535 0 0 0 0 
+Time 189188919
+Received 48 messages, 2.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3125 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 11______ hops: 11______
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.7788027425337845% lpm 92.22119725746622% rx 1.9778087799627253% tx 0.8038309423931155% average latency 0 ms 
+189439943 12 30 0 188 0 4 2 1 0 22 24061 0 3081 40118 177 824 12 16 16 10 128 171 1 108 101 65535 65535 0 0 0 0 
+Time 189439943
+Received 49 messages, 2.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3061224489795917 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 11______ hops: 11______
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.767821837051875% lpm 92.23217816294813% rx 1.9766141084187794% tx 0.7971391039181667% average latency 0 ms 
+193063219 12 30 0 191 0 15 2 1 0 22 24617 0 4093 39994 694 1033 12 22 22 10 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 193063219
+Received 50 messages, 2.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 11______ hops: 11______
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.793646899274974% lpm 92.20635310072502% rx 1.9828567123292964% tx 0.8103748379656014% average latency 0 ms 
+198440059 12 30 0 197 0 19 2 1 0 22 25305 0 4401 60229 37 1048 12 9 9 7 128 171 1 108 157 65535 65535 0 0 0 0 
+Time 198440059
+Received 51 messages, 2.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2941176470588236 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 11______ hops: 11______
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.769671085243411% lpm 92.23032891475658% rx 1.9740539766248306% tx 0.7920265830824992% average latency 0 ms 
+205065804 12 30 0 203 0 3 2 1 0 22 25988 0 2898 38874 102 447 12 16 16 4 128 171 1 108 101 65535 65535 0 0 0 0 
+Time 205065804
+Received 52 messages, 2.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2884615384615385 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 11______ hops: 22______
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.756773115880096% lpm 92.2432268841199% rx 1.9600406296029782% tx 0.783533803139405% average latency 0 ms 
+209439855 12 30 0 208 0 14 2 2 0 22 26152 0 4049 46075 436 954 16 12 26 12 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 209439855
+Received 53 messages, 2.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3018867924528301 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 11______ hops: 11______
+Node 18 received: 11______ hops: 22______
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.7626387623323545% lpm 92.23736123766764% rx 1.959004062722815% tx 0.7851099806136238% average latency 0 ms 
+210315019 12 30 0 209 0 17 2 1 0 22 26864 0 4121 56767 20 1058 12 13 13 15 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 210315019
+Received 54 messages, 2.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2962962962962963 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 11______ hops: 22______
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.741056366216269% lpm 92.25894363378373% rx 1.9541994419017115% tx 0.7687841348674561% average latency 0 ms 
+217812642 12 30 0 216 0 18 2 2 0 22 27765 0 3370 34861 485 730 8 16 24 15 64 178 1 115 108 65535 65535 0 0 0 0 
+Time 217812642
+Received 55 messages, 2.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.309090909090909 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 11______ hops: 11______
+Stats: cpu 7.755491713639704% lpm 92.2445082863603% rx 1.9535977888973672% tx 0.7755034583642482% average latency 0 ms 
+218438761 12 30 0 217 0 20 2 1 0 22 27905 0 4698 45805 795 1158 12 20 20 15 128 178 1 115 108 65535 65535 0 0 0 0 
+Time 218438761
+Received 56 messages, 2.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3035714285714286 hops/message
+Received:
+Node 1 received: 111_____ hops: 111_____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.782483909073351% lpm 92.21751609092665% rx 1.9595188252353823% tx 0.7894392248576788% average latency 0 ms 
+222690331 12 30 0 221 0 1 3 1 0 22 28382 0 3472 46127 263 988 12 8 8 11 128 169 1 106 155 65535 65535 0 0 0 0 
+Time 222690331
+Received 57 messages, 2.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2982456140350878 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 111_____ hops: 111_____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.769303095316061% lpm 92.23069690468394% rx 1.9600656536903707% tx 0.7850724812937255% average latency 0 ms 
+223939867 12 30 0 222 0 8 3 1 0 22 28497 0 7372 63731 1630 2238 12 8 8 8 128 155 1 92 85 65535 65535 0 0 0 0 
+Time 223939867
+Received 58 messages, 2.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.293103448275862 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 111_____ hops: 111_____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.830589031304777% lpm 92.16941096869522% rx 1.9880697902346076% tx 0.8206206561449535% average latency 0 ms 
+225064290 12 30 0 223 0 16 3 1 0 22 28626 0 5002 53325 725 1460 12 11 11 6 128 169 1 106 99 65535 65535 0 0 0 0 
+Time 225064290
+Received 59 messages, 2.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2881355932203389 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 111_____ hops: 111_____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.844731600117396% lpm 92.1552683998826% rx 1.9978447055699915% tx 0.8286365224792914% average latency 0 ms 
+225562823 12 30 0 224 0 15 3 1 0 22 28724 0 6128 59583 1190 1882 12 16 16 10 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 225562823
+Received 60 messages, 3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2833333333333334 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 111_____ hops: 111_____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.875732740207061% lpm 92.12426725979294% rx 2.015977328338653% tx 0.8491997478236409% average latency 0 ms 
+226564926 12 30 0 225 0 17 3 1 0 22 28921 0 4636 61184 371 1460 12 11 11 15 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 226564926
+Received 61 messages, 3.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.278688524590164 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 111_____ hops: 111_____
+Stats: cpu 7.858639898430306% lpm 92.14136010156969% rx 2.0201298452085608% tx 0.8433354873314023% average latency 0 ms 
+227687706 12 30 0 226 0 20 3 1 0 22 28864 0 7981 53398 2610 2172 12 18 18 15 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 227687706
+Received 62 messages, 3.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2741935483870968 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 111_____ hops: 222_____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.955308069872932% lpm 92.04469193012707% rx 2.0486658796328046% tx 0.907395342457701% average latency 0 ms 
+228564096 12 30 0 227 0 11 3 2 0 22 29147 0 4262 53369 305 974 7 8 19 18 64 169 1 106 99 65535 65535 0 0 0 0 
+Time 228564096
+Received 63 messages, 3.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2857142857142858 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 11______ hops: 22______
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.945598893830536% lpm 92.05440110616946% rx 2.042448290458536% tx 0.9008385623768203% average latency 0 ms 
+229439727 12 30 0 228 0 10 2 2 0 22 28167 0 3905 44926 390 960 16 12 26 15 128 171 1 108 157 65535 65535 0 0 0 0 
+Time 229439727
+Received 64 messages, 3.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.296875 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 111_____ hops: 222_____
+Node 10 received: 111_____ hops: 222_____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.946342640718183% lpm 92.05365735928181% rx 2.0413409417997386% tx 0.8993593921133419% average latency 0 ms 
+232939855 12 30 0 231 0 9 3 2 0 22 29374 0 4132 53347 224 1137 16 10 21 15 128 155 1 92 85 65535 65535 0 0 0 0 
+Time 232939855
+Received 65 messages, 3.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3076923076923077 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 111_____ hops: 111_____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 111_____ hops: 222_____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.933647269134599% lpm 92.0663527308654% rx 2.040281463570921% tx 0.8908193164681028% average latency 0 ms 
+235064781 12 30 0 233 0 2 3 1 0 22 29949 0 3911 59783 60 900 12 11 11 11 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 235064781
+Received 66 messages, 3.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.303030303030303 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 111_____ hops: 111_____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 111_____ hops: 222_____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.900954432960007% lpm 92.09904556704% rx 2.0288462171431583% tx 0.8762969363523414% average latency 0 ms 
+236313763 12 30 0 235 0 6 3 1 0 22 29998 0 4140 61547 154 1256 12 16 16 17 128 169 1 106 155 65535 65535 0 0 0 0 
+Time 236313763
+Received 67 messages, 3.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2985074626865671 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 111_____ hops: 111_____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 111_____ hops: 222_____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.871459497909031% lpm 92.12854050209097% rx 2.0266918081107% tx 0.8644525190232369% average latency 0 ms 
+239188378 12 30 0 237 0 3 3 1 0 22 30441 0 2652 32970 227 411 12 13 13 5 128 155 1 92 141 65535 65535 0 0 0 0 
+Time 239188378
+Received 68 messages, 3.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.2941176470588236 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 111_____ hops: 222_____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.867232455574296% lpm 92.1327675444257% rx 2.0180428658528444% tx 0.8622013253167543% average latency 0 ms 
+248938935 12 30 0 247 0 10 3 2 0 22 31159 0 5139 42732 1070 1166 17 8 19 15 16 162 1 99 92 65535 65535 0 0 0 0 
+Time 248938935
+Received 69 messages, 3.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3043478260869565 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 111_____ hops: 111_____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.904916901517861% lpm 92.09508309848214% rx 2.0235311426820166% tx 0.8802424976400509% average latency 0 ms 
+253938356 12 30 0 252 0 13 3 1 0 22 32384 0 2690 41065 15 726 12 9 9 4 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 253938356
+Received 70 messages, 3.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 111_____ hops: 222_____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.884064464926894% lpm 92.1159355350731% rx 2.019207766429915% tx 0.8702027371935114% average latency 0 ms 
+254317592 12 30 0 253 0 14 3 2 0 22 29589 0 4633 50356 860 1371 16 13 22 12 128 162 1 99 92 65535 65535 0 0 0 0 
+Time 254317592
+Received 71 messages, 3.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3098591549295775 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 111_____ hops: 111_____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.8920186400722% lpm 92.1079813599278% rx 2.0261738170430466% tx 0.880397858695382% average latency 0 ms 
+257315331 12 30 0 256 0 4 3 1 0 22 32756 0 4434 65126 30 1393 12 13 13 11 256 155 1 92 141 65535 65535 0 0 0 0 
+Time 257315331
+Received 72 messages, 3.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3055555555555556 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 111_____ hops: 222_____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.864320401659132% lpm 92.13567959834087% rx 2.025743357215253% tx 0.8651172236068144% average latency 0 ms 
+258439021 12 30 0 257 0 5 3 2 0 22 33006 0 2856 38091 111 690 8 11 19 14 128 169 1 106 99 65535 65535 0 0 0 0 
+Time 258439021
+Received 73 messages, 3.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3150684931506849 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 111_____ hops: 111_____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.854866317545345% lpm 92.14513368245466% rx 2.0221226694023215% tx 0.8588031475950448% average latency 0 ms 
+259313676 12 30 0 258 0 7 3 1 0 22 32510 0 2638 34921 162 725 12 8 8 10 128 169 1 106 99 65535 65535 0 0 0 0 
+Time 259313676
+Received 74 messages, 3.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3108108108108107 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 111_____ hops: 222_____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.846840160549238% lpm 92.15315983945077% rx 2.021236037869383% tx 0.8546755865258129% average latency 0 ms 
+272188287 12 30 0 270 0 18 3 2 0 22 34725 0 4414 51265 437 1229 8 16 24 15 128 162 1 99 148 65535 65535 0 0 0 0 
+Time 272188287
+Received 75 messages, 3.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.32 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 111_____ hops: 111_____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.8479796105815725% lpm 92.15202038941842% rx 2.0238616617700433% tx 0.8536903103627962% average latency 0 ms 
+276191096 12 30 0 274 0 19 3 1 0 22 35258 0 2945 36867 159 760 12 11 11 7 256 162 1 99 92 65535 65535 0 0 0 0 
+Time 276191096
+Received 76 messages, 3.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 1111____ hops: 1111____
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.8434772222930365% lpm 92.15652277770697% rx 2.022713974147561% tx 0.8491519520809517% average latency 0 ms 
+288562609 12 30 0 287 0 17 4 1 0 22 36532 0 5015 55873 658 1492 12 17 17 15 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 288562609
+Received 77 messages, 3.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3116883116883118 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 1111____ hops: 2222____
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.8493904024342385% lpm 92.15060959756576% rx 2.0291497663530613% tx 0.8526358557844299% average latency 0 ms 
+292061950 12 30 0 290 0 10 4 2 0 22 37260 0 4273 44534 719 999 17 11 20 15 64 146 1 83 76 65535 65535 0 0 0 0 
+Time 292061950
+Received 78 messages, 3.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3205128205128205 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 1111____ hops: 1111____
+Stats: cpu 7.860182565286222% lpm 92.13981743471378% rx 2.0293605770627847% tx 0.8600314083988041% average latency 0 ms 
+293187833 12 30 0 291 0 20 4 1 0 22 37474 0 4984 63895 408 1252 12 17 17 15 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 293187833
+Received 79 messages, 3.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3164556962025316 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 1111____ hops: 1111____
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.849855498200992% lpm 92.150144501799% rx 2.0258590256107043% tx 0.8556033892720443% average latency 0 ms 
+293938711 12 30 0 292 0 8 4 1 0 22 37461 0 2714 33141 266 801 12 8 8 8 256 139 1 76 125 65535 65535 0 0 0 0 
+Time 293938711
+Received 80 messages, 4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3125 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 1111____ hops: 2222____
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.847460972704287% lpm 92.15253902729572% rx 2.0276359660432823% tx 0.8546324756531058% average latency 0 ms 
+297313085 12 30 0 296 0 5 4 2 0 22 37982 0 3446 36361 547 777 8 12 20 14 128 153 1 90 83 65535 65535 0 0 0 0 
+Time 297313085
+Received 81 messages, 4.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3209876543209877 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 1111____ hops: 1111____
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.855059788320851% lpm 92.14494021167914% rx 2.0269250292007026% tx 0.8595101829784906% average latency 0 ms 
+298440060 12 30 0 297 0 7 4 1 0 22 38093 0 4313 40350 808 1102 12 11 11 10 256 153 1 90 83 65535 65535 0 0 0 0 
+Time 298440060
+Received 82 messages, 4.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3170731707317074 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 1111____ hops: 1111____
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.873842251931301% lpm 92.12615774806869% rx 2.031516562732609% tx 0.8694095423579232% average latency 0 ms 
+303189146 12 30 0 301 0 13 4 1 0 22 38695 0 4449 46037 717 1098 12 8 8 4 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 303189146
+Received 83 messages, 4.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3132530120481927 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 1111____ hops: 1111____
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.884772743578499% lpm 92.1152272564215% rx 2.033186051495661% tx 0.8758244087983384% average latency 0 ms 
+303814997 12 30 0 302 0 3 4 1 0 22 38751 0 4464 62015 172 832 12 14 14 5 256 146 1 83 132 65535 65535 0 0 0 0 
+Time 303814997
+Received 84 messages, 4.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3095238095238095 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 1111____ hops: 1111____
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.8671023608736785% lpm 92.13289763912633% rx 2.021379371142575% tx 0.8665034403846905% average latency 0 ms 
+306315143 12 30 0 305 0 19 4 1 0 22 39022 0 4444 55778 263 948 12 12 12 7 256 146 1 83 132 65535 65535 0 0 0 0 
+Time 306315143
+Received 85 messages, 4.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3058823529411765 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 1111____ hops: 2222____
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.860518743357016% lpm 92.13948125664298% rx 2.015342911333788% tx 0.8607020908336572% average latency 0 ms 
+310687358 12 30 0 309 0 18 4 2 0 22 39675 0 3875 35724 644 971 8 16 24 15 128 153 1 90 83 65535 65535 0 0 0 0 
+Time 310687358
+Received 86 messages, 4.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.313953488372093 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 1111____ hops: 2222____
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.87745499795271% lpm 92.12254500204729% rx 2.0191852031726656% tx 0.8674376087657321% average latency 0 ms 
+314813783 12 30 0 313 0 9 4 2 0 22 40176 0 3458 39749 357 866 16 10 22 15 256 139 1 76 69 65535 65535 0 0 0 0 
+Time 314813783
+Received 87 messages, 4.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3218390804597702 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 1111____ hops: 1111____
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.878651843636396% lpm 92.12134815636361% rx 2.01904372089748% tx 0.86704604469795% average latency 0 ms 
+319814228 12 30 0 318 0 16 4 1 0 22 40777 0 4053 44550 486 1140 12 10 10 6 256 118 1 55 48 65535 65535 0 0 0 0 
+Time 319814228
+Received 88 messages, 4.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3181818181818181 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 1111____ hops: 1111____
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.883523268500417% lpm 92.11647673149959% rx 2.022498722479976% tx 0.8684523424611513% average latency 0 ms 
+326063518 12 30 0 324 0 4 4 1 0 22 41096 0 4932 61787 303 1215 12 14 14 11 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 326063518
+Received 89 messages, 4.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3146067415730338 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 1111____ hops: 1111____
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.876488163581353% lpm 92.12351183641864% rx 2.0196145507706453% tx 0.8625200178040957% average latency 0 ms 
+327687812 12 30 0 326 0 2 4 1 0 22 41799 0 3130 44269 47 635 12 9 9 11 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 327687812
+Received 90 messages, 4.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3111111111111111 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 1111____ hops: 1111____
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.86366945747409% lpm 92.13633054252591% rx 2.012767789936735% tx 0.8548330454996717% average latency 0 ms 
+329563891 12 30 0 328 0 15 4 1 0 22 42073 0 3614 49781 116 958 12 16 16 10 256 146 1 83 76 65535 65535 0 0 0 0 
+Time 329563891
+Received 91 messages, 4.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3076923076923077 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 1111____ hops: 2222____
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.851384632707027% lpm 92.14861536729298% rx 2.0103159485051245% tx 0.8476815794316271% average latency 0 ms 
+336813446 12 30 0 335 0 14 4 2 0 22 42084 0 4588 45392 845 969 1 16 27 12 64 146 1 83 76 65535 65535 0 0 0 0 
+Time 336813446
+Received 92 messages, 4.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.315217391304348 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 1111____ hops: 2222____
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.865185590481908% lpm 92.13481440951809% rx 2.0095726404755054% tx 0.8564403281573% average latency 0 ms 
+338437608 12 30 0 337 0 11 4 2 0 22 43233 0 3916 52427 188 954 7 11 19 18 128 153 1 90 83 65535 65535 0 0 0 0 
+Time 338437608
+Received 93 messages, 4.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3225806451612903 hops/message
+Received:
+Node 1 received: 1111____ hops: 1111____
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 11111___ hops: 22222___
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.85459361841109% lpm 92.14540638158891% rx 2.0059099364479436% tx 0.8503881156894408% average latency 0 ms 
+338937813 12 30 0 337 0 1 4 1 0 22 43260 0 4188 55323 203 1181 12 9 9 12 256 160 1 97 90 65535 65535 0 0 0 0 
+Time 338937813
+Received 94 messages, 4.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3191489361702127 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 1111____ hops: 1111____
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 11111___ hops: 22222___
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.844721013838169% lpm 92.15527898616183% rx 2.005651380467416% tx 0.8442358558167199% average latency 0 ms 
+341814632 12 30 0 340 0 6 4 1 0 22 43577 0 3885 50429 206 987 12 16 16 17 256 160 1 97 90 65535 65535 0 0 0 0 
+Time 341814632
+Received 95 messages, 4.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 11111___ hops: 22222___
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 11111___ hops: 22222___
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.837176019326403% lpm 92.1628239806736% rx 2.0035963942894592% tx 0.839165360249804% average latency 0 ms 
+343065337 12 30 0 341 0 9 5 2 0 22 43811 0 4421 53738 386 1075 16 12 24 15 256 123 1 60 53 65535 65535 0 0 0 0 
+Time 343065337
+Received 96 messages, 4.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3229166666666667 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 11111___ hops: 22222___
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.834456605201775% lpm 92.16554339479822% rx 2.0018048295364896% tx 0.8371400338539501% average latency 0 ms 
+345188162 12 30 0 343 0 11 5 2 0 22 44108 0 4588 51414 628 884 7 9 18 18 128 137 1 74 67 65535 65535 0 0 0 0 
+Time 345188162
+Received 97 messages, 4.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3298969072164948 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 11111___ hops: 11111___
+Stats: cpu 7.8383929982207015% lpm 92.1616070017793% rx 1.9971519450095736% tx 0.8402645491740935% average latency 0 ms 
+353440194 12 30 0 352 0 20 5 1 0 22 45188 0 4545 57165 490 1127 12 16 16 15 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 353440194
+Received 98 messages, 4.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3265306122448979 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 11111___ hops: 11111___
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.832728746619502% lpm 92.16727125338049% rx 1.9951070656648078% tx 0.839711311056228% average latency 0 ms 
+354812211 12 30 0 353 0 7 5 1 0 22 45295 0 4978 52637 682 1245 12 11 11 10 256 137 1 74 67 65535 65535 0 0 0 0 
+Time 354812211
+Received 99 messages, 4.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3232323232323233 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 11111___ hops: 11111___
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.841650316549771% lpm 92.15834968345023% rx 1.9969390279687689% tx 0.8435125996589969% average latency 0 ms 
+356313083 12 30 0 355 0 4 5 1 0 22 45434 0 5622 63785 678 1469 12 17 17 11 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 356313083
+Received 100 messages, 5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.32 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 11111___ hops: 11111___
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.845044807007257% lpm 92.15495519299274% rx 1.9985096822390425% tx 0.845264171788175% average latency 0 ms 
+357937546 12 30 0 356 0 19 5 1 0 22 45708 0 3555 49931 115 827 12 10 10 7 256 137 1 74 67 65535 65535 0 0 0 0 
+Time 357937546
+Received 101 messages, 5.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.316831683168317 hops/message
+Received:
+Node 1 received: 11111___ hops: 11111___
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.833034128466909% lpm 92.1669658715331% rx 1.9939766790714424% tx 0.8389478356723528% average latency 0 ms 
+360813451 12 30 0 359 0 1 5 1 0 22 46068 0 3022 41905 151 754 12 8 8 12 256 144 1 81 130 65535 65535 0 0 0 0 
+Time 360813451
+Received 102 messages, 5.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3137254901960784 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 11111___ hops: 22222___
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.8237966498508875% lpm 92.17620335014911% rx 1.9913412674080475% tx 0.83475013238942% average latency 0 ms 
+363812880 12 30 0 362 0 14 5 2 0 22 46420 0 7175 62199 1455 1544 1 22 33 12 64 137 1 74 123 65535 65535 0 0 0 0 
+Time 363812880
+Received 103 messages, 5.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3203883495145632 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 11111___ hops: 22222___
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.855850355809998% lpm 92.14414964419001% rx 1.9943227429289274% tx 0.8508180914965153% average latency 0 ms 
+366563879 12 30 0 365 0 5 5 2 0 22 46836 0 5715 65116 588 1260 8 13 21 15 128 137 1 74 67 65535 65535 0 0 0 0 
+Time 366563879
+Received 104 messages, 5.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3269230769230769 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 11111___ hops: 11111___
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.858578011265734% lpm 92.14142198873427% rx 1.9915593017454554% tx 0.8505529191578135% average latency 0 ms 
+377062745 12 30 0 375 0 13 5 1 0 22 48141 0 2640 35143 101 554 12 11 11 4 256 130 1 67 116 65535 65535 0 0 0 0 
+Time 377062745
+Received 105 messages, 5.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3238095238095238 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 11111___ hops: 11111___
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.852656857987589% lpm 92.14734314201242% rx 1.987989578113607% tx 0.8465894150153296% average latency 0 ms 
+378064026 12 30 0 376 0 2 5 1 0 22 48244 0 3627 47933 111 667 12 8 8 11 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 378064026
+Received 106 messages, 5.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.320754716981132 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 11111___ hops: 11111___
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.845139482175386% lpm 92.15486051782462% rx 1.9816095739421797% tx 0.8407886947245589% average latency 0 ms 
+379065194 12 30 0 377 0 15 5 1 0 22 48420 0 3503 47273 238 827 12 16 16 11 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 379065194
+Received 107 messages, 5.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3177570093457944 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 11111___ hops: 11111___
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.836654260360067% lpm 92.16334573963994% rx 1.9784450283583654% tx 0.8374521870928021% average latency 0 ms 
+382564286 12 30 0 381 0 3 5 1 0 22 48834 0 2799 37532 116 447 12 11 11 5 256 137 1 74 123 65535 65535 0 0 0 0 
+Time 382564286
+Received 108 messages, 5.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3148148148148149 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 11111___ hops: 11111___
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.830313169387839% lpm 92.16968683061216% rx 1.9722911246899388% tx 0.8335634953410825% average latency 0 ms 
+383189772 12 30 0 381 0 16 5 1 0 22 48880 0 4552 60272 277 1091 12 10 10 6 256 102 1 39 88 65535 65535 0 0 0 0 
+Time 383189772
+Received 109 messages, 5.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.311926605504587 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 11111___ hops: 11111___
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.821228856546939% lpm 92.17877114345306% rx 1.9690397409268658% tx 0.8289972706603005% average latency 0 ms 
+391313669 12 30 0 390 0 8 5 1 0 22 49928 0 5010 44857 1004 1398 12 8 8 8 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 391313669
+Received 110 messages, 5.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.309090909090909 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 11111___ hops: 11111___
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.840306566943936% lpm 92.15969343305606% rx 1.9761926536427517% tx 0.8391499959774434% average latency 0 ms 
+392687628 12 30 0 391 0 6 5 1 0 22 50090 0 4047 48057 313 955 12 16 16 17 256 144 1 81 74 65535 65535 0 0 0 0 
+Time 392687628
+Received 111 messages, 5.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3063063063063063 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 11111___ hops: 11111___
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.839657199325303% lpm 92.1603428006747% rx 1.9749203482527729% tx 0.8370333770637044% average latency 0 ms 
+394063083 12 30 0 392 0 17 5 1 0 22 50373 0 4058 51305 234 1044 12 13 13 16 256 130 1 67 60 65535 65535 0 0 0 0 
+Time 394063083
+Received 112 messages, 5.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3035714285714286 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 11111___ hops: 22222___
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.834892887578585% lpm 92.16510711242141% rx 1.9740869649463606% tx 0.8331613122974252% average latency 0 ms 
+396187343 12 30 0 394 0 10 5 2 0 22 50195 0 3587 48152 139 782 17 9 25 15 128 130 1 67 60 65535 65535 0 0 0 0 
+Time 396187343
+Received 113 messages, 5.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3097345132743363 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 11111___ hops: 22222___
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.827083921061535% lpm 92.17291607893847% rx 1.97008166451989% tx 0.8282742693680913% average latency 0 ms 
+398438353 12 30 0 397 0 18 5 2 0 22 49602 0 3263 36444 383 767 8 16 24 15 256 137 1 74 67 65535 65535 0 0 0 0 
+Time 398438353
+Received 114 messages, 5.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 111111__ hops: 111111__
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.829661995818228% lpm 92.17033800418177% rx 1.9698280067731486% tx 0.8291738065251145% average latency 0 ms 
+405688647 12 30 0 404 0 4 6 1 0 22 51762 0 3454 47169 218 880 12 13 13 11 256 114 1 51 100 65535 65535 0 0 0 0 
+Time 405688647
+Received 115 messages, 5.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3130434782608695 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 111111__ hops: 111111__
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.821261924871578% lpm 92.17873807512842% rx 1.967896389687232% tx 0.8258482491067679% average latency 0 ms 
+408190873 12 30 0 406 0 16 6 1 0 22 52067 0 4074 46916 664 1047 12 12 12 6 256 37 1 30 23 65535 65535 0 0 0 0 
+Time 408190873
+Received 116 messages, 5.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3103448275862069 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 111111__ hops: 222222__
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.822666672333264% lpm 92.17733332766673% rx 1.9686085768526258% tx 0.8298186808750054% average latency 0 ms 
+409812405 12 30 0 408 0 11 6 2 0 22 52382 0 3982 62209 15 893 7 8 16 18 256 121 1 58 107 65535 65535 0 0 0 0 
+Time 409812405
+Received 117 messages, 5.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3162393162393162 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 111111__ hops: 222222__
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.803327763505082% lpm 92.19667223649492% rx 1.9619777962594234% tx 0.821179081917873% average latency 0 ms 
+411688497 12 30 0 410 0 14 6 2 0 22 52527 0 3314 45541 103 712 1 16 24 12 128 128 1 65 58 65535 65535 0 0 0 0 
+Time 411688497
+Received 118 messages, 5.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3220338983050848 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 111111__ hops: 111111__
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.795332667604506% lpm 92.20466733239549% rx 1.958022503003481% tx 0.8163948987031123% average latency 0 ms 
+416938769 12 30 0 415 0 15 6 1 0 22 53275 0 2609 36229 146 720 12 13 13 11 256 114 1 51 44 65535 65535 0 0 0 0 
+Time 416938769
+Received 119 messages, 5.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.319327731092437 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 111111__ hops: 111111__
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.788658917667979% lpm 92.21134108233203% rx 1.9573774245384674% tx 0.8136671850878388% average latency 0 ms 
+421187298 12 30 0 419 0 13 6 1 0 22 53797 0 3132 42115 157 813 12 12 12 4 256 121 1 58 51 65535 65535 0 0 0 0 
+Time 421187298
+Received 120 messages, 6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3166666666666667 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 111111__ hops: 222222__
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.782451166743947% lpm 92.21754883325605% rx 1.9562272542989365% tx 0.8103243814601986% average latency 0 ms 
+423565058 12 30 0 422 0 9 6 2 0 22 53755 0 2570 37205 46 552 16 10 22 15 256 107 1 44 37 65535 65535 0 0 0 0 
+Time 423565058
+Received 121 messages, 6.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.322314049586777 hops/message
+Received:
+Node 1 received: 111111__ hops: 111111__
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.774184677788287% lpm 92.22581532221172% rx 1.9526705039212613% tx 0.8059776346830426% average latency 0 ms 
+425562705 12 30 0 424 0 1 6 1 0 22 54341 0 4807 61375 389 1240 12 9 9 12 256 135 1 72 65 65535 65535 0 0 0 0 
+Time 425562705
+Received 122 messages, 6.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.319672131147541 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 111111__ hops: 111111__
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.768920456933959% lpm 92.23107954306604% rx 1.951855963355603% tx 0.8037292088665241% average latency 0 ms 
+428812608 12 30 0 427 0 17 6 1 0 22 54811 0 6056 64951 807 1373 12 11 11 16 256 114 1 51 44 65535 65535 0 0 0 0 
+Time 428812608
+Received 123 messages, 6.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3170731707317074 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 111111__ hops: 111111__
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.777228708477618% lpm 92.22277129152238% rx 1.9516564756906454% tx 0.8073679932772975% average latency 0 ms 
+438439621 12 30 0 437 0 3 6 1 0 22 55985 0 4068 53138 342 660 12 12 12 5 256 128 1 65 58 65535 65535 0 0 0 0 
+Time 438439621
+Received 124 messages, 6.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.314516129032258 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 111111__ hops: 111111__
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.771412190126641% lpm 92.22858780987336% rx 1.9446886387057412% tx 0.8055383105814161% average latency 0 ms 
+441690096 12 30 0 440 0 8 6 1 0 22 56366 0 3599 47904 213 822 12 8 8 8 256 114 1 51 100 65535 65535 0 0 0 0 
+Time 441690096
+Received 125 messages, 6.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.312 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 111111__ hops: 222222__
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.765300734900552% lpm 92.23469926509945% rx 1.9419688767601975% tx 0.8024807475199643% average latency 0 ms 
+442562745 12 30 0 441 0 5 6 2 0 22 56247 0 2691 34952 154 540 8 14 22 16 256 121 1 58 107 65535 65535 0 0 0 0 
+Time 442562745
+Received 126 messages, 6.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3174603174603174 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 111111__ hops: 222222__
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.761805460071875% lpm 92.23819453992813% rx 1.9390922128638592% tx 0.8002507165103779% average latency 0 ms 
+447062507 12 30 0 445 0 10 6 2 0 22 57094 0 4237 50954 329 727 17 14 25 15 128 114 1 51 44 65535 65535 0 0 0 0 
+Time 447062507
+Received 127 messages, 6.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3228346456692914 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 111111__ hops: 111111__
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.761106198919849% lpm 92.23889380108015% rx 1.9339662094345935% tx 0.7985679634851599% average latency 0 ms 
+449815842 12 30 0 448 0 6 6 1 0 22 57427 0 4444 54251 312 934 12 16 16 17 256 128 1 65 114 65535 65535 0 0 0 0 
+Time 449815842
+Received 128 messages, 6.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3203125 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 111111__ hops: 111111__
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.759457096514613% lpm 92.24054290348539% rx 1.9309881249116272% tx 0.7962475875603618% average latency 0 ms 
+450064363 12 30 0 448 0 19 6 1 0 22 57509 0 2983 44220 54 642 12 12 12 7 256 121 1 58 51 65535 65535 0 0 0 0 
+Time 450064363
+Received 129 messages, 6.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.317829457364341 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 111111__ hops: 111111__
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.749463408093032% lpm 92.25053659190696% rx 1.9270258531583422% tx 0.7915153343690241% average latency 0 ms 
+455437812 12 30 0 454 0 7 6 1 0 22 58183 0 3683 47868 158 740 12 8 8 10 256 121 1 58 51 65535 65535 0 0 0 0 
+Time 455437812
+Received 130 messages, 6.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3153846153846154 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 111111__ hops: 222222__
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.744911612157876% lpm 92.25508838784212% rx 1.9233280834180553% tx 0.7878666981671312% average latency 0 ms 
+456561930 12 30 0 455 0 18 6 2 0 22 58343 0 6240 63686 940 1081 7 8 19 15 32 121 1 58 51 65535 65535 0 0 0 0 
+Time 456561930
+Received 131 messages, 6.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3206106870229009 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 111111__ hops: 111111__
+Stats: cpu 7.7568186562102985% lpm 92.2431813437897% rx 1.9195159138693016% tx 0.7934869672174365% average latency 0 ms 
+457813356 12 30 0 456 0 20 6 1 0 22 58392 0 3243 49572 29 673 12 13 13 16 256 114 1 51 44 65535 65535 0 0 0 0 
+Time 457813356
+Received 132 messages, 6.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3181818181818181 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 111111__ hops: 111111__
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.744579280486843% lpm 92.25542071951315% rx 1.9146303875680053% tx 0.7878948613370989% average latency 0 ms 
+458439785 12 30 0 457 0 2 6 1 0 22 58476 0 2850 38077 68 531 12 8 8 11 256 114 1 51 44 65535 65535 0 0 0 0 
+Time 458439785
+Received 133 messages, 6.65 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 1111111_ hops: 1111111_
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 1111111_ hops: 1111111_
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.740023946490525% lpm 92.25997605350948% rx 1.9110302791557643% tx 0.7842682303383878% average latency 0 ms 
+461688444 12 30 0 460 0 13 7 1 0 22 58976 0 2726 38705 38 552 12 13 13 5 256 105 1 42 35 65535 65535 0 0 0 0 
+Time 461688444
+Received 134 messages, 6.7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3134328358208955 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 1111111_ hops: 1111111_
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.7332121642843745% lpm 92.26678783571563% rx 1.907633253366295% tx 0.7802028589774761% average latency 0 ms 
+473811476 12 30 0 472 0 2 7 1 0 22 60495 0 4946 59658 243 900 12 8 8 11 256 98 1 35 28 65535 65535 0 0 0 0 
+Time 473811476
+Received 135 messages, 6.75 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3111111111111111 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 1111111_ hops: 1111111_
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.732510664776696% lpm 92.2674893352233% rx 1.9029662568487073% tx 0.7765378282268952% average latency 0 ms 
+475065351 12 30 0 473 0 6 7 1 0 22 60653 0 3733 47880 185 828 12 13 13 17 256 119 1 56 49 65535 65535 0 0 0 0 
+Time 475065351
+Received 136 messages, 6.8 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3088235294117647 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 1111111_ hops: 2222222_
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.728914676005784% lpm 92.27108532399421% rx 1.9008171728259544% tx 0.7735298729810256% average latency 0 ms 
+476817232 12 30 0 475 0 14 7 2 0 22 60888 0 4727 62161 330 813 1 16 27 12 128 112 1 49 42 65535 65535 0 0 0 0 
+Time 476817232
+Received 137 messages, 6.85 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.313868613138686 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 1111111_ hops: 2222222_
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.722800663387844% lpm 92.27719933661216% rx 1.8944863101336789% tx 0.7709418557873049% average latency 0 ms 
+479565017 12 30 0 478 0 18 7 2 0 22 61286 0 3384 43704 106 526 7 8 19 15 64 105 1 42 91 65535 65535 0 0 0 0 
+Time 479565017
+Received 138 messages, 6.9 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.318840579710145 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 1111111_ hops: 1111111_
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.719335942243391% lpm 92.28066405775661% rx 1.8894633869645878% tx 0.7674152704524814% average latency 0 ms 
+481439218 12 30 0 480 0 4 7 1 0 22 61396 0 2404 36131 41 579 12 11 11 11 256 105 1 42 35 65535 65535 0 0 0 0 
+Time 481439218
+Received 139 messages, 6.95 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.316546762589928 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 1111111_ hops: 2222222_
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.711547291280746% lpm 92.28845270871925% rx 1.8874282822293889% tx 0.7639385933735482% average latency 0 ms 
+482941352 12 30 0 481 0 5 7 2 0 22 61597 0 3471 39328 390 718 8 20 28 16 256 112 1 49 98 65535 65535 0 0 0 0 
+Time 482941352
+Received 140 messages, 7 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3214285714285714 hops/message
+Received:
+Node 1 received: 1111111_ hops: 1111111_
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.713861374718686% lpm 92.28613862528131% rx 1.886209729782541% tx 0.7647940445909354% average latency 0 ms 
+484811951 12 30 0 483 0 1 7 1 0 22 61660 0 3883 54668 185 947 12 9 9 12 256 119 1 56 49 65535 65535 0 0 0 0 
+Time 484811951
+Received 141 messages, 7.05 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3191489361702127 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 1111111_ hops: 1111111_
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.705332239452256% lpm 92.29466776054774% rx 1.8840907885394507% tx 0.7612561466863292% average latency 0 ms 
+486561048 12 30 0 485 0 7 7 1 0 22 62169 0 6254 57521 1206 1578 12 8 8 10 256 105 1 42 35 65535 65535 0 0 0 0 
+Time 486561048
+Received 142 messages, 7.1 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3169014084507042 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 1111111_ hops: 2222222_
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.723217545247373% lpm 92.27678245475263% rx 1.8891152560793116% tx 0.7708734968987933% average latency 0 ms 
+487189946 12 30 0 485 0 10 7 2 0 22 62270 0 2877 38530 148 536 17 11 23 15 256 98 1 35 84 65535 65535 0 0 0 0 
+Time 487189946
+Received 143 messages, 7.15 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3216783216783217 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 1111111_ hops: 1111111_
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.718957017817736% lpm 92.28104298218227% rx 1.8858466982284212% tx 0.7686009392064533% average latency 0 ms 
+496313287 12 30 0 495 0 19 7 1 0 22 63421 0 3974 43321 559 1056 12 13 13 8 256 105 1 42 35 65535 65535 0 0 0 0 
+Time 496313287
+Received 144 messages, 7.2 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3194444444444444 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 1111111_ hops: 1111111_
+Stats: cpu 7.723222183130503% lpm 92.2767778168695% rx 1.8880113259572666% tx 0.7711798078824473% average latency 0 ms 
+505687443 12 30 0 504 0 20 7 1 0 22 64685 0 3258 47084 32 650 12 11 11 16 256 98 1 35 84 65535 65535 0 0 0 0 
+Time 505687443
+Received 145 messages, 7.25 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3172413793103448 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 1111111_ hops: 1111111_
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.7149658522266% lpm 92.2850341477734% rx 1.8840738296942459% tx 0.7665115279449547% average latency 0 ms 
+508689691 12 30 0 507 0 8 7 1 0 22 64395 0 4960 59271 559 1085 12 8 8 8 256 105 1 42 35 65535 65535 0 0 0 0 
+Time 508689691
+Received 146 messages, 7.3 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3150684931506849 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 1111111_ hops: 2222222_
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.715025634707882% lpm 92.28497436529211% rx 1.882447333579726% tx 0.767377826432521% average latency 0 ms 
+509189824 12 30 0 507 0 11 7 2 0 22 65045 0 4016 46635 382 816 7 11 19 18 256 112 1 49 42 65535 65535 0 0 0 0 
+Time 509189824
+Received 147 messages, 7.35 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3197278911564625 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 1111111_ hops: 1111111_
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.716423346308726% lpm 92.28357665369127% rx 1.8806724309928868% tx 0.7672915262390541% average latency 0 ms 
+510562499 12 30 0 509 0 17 7 1 0 22 65293 0 3061 38866 245 731 12 11 11 16 256 98 1 35 28 65535 65535 0 0 0 0 
+Time 510562499
+Received 148 messages, 7.4 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3175675675675675 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 1111111_ hops: 1111111_
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.7141856286148744% lpm 92.28581437138513% rx 1.8799339566650324% tx 0.7663065991714535% average latency 0 ms 
+512689773 12 30 0 511 0 16 7 1 0 22 65468 0 3580 50023 181 871 12 15 15 7 512 42 1 235 228 65535 65535 0 0 0 0 
+Time 512689773
+Received 149 messages, 7.45 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3154362416107384 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 1111111_ hops: 1111111_
+Node 16 received: 11111111 hops: 11111111
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.707107200323623% lpm 92.29289279967638% rx 1.8781905920981399% tx 0.7633763993522944% average latency 0 ms 
+513064157 12 30 0 511 0 15 7 1 0 22 33 0 3325 45850 155 760 12 14 14 14 512 98 1 35 28 65535 65535 0 0 0 0 
+Time 513064157
+Received 150 messages, 7.5 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3133333333333332 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 1111111_ hops: 1111111_
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 11111111 hops: 11111111
+Node 16 received: 11111111 hops: 11111111
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.701214337640006% lpm 92.29878566235999% rx 1.8761171815037834% tx 0.7605832511236451% average latency 0 ms 
+515935845 12 30 0 514 0 3 7 1 0 22 348 0 2589 37007 80 380 12 10 10 5 512 112 1 49 42 65535 65535 0 0 0 0 
+Time 515935845
+Received 151 messages, 7.55 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3112582781456954 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 11111111 hops: 11111111
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 1111111_ hops: 2222222_
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 11111111 hops: 11111111
+Node 16 received: 11111111 hops: 11111111
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.695408870732213% lpm 92.30459112926779% rx 1.8715412936312135% tx 0.7577943371414938% average latency 0 ms 
+520437678 12 30 0 519 0 9 7 2 0 22 948 0 3462 47453 74 667 16 12 22 15 512 91 1 28 21 65535 65535 0 0 0 0 
+Time 520437678
+Received 152 messages, 7.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 11111111 hops: 11111111
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 11111111 hops: 22222222
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 11111111 hops: 11111111
+Node 16 received: 11111111 hops: 11111111
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.6896937602173585% lpm 92.31030623978265% rx 1.8679590517514122% tx 0.7538871227980092% average latency 0 ms 
+Time 520437678
+Received 152 messages, 7.6 messages/node, 0 reordered, 0 lost, 0 lost/node, 0 dups, 0 dups/node, 1.3157894736842106 hops/message
+Received:
+Node 1 received: 11111111 hops: 11111111
+Node 2 received: 11111111 hops: 11111111
+Node 3 received: 11111111 hops: 11111111
+Node 4 received: 11111111 hops: 11111111
+Node 5 received: 11111111 hops: 22222222
+Node 6 received: 11111111 hops: 11111111
+Node 7 received: 11111111 hops: 11111111
+Node 8 received: 11111111 hops: 11111111
+Node 9 received: 11111111 hops: 22222222
+Node 10 received: 11111111 hops: 22222222
+Node 11 received: 11111111 hops: 22222222
+Node 12 sink
+Node 13 received: 11111111 hops: 11111111
+Node 14 received: 11111111 hops: 22222222
+Node 15 received: 11111111 hops: 11111111
+Node 16 received: 11111111 hops: 11111111
+Node 17 received: 11111111 hops: 11111111
+Node 18 received: 11111111 hops: 22222222
+Node 19 received: 11111111 hops: 11111111
+Node 20 received: 11111111 hops: 11111111
+Stats: cpu 7.6896937602173585% lpm 92.31030623978265% rx 1.8679590517514122% tx 0.7538871227980092% average latency 0 ms 
+TEST OK
+Test ended at simulation time: 520437678

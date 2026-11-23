@@ -1,0 +1,305 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make clean TARGET=exp5438 
+Message:
+Message:> make clean TARGET=exp5438 
+Message:make[2]: Entering directory '/home/user/contiki/regression-tests/11-ipv6/code/sender'
+Message:rm -f *~ *core core *.srec \
+Message:*.lst *.map \
+Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+Message:*.ce *.co
+Message:rm -rf *.exp5438 symbols.c symbols.h
+Message:rm -rf obj_exp5438
+Message:make[2]: Leaving directory '/home/user/contiki/regression-tests/11-ipv6/code/sender'
+ INFO [main] (CompileContiki.java:140) - > make udp-sender.exp5438 DEFINES=NETSTACK_CONF_RDC=nullrdc_driver,SIZE=500,BUFSIZE=600 TARGET=exp5438 
+Message:
+Message:> make udp-sender.exp5438 DEFINES=NETSTACK_CONF_RDC=nullrdc_driver,SIZE=500,BUFSIZE=600 TARGET=exp5438 
+Message:make[2]: Entering directory '/home/user/contiki/regression-tests/11-ipv6/code/sender'
+Message:mkdir obj_exp5438
+Message:  CC        ../../../../platform/exp5438/./msp430.c
+Message:  CC        ../../../../core/dev/leds.c
+Message:  CC        ../../../../platform/exp5438/./watchdog.c
+Message:  CC        ../../../../platform/exp5438/./spix.c
+Message:  CC        ../../../../dev/cc2420/cc2420.c
+Message:  CC        ../../../../platform/exp5438/./cc2420-arch.c
+Message:  CC        ../../../../platform/exp5438/./rtimer-arch.c
+Message:  CC        ../../../../platform/exp5438/./node-id.c
+Message:  CC        ../../../../platform/exp5438/./leds-arch.c
+Message:  CC        ../../../../platform/exp5438/./uart1x.c
+Message:  CC        ../../../../platform/exp5438/./lcd.c
+Message:  CC        ../../../../platform/exp5438/./hal_lcd.c
+Message:  CC        ../../../../platform/exp5438/./hal_lcd_fonts.c
+Message:  CC        ../../../../platform/exp5438/./duty-cycle-scroller.c
+Message:  CC        ../../../../core/cfs/cfs-ram.c
+Message:  CC        ../../../../platform/exp5438/./uart1-putchar.c
+Message:  CC        ../../../../core/lib/me.c
+Message:  CC        ../../../../core/lib/me_tabs.c
+Message:  CC        ../../../../core/dev/slip.c
+Message:  CC        ../../../../core/lib/crc16.c
+Message:  CC        ../../../../platform/exp5438/./flash.c
+Message:  CC        ../../../../platform/exp5438/./clock.c
+Message:  CC        ../../../../cpu/msp430/./lpm.c
+Message:  CC        ../../../../core/loader/elfloader.c
+Message:  CC        ../../../../core/loader/elfloader-msp430.c
+Message:  CC        ../../../../core/loader/symtab.c
+Message:  CC        ../../../../core/sys/autostart.c
+Message:  CC        ../../../../core/sys/ctimer.c
+Message:  CC        ../../../../core/sys/energest.c
+Message:  CC        ../../../../core/sys/arg.c
+Message:  CC        ../../../../core/sys/stimer.c
+Message:  CC        ../../../../core/sys/etimer.c
+Message:  CC        ../../../../core/sys/compower.c
+Message:  CC        ../../../../core/sys/process.c
+Message:  CC        ../../../../core/sys/rtimer.c
+Message:  CC        ../../../../core/sys/mt.c
+Message:  CC        ../../../../core/sys/procinit.c
+Message:  CC        ../../../../core/sys/timer.c
+Message:  CC        ../../../../core/dev/serial-line.c
+Message:../../../../core/dev/serial-line.c:40:0: warning: "BUFSIZE" redefined [enabled by default]
+Message:<command-line>:0:0: note: this is the location of the previous definition
+Message:  CC        ../../../../core/dev/nullradio.c
+Message:  CC        ../../../../core/lib/settings.c
+Message:  CC        ../../../../core/lib/ringbuf.c
+Message:  CC        ../../../../core/lib/mmem.c
+Message:  CC        ../../../../core/lib/ccm-star.c
+Message:  CC        ../../../../core/lib/ifft.c
+Message:  CC        ../../../../core/lib/ringbufindex.c
+Message:  CC        ../../../../core/lib/sensors.c
+Message:  CC        ../../../../core/lib/list.c
+Message:  CC        ../../../../core/lib/aes-128.c
+Message:  CC        ../../../../core/lib/trickle-timer.c
+Message:  CC        ../../../../core/lib/print-stats.c
+Message:  CC        ../../../../core/lib/memb.c
+Message:  CC        ../../../../core/lib/petsciiconv.c
+Message:  CC        ../../../../core/lib/gcr.c
+Message:  CC        ../../../../core/lib/random.c
+Message:  CC        ../../../../core/lib/assert.c
+Message:  CC        ../../../../core/net/ipv6/uip-icmp6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6-route.c
+Message:  CC        ../../../../core/net/ipv6/uip6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6-nbr.c
+Message:  CC        ../../../../core/net/ipv6/uip-nd6.c
+Message:  CC        ../../../../core/net/ipv6/sicslowpan.c
+Message:  CC        ../../../../core/net/ip/slipdev.c
+Message:  CC        ../../../../core/net/ip/dhcpc.c
+Message:  CC        ../../../../core/net/ip/uip-packetqueue.c
+Message:  CC        ../../../../core/net/ip/tcp-socket.c
+Message:  CC        ../../../../core/net/ip/uip-debug.c
+Message:  CC        ../../../../core/net/ip/ip64-addr.c
+Message:  CC        ../../../../core/net/ip/uip-udp-packet.c
+Message:  CC        ../../../../core/net/ip/psock.c
+Message:  CC        ../../../../core/net/ip/tcpip.c
+Message:  CC        ../../../../core/net/ip/resolv.c
+Message:  CC        ../../../../core/net/ip/uip-nameserver.c
+Message:  CC        ../../../../core/net/ip/uip-split.c
+Message:  CC        ../../../../core/net/ip/udp-socket.c
+Message:  CC        ../../../../core/net/ip/simple-udp.c
+Message:  CC        ../../../../core/net/ip/uiplib.c
+Message:  CC        ../../../../core/net/rpl/rpl-nbr-policy.c
+Message:  CC        ../../../../core/net/rpl/rpl-of0.c
+Message:  CC        ../../../../core/net/rpl/rpl-dag.c
+Message:  CC        ../../../../core/net/rpl/rpl-timers.c
+Message:  CC        ../../../../core/net/rpl/rpl-ext-header.c
+Message:  CC        ../../../../core/net/rpl/rpl.c
+Message:  CC        ../../../../core/net/rpl/rpl-mrhof.c
+Message:  CC        ../../../../core/net/rpl/rpl-ns.c
+Message:  CC        ../../../../core/net/rpl/rpl-icmp6.c
+Message:  CC        ../../../../core/net/rpl/rpl-dag-root.c
+Message:  CC        ../../../../core/net/queuebuf.c
+Message:  CC        ../../../../core/net/nbr-table.c
+Message:  CC        ../../../../core/net/packetbuf.c
+Message:  CC        ../../../../core/net/netstack.c
+Message:  CC        ../../../../core/net/linkaddr.c
+Message:  CC        ../../../../core/net/net-debug.c
+Message:  CC        ../../../../core/net/link-stats.c
+Message:  CC        ../../../../core/net/mac/framer-nullmac.c
+Message:  CC        ../../../../core/net/mac/nullmac.c
+Message:  CC        ../../../../core/net/mac/nullrdc-noframer.c
+Message:  CC        ../../../../core/net/mac/frame802154e-ie.c
+Message:  CC        ../../../../core/net/mac/mac-sequence.c
+Message:  CC        ../../../../core/net/mac/nordc.c
+Message:  CC        ../../../../core/net/mac/csma.c
+Message:  CC        ../../../../core/net/mac/frame802154.c
+Message:  CC        ../../../../core/net/mac/mac.c
+Message:  CC        ../../../../core/net/mac/framer-802154.c
+Message:  CC        ../../../../core/net/mac/phase.c
+Message:  CC        ../../../../core/net/mac/nullrdc.c
+Message:  CC        ../../../../core/net/mac/contikimac/contikimac.c
+Message:  CC        ../../../../core/net/mac/contikimac/contikimac-framer.c
+Message:  CC        ../../../../core/net/llsec/nullsec.c
+Message:  CC        ../../../../core/net/llsec/anti-replay.c
+Message:  CC        ../../../../core/net/llsec/ccm-star-packetbuf.c
+Message:cp ../../../../tools/empty-symbols.c symbols.c
+Message:cp ../../../../tools/empty-symbols.h symbols.h
+Message:  CC        symbols.c
+Message:  AR        contiki-exp5438.a
+Message:  CC        udp-sender.c
+Message:udp-sender.c: In function ‘process_thread_udp_process’:
+Message:udp-sender.c:37:24: warning: unused variable ‘send_timer’ [-Wunused-variable]
+Message:  CC        ../../../../platform/exp5438/./contiki-exp5438-main.c
+Message:  LD        udp-sender.exp5438
+Message:rm udp-sender.co obj_exp5438/contiki-exp5438-main.o
+Message:make[2]: Leaving directory '/home/user/contiki/regression-tests/11-ipv6/code/sender'
+ INFO [main] (CompileContiki.java:140) - > make clean TARGET=exp5438 
+Message:
+Message:> make clean TARGET=exp5438 
+Message:make[2]: Entering directory '/home/user/contiki/regression-tests/11-ipv6/code/receiver'
+Message:rm -f *~ *core core *.srec \
+Message:*.lst *.map \
+Message:*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+Message:*.ce *.co
+Message:rm -rf *.exp5438 symbols.c symbols.h
+Message:rm -rf obj_exp5438
+Message:make[2]: Leaving directory '/home/user/contiki/regression-tests/11-ipv6/code/receiver'
+ INFO [main] (CompileContiki.java:140) - > make udp-receiver.exp5438 DEFINES=NETSTACK_CONF_RDC=nullrdc_driver TARGET=exp5438 
+Message:
+Message:> make udp-receiver.exp5438 DEFINES=NETSTACK_CONF_RDC=nullrdc_driver TARGET=exp5438 
+Message:make[2]: Entering directory '/home/user/contiki/regression-tests/11-ipv6/code/receiver'
+Message:mkdir obj_exp5438
+Message:  CC        ../../../../platform/exp5438/./msp430.c
+Message:  CC        ../../../../core/dev/leds.c
+Message:  CC        ../../../../platform/exp5438/./watchdog.c
+Message:  CC        ../../../../platform/exp5438/./spix.c
+Message:  CC        ../../../../dev/cc2420/cc2420.c
+Message:  CC        ../../../../platform/exp5438/./cc2420-arch.c
+Message:  CC        ../../../../platform/exp5438/./rtimer-arch.c
+Message:  CC        ../../../../platform/exp5438/./node-id.c
+Message:  CC        ../../../../platform/exp5438/./leds-arch.c
+Message:  CC        ../../../../platform/exp5438/./uart1x.c
+Message:  CC        ../../../../platform/exp5438/./lcd.c
+Message:  CC        ../../../../platform/exp5438/./hal_lcd.c
+Message:  CC        ../../../../platform/exp5438/./hal_lcd_fonts.c
+Message:  CC        ../../../../platform/exp5438/./duty-cycle-scroller.c
+Message:  CC        ../../../../core/cfs/cfs-ram.c
+Message:  CC        ../../../../platform/exp5438/./uart1-putchar.c
+Message:  CC        ../../../../core/lib/me.c
+Message:  CC        ../../../../core/lib/me_tabs.c
+Message:  CC        ../../../../core/dev/slip.c
+Message:  CC        ../../../../core/lib/crc16.c
+Message:  CC        ../../../../platform/exp5438/./flash.c
+Message:  CC        ../../../../platform/exp5438/./clock.c
+Message:  CC        ../../../../cpu/msp430/./lpm.c
+Message:  CC        ../../../../core/loader/elfloader.c
+Message:  CC        ../../../../core/loader/elfloader-msp430.c
+Message:  CC        ../../../../core/loader/symtab.c
+Message:  CC        ../../../../core/sys/autostart.c
+Message:  CC        ../../../../core/sys/ctimer.c
+Message:  CC        ../../../../core/sys/energest.c
+Message:  CC        ../../../../core/sys/arg.c
+Message:  CC        ../../../../core/sys/stimer.c
+Message:  CC        ../../../../core/sys/etimer.c
+Message:  CC        ../../../../core/sys/compower.c
+Message:  CC        ../../../../core/sys/process.c
+Message:  CC        ../../../../core/sys/rtimer.c
+Message:  CC        ../../../../core/sys/mt.c
+Message:  CC        ../../../../core/sys/procinit.c
+Message:  CC        ../../../../core/sys/timer.c
+Message:  CC        ../../../../core/dev/serial-line.c
+Message:  CC        ../../../../core/dev/nullradio.c
+Message:  CC        ../../../../core/lib/settings.c
+Message:  CC        ../../../../core/lib/ringbuf.c
+Message:  CC        ../../../../core/lib/mmem.c
+Message:  CC        ../../../../core/lib/ccm-star.c
+Message:  CC        ../../../../core/lib/ifft.c
+Message:  CC        ../../../../core/lib/ringbufindex.c
+Message:  CC        ../../../../core/lib/sensors.c
+Message:  CC        ../../../../core/lib/list.c
+Message:  CC        ../../../../core/lib/aes-128.c
+Message:  CC        ../../../../core/lib/trickle-timer.c
+Message:  CC        ../../../../core/lib/print-stats.c
+Message:  CC        ../../../../core/lib/memb.c
+Message:  CC        ../../../../core/lib/petsciiconv.c
+Message:  CC        ../../../../core/lib/gcr.c
+Message:  CC        ../../../../core/lib/random.c
+Message:  CC        ../../../../core/lib/assert.c
+Message:  CC        ../../../../core/net/ipv6/uip-icmp6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6-route.c
+Message:  CC        ../../../../core/net/ipv6/uip6.c
+Message:  CC        ../../../../core/net/ipv6/uip-ds6-nbr.c
+Message:  CC        ../../../../core/net/ipv6/uip-nd6.c
+Message:  CC        ../../../../core/net/ipv6/sicslowpan.c
+Message:  CC        ../../../../core/net/ip/slipdev.c
+Message:  CC        ../../../../core/net/ip/dhcpc.c
+Message:  CC        ../../../../core/net/ip/uip-packetqueue.c
+Message:  CC        ../../../../core/net/ip/tcp-socket.c
+Message:  CC        ../../../../core/net/ip/uip-debug.c
+Message:  CC        ../../../../core/net/ip/ip64-addr.c
+Message:  CC        ../../../../core/net/ip/uip-udp-packet.c
+Message:  CC        ../../../../core/net/ip/psock.c
+Message:  CC        ../../../../core/net/ip/tcpip.c
+Message:  CC        ../../../../core/net/ip/resolv.c
+Message:  CC        ../../../../core/net/ip/uip-nameserver.c
+Message:  CC        ../../../../core/net/ip/uip-split.c
+Message:  CC        ../../../../core/net/ip/udp-socket.c
+Message:  CC        ../../../../core/net/ip/simple-udp.c
+Message:  CC        ../../../../core/net/ip/uiplib.c
+Message:  CC        ../../../../core/net/rpl/rpl-nbr-policy.c
+Message:  CC        ../../../../core/net/rpl/rpl-of0.c
+Message:  CC        ../../../../core/net/rpl/rpl-dag.c
+Message:  CC        ../../../../core/net/rpl/rpl-timers.c
+Message:  CC        ../../../../core/net/rpl/rpl-ext-header.c
+Message:  CC        ../../../../core/net/rpl/rpl.c
+Message:  CC        ../../../../core/net/rpl/rpl-mrhof.c
+Message:  CC        ../../../../core/net/rpl/rpl-ns.c
+Message:  CC        ../../../../core/net/rpl/rpl-icmp6.c
+Message:  CC        ../../../../core/net/rpl/rpl-dag-root.c
+Message:  CC        ../../../../core/net/queuebuf.c
+Message:  CC        ../../../../core/net/nbr-table.c
+Message:  CC        ../../../../core/net/packetbuf.c
+Message:  CC        ../../../../core/net/netstack.c
+Message:  CC        ../../../../core/net/linkaddr.c
+Message:  CC        ../../../../core/net/net-debug.c
+Message:  CC        ../../../../core/net/link-stats.c
+Message:  CC        ../../../../core/net/mac/framer-nullmac.c
+Message:  CC        ../../../../core/net/mac/nullmac.c
+Message:  CC        ../../../../core/net/mac/nullrdc-noframer.c
+Message:  CC        ../../../../core/net/mac/frame802154e-ie.c
+Message:  CC        ../../../../core/net/mac/mac-sequence.c
+Message:  CC        ../../../../core/net/mac/nordc.c
+Message:  CC        ../../../../core/net/mac/csma.c
+Message:  CC        ../../../../core/net/mac/frame802154.c
+Message:  CC        ../../../../core/net/mac/mac.c
+Message:  CC        ../../../../core/net/mac/framer-802154.c
+Message:  CC        ../../../../core/net/mac/phase.c
+Message:  CC        ../../../../core/net/mac/nullrdc.c
+Message:  CC        ../../../../core/net/mac/contikimac/contikimac.c
+Message:  CC        ../../../../core/net/mac/contikimac/contikimac-framer.c
+Message:  CC        ../../../../core/net/llsec/nullsec.c
+Message:  CC        ../../../../core/net/llsec/anti-replay.c
+Message:  CC        ../../../../core/net/llsec/ccm-star-packetbuf.c
+Message:cp ../../../../tools/empty-symbols.c symbols.c
+Message:cp ../../../../tools/empty-symbols.h symbols.h
+Message:  CC        symbols.c
+Message:  AR        contiki-exp5438.a
+Message:  CC        udp-receiver.c
+Message:udp-receiver.c: In function ‘process_thread_udp_process’:
+Message:udp-receiver.c:36:24: warning: unused variable ‘send_timer’ [-Wunused-variable]
+Message:  CC        ../../../../platform/exp5438/./contiki-exp5438-main.c
+Message:  LD        udp-receiver.exp5438
+Message:rm udp-receiver.co obj_exp5438/contiki-exp5438-main.o
+Message:make[2]: Leaving directory '/home/user/contiki/regression-tests/11-ipv6/code/receiver'
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/regression-tests/11-ipv6/code/sender/udp-sender.exp5438
+ INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/regression-tests/11-ipv6/code/receiver/udp-receiver.exp5438
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.TimeLine
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 200000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616037102893
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 6.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 3.5 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 3.0 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 2.7 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 2.4 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 2.0 sec
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616037103794	Duration: 901 ms	Simulated time 60916 ms	Ratio 67.6093229744728
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated

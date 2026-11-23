@@ -1,0 +1,6 @@
+make[2]: Entering directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'
+../../../../platform/jn516x/Makefile.jn516x:35: /usr/jn516x-sdk/JN-SW-4163/Chip/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:36: /usr/jn516x-sdk/JN-SW-4163/Platform/Common/Build/config.mk: No such file or directory
+../../../../platform/jn516x/Makefile.jn516x:37: /usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk: No such file or directory
+make[2]: *** No rule to make target '/usr/jn516x-sdk/JN-SW-4163/Stack/Common/Build/config.mk'.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/jn516x/rpl/coap-dr1175-node'

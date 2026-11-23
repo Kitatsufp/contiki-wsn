@@ -1,0 +1,281 @@
+(standard input):
+02-hello-world-sky.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+02-hello-world-sky.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+02-hello-world-sky.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+02-hello-world-sky.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+02-hello-world-sky.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+02-hello-world-sky.log: INFO [main] (CompileContiki.java:140) - > make hello-world.sky TARGET=sky 
+02-hello-world-sky.log:Message:
+02-hello-world-sky.log:Message:> make hello-world.sky TARGET=sky 
+02-hello-world-sky.log:Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+02-hello-world-sky.log:Message:  CC        symbols.c
+02-hello-world-sky.log:Message:  AR        contiki-sky.a
+02-hello-world-sky.log:Message:  CC        hello-world.c
+02-hello-world-sky.log:Message:  CC        ../../platform/sky/./contiki-sky-main.c
+02-hello-world-sky.log:Message:  LD        hello-world.sky
+02-hello-world-sky.log:Message:rm hello-world.co obj_sky/contiki-sky-main.o
+02-hello-world-sky.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+02-hello-world-sky.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/hello-world/hello-world.sky
+02-hello-world-sky.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+02-hello-world-sky.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 5000 ms
+02-hello-world-sky.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+02-hello-world-sky.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036865187
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+02-hello-world-sky.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+02-hello-world-sky.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.5 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.7 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.5 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.4 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.4 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.4 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 0.3 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 0.3 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 0.2 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 0.2 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 65.00%, done in 0.2 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.1 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+02-hello-world-sky.log: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+02-hello-world-sky.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+02-hello-world-sky.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036865554	Duration: 367 ms	Simulated time 5000 ms	Ratio 13.623978201634877
+02-hello-world-sky.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+05-exp5438-hello-world.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+05-exp5438-hello-world.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+05-exp5438-hello-world.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+05-exp5438-hello-world.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+05-exp5438-hello-world.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+05-exp5438-hello-world.log: INFO [main] (CompileContiki.java:140) - > make hello-world.exp5438 TARGET=exp5438 
+05-exp5438-hello-world.log:Message:
+05-exp5438-hello-world.log:Message:> make hello-world.exp5438 TARGET=exp5438 
+05-exp5438-hello-world.log:Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+05-exp5438-hello-world.log:Message:  CC        symbols.c
+05-exp5438-hello-world.log:Message:  AR        contiki-exp5438.a
+05-exp5438-hello-world.log:Message:  CC        hello-world.c
+05-exp5438-hello-world.log:Message:  CC        ../../platform/exp5438/./contiki-exp5438-main.c
+05-exp5438-hello-world.log:Message:  LD        hello-world.exp5438
+05-exp5438-hello-world.log:Message:rm obj_exp5438/contiki-exp5438-main.o hello-world.co
+05-exp5438-hello-world.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+05-exp5438-hello-world.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/hello-world/hello-world.exp5438
+05-exp5438-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+05-exp5438-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+05-exp5438-hello-world.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+05-exp5438-hello-world.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 5000 ms
+05-exp5438-hello-world.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+05-exp5438-hello-world.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036869539
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.8 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.6 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.5 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.4 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.5 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.5 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 0.4 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 0.3 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 0.3 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 0.2 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 65.00%, done in 0.2 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.1 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+05-exp5438-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+05-exp5438-hello-world.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+05-exp5438-hello-world.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036869885	Duration: 346 ms	Simulated time 5000 ms	Ratio 14.45086705202312
+05-exp5438-hello-world.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+07-z1-hello-world.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+07-z1-hello-world.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+07-z1-hello-world.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+07-z1-hello-world.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+07-z1-hello-world.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+07-z1-hello-world.log: INFO [main] (CompileContiki.java:140) - > make hello-world.z1 TARGET=z1 
+07-z1-hello-world.log:Message:
+07-z1-hello-world.log:Message:> make hello-world.z1 TARGET=z1 
+07-z1-hello-world.log:Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+07-z1-hello-world.log:Message:cp ../../tools/empty-symbols.c symbols.c
+07-z1-hello-world.log:Message:cp ../../tools/empty-symbols.h symbols.h
+07-z1-hello-world.log:Message:  CC        symbols.c
+07-z1-hello-world.log:Message:  AR        contiki-z1.a
+07-z1-hello-world.log:Message:  CC        hello-world.c
+07-z1-hello-world.log:Message:  CC        ../../platform/z1/./contiki-z1-main.c
+07-z1-hello-world.log:Message:  LD        hello-world.z1
+07-z1-hello-world.log:Message:rm obj_z1/contiki-z1-main.o hello-world.co
+07-z1-hello-world.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+07-z1-hello-world.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/hello-world/hello-world.z1
+07-z1-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+07-z1-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+07-z1-hello-world.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+07-z1-hello-world.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 5000 ms
+07-z1-hello-world.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+07-z1-hello-world.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036858046
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.9 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 1.1 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 1.1 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 1.2 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 1.0 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.8 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 0.7 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 0.6 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 0.6 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 0.5 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 65.00%, done in 0.4 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.3 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.2 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.2 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.1 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+07-z1-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+07-z1-hello-world.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+07-z1-hello-world.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036858783	Duration: 737 ms	Simulated time 5000 ms	Ratio 6.784260515603799
+07-z1-hello-world.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+06-wismote-hello-world.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+06-wismote-hello-world.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+06-wismote-hello-world.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+06-wismote-hello-world.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+06-wismote-hello-world.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+06-wismote-hello-world.log: INFO [main] (CompileContiki.java:140) - > make hello-world.wismote TARGET=wismote 
+06-wismote-hello-world.log:Message:
+06-wismote-hello-world.log:Message:> make hello-world.wismote TARGET=wismote 
+06-wismote-hello-world.log:Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+06-wismote-hello-world.log:Message:  CC        symbols.c
+06-wismote-hello-world.log:Message:  AR        contiki-wismote.a
+06-wismote-hello-world.log:Message:  CC        hello-world.c
+06-wismote-hello-world.log:Message:  CC        ../../platform/wismote/./contiki-wismote-main.c
+06-wismote-hello-world.log:Message:  LD        hello-world.wismote
+06-wismote-hello-world.log:Message:rm hello-world.co obj_wismote/contiki-wismote-main.o
+06-wismote-hello-world.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+06-wismote-hello-world.log: INFO [main] (MspMote.java:235) - Loading firmware from: /home/user/contiki/examples/hello-world/hello-world.wismote
+06-wismote-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+06-wismote-hello-world.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+06-wismote-hello-world.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+06-wismote-hello-world.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 5000 ms
+06-wismote-hello-world.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+06-wismote-hello-world.log: INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616036862114
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 1.0 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.8 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.6 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.5 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.5 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 40.00%, done in 0.5 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 45.00%, done in 0.4 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 50.00%, done in 0.4 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 55.00%, done in 0.3 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 60.00%, done in 0.2 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 65.00%, done in 0.2 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 70.00%, done in 0.2 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 75.00%, done in 0.1 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 80.00%, done in 0.1 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 85.00%, done in 0.1 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 90.00%, done in 0.0 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 95.00%, done in 0.0 sec
+06-wismote-hello-world.log: INFO [Thread-2] (LogScriptEngine.java:375) - Timeout event @ 5000000
+06-wismote-hello-world.log: INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+06-wismote-hello-world.log: INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616036862511	Duration: 398 ms	Simulated time 5000 ms	Ratio 12.56281407035176
+06-wismote-hello-world.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+03-hello-world-micaz.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+03-hello-world-micaz.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+03-hello-world-micaz.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+03-hello-world-micaz.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+03-hello-world-micaz.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+03-hello-world-micaz.log: INFO [main] (CompileContiki.java:140) - > make hello-world.elf TARGET=micaz 
+03-hello-world-micaz.log:Message:
+03-hello-world-micaz.log:Message:> make hello-world.elf TARGET=micaz 
+03-hello-world-micaz.log:Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+03-hello-world-micaz.log:Message:  CC        ../../platform/micaz/dev/adc.c
+03-hello-world-micaz.log:Message:make[2]: avr-gcc: Command not found
+03-hello-world-micaz.log:Message:make[2]: *** [obj_micaz/adc.o] Error 127
+03-hello-world-micaz.log:Message:../../Makefile.include:240: recipe for target 'obj_micaz/adc.o' failed
+03-hello-world-micaz.log:Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+03-hello-world-micaz.log:Message:Process returned error code 2
+03-hello-world-micaz.log:FATAL [main] (MicaZMoteType.java:405) - Compilation error: Bad return value
+03-hello-world-micaz.log:FATAL [main] (Cooja.java:1337) - Exception when loading simulation: 
+03-hello-world-micaz.log:org.contikios.cooja.Cooja$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+03-hello-world-micaz.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3450)
+03-hello-world-micaz.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3361)
+03-hello-world-micaz.log:	at org.contikios.cooja.Cooja.quickStartSimulationConfig(Cooja.java:1330)
+03-hello-world-micaz.log:	at org.contikios.cooja.Cooja.main(Cooja.java:3239)
+03-hello-world-micaz.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+03-hello-world-micaz.log:	at org.contikios.cooja.avrmote.MicaZMoteType.configureAndInit(MicaZMoteType.java:392)
+03-hello-world-micaz.log:	at org.contikios.cooja.avrmote.MicaZMoteType.setConfigXML(MicaZMoteType.java:325)
+03-hello-world-micaz.log:	at org.contikios.cooja.Simulation.setConfigXML(Simulation.java:690)
+03-hello-world-micaz.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+03-hello-world-micaz.log:	... 3 more
+03-hello-world-micaz.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+03-hello-world-micaz.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+03-hello-world-micaz.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+03-hello-world-micaz.log:	at org.contikios.cooja.avrmote.MicaZMoteType.configureAndInit(MicaZMoteType.java:380)
+03-hello-world-micaz.log:	... 6 more
+03-hello-world-micaz.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+03-hello-world-micaz.log:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+03-hello-world-micaz.log:	at java.lang.Thread.run(Thread.java:748)
+02-hello-world-sky.1.faillog:Random seed: 1
+02-hello-world-sky.1.faillog:> Rime started with address 0.18.116.1.0.1.1.1
+02-hello-world-sky.1.faillog:> MAC 00:12:74:01:00:01:01:01 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+02-hello-world-sky.1.faillog:> nullsec CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26, CCA threshold -45
+02-hello-world-sky.1.faillog:> Tentative link-local IPv6 address fe80:0000:0000:0000:0212:7401:0001:0101
+02-hello-world-sky.1.faillog:> Starting 'Hello world process'
+02-hello-world-sky.1.faillog:> Timer fired: i=0 
+02-hello-world-sky.1.faillog:> Timer fired: i=1 
+02-hello-world-sky.1.faillog:> Timer fired: i=2 
+02-hello-world-sky.1.faillog:> Timer fired: i=3 
+02-hello-world-sky.1.faillog:TEST TIMEOUT
+02-hello-world-sky.1.faillog:TEST FAILED
+02-hello-world-sky.1.faillog:Test ended at simulation time: 5000000
+02-hello-world-sky.1.faillog: FAIL ಠ_ಠ
+05-exp5438-hello-world.1.faillog:Random seed: 1
+05-exp5438-hello-world.1.faillog:> Contiki-3.x-3001-g8612334
+05-exp5438-hello-world.1.faillog:> Rime addr 0.0.0.0.0.0.0.1
+05-exp5438-hello-world.1.faillog:> MAC 00:00:00:00:00:00:00:01
+05-exp5438-hello-world.1.faillog:> Node id 1.
+05-exp5438-hello-world.1.faillog:> ContikiMAC 8 26
+05-exp5438-hello-world.1.faillog:> IPv6 fe80:0000:0000:0000:0200:0000:0000:0001
+05-exp5438-hello-world.1.faillog:> Starting Hello world process
+05-exp5438-hello-world.1.faillog:> Timer fired: i=0 
+05-exp5438-hello-world.1.faillog:> Timer fired: i=1 
+05-exp5438-hello-world.1.faillog:> Timer fired: i=2 
+05-exp5438-hello-world.1.faillog:> Timer fired: i=3 
+05-exp5438-hello-world.1.faillog:TEST TIMEOUT
+05-exp5438-hello-world.1.faillog:TEST FAILED
+05-exp5438-hello-world.1.faillog:Test ended at simulation time: 5000000
+05-exp5438-hello-world.1.faillog: FAIL ಠ_ಠ
+07-z1-hello-world.1.faillog:Random seed: 1
+07-z1-hello-world.1.faillog:> Rime started with address 193.12.0.0.0.0.0.1
+07-z1-hello-world.1.faillog:> MAC c1:0c:00:00:00:00:00:01 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+07-z1-hello-world.1.faillog:> CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+07-z1-hello-world.1.faillog:> Tentative link-local IPv6 address fe80:0000:0000:0000:c30c:0000:0000:0001
+07-z1-hello-world.1.faillog:> Starting 'Hello world process'
+07-z1-hello-world.1.faillog:> Timer fired: i=0 
+07-z1-hello-world.1.faillog:> Timer fired: i=1 
+07-z1-hello-world.1.faillog:> Timer fired: i=2 
+07-z1-hello-world.1.faillog:TEST TIMEOUT
+07-z1-hello-world.1.faillog:TEST FAILED
+07-z1-hello-world.1.faillog:Test ended at simulation time: 5000000
+07-z1-hello-world.1.faillog: FAIL ಠ_ಠ
+06-wismote-hello-world.1.faillog:Random seed: 1
+06-wismote-hello-world.1.faillog:> Rime started with address 0.0.0.0.0.0.0.1
+06-wismote-hello-world.1.faillog:> MAC 00:00:00:00:00:00:00:01 Contiki-3.x-3001-g8612334 started. Node id is set to 1.
+06-wismote-hello-world.1.faillog:> CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+06-wismote-hello-world.1.faillog:> Tentative link-local IPv6 address fe80:0000:0000:0000:0200:0000:0000:0001
+06-wismote-hello-world.1.faillog:> Starting 'Hello world process'
+06-wismote-hello-world.1.faillog:> Timer fired: i=0 
+06-wismote-hello-world.1.faillog:> Timer fired: i=1 
+06-wismote-hello-world.1.faillog:> Timer fired: i=2 
+06-wismote-hello-world.1.faillog:> Timer fired: i=3 
+06-wismote-hello-world.1.faillog:TEST TIMEOUT
+06-wismote-hello-world.1.faillog:TEST FAILED
+06-wismote-hello-world.1.faillog:Test ended at simulation time: 5000000
+06-wismote-hello-world.1.faillog: FAIL ಠ_ಠ
+03-hello-world-micaz.1.faillog: FAIL ಠ_ಠ

@@ -1,0 +1,10 @@
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'
+make[2]: Entering directory '/home/user/contiki/examples/telnet-server'
+using saved defines 'CONNECTIONS=3,WITH_LOGGING,WITH_CLIENT,WITH_DNS,WITH_80COL,WITH_REBOOT'
+make[2]: cl65: Command not found
+mkdir obj_apple2enh
+  CC        ../../apps/telnetd/telnetd.c
+make[2]: cl65: Command not found
+../../cpu/6502/Makefile.customrules-6502:3: recipe for target 'obj_apple2enh/telnetd.o' failed
+make[2]: *** [obj_apple2enh/telnetd.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/telnet-server'

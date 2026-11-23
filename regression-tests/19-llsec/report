@@ -1,0 +1,43 @@
+(standard input):
+01-ccm-star.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-ccm-star.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-ccm-star.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-ccm-star.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-ccm-star.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-ccm-star.log: INFO [main] (CompileContiki.java:140) - > make tests.cooja TARGET=cooja 
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/verification/obj_cooja/mtype734.cooja
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:500) - mtype734.cooja: offsetting Cooja mote address space: 0x83ed1000
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83efc020 ( 578 == 0x242 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83efc280 ( 67048 == 0x105e8 bytes)
+01-ccm-star.log: INFO [main] (CompileContiki.java:140) - > make tests.cooja TARGET=cooja 
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/encryption/obj_cooja/mtype716.cooja
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:500) - mtype716.cooja: offsetting Cooja mote address space: 0x83cc4000
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83cef020 ( 578 == 0x242 bytes)
+01-ccm-star.log: INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83cef280 ( 67048 == 0x105e8 bytes)
+01-ccm-star.log: INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+01-ccm-star.log: INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+01-ccm-star.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+01-ccm-star.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+01-ccm-star.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+01-ccm-star.log: INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+01-ccm-star.log: INFO [main] (ScriptRunner.java:430) - Test script deactivated
+01-ccm-star.log: INFO [main] (LogScriptEngine.java:265) - Script timeout in 2000 ms
+01-ccm-star.log: INFO [main] (ScriptRunner.java:387) - Test script activated
+01-ccm-star.log: INFO [Thread-6] (Simulation.java:252) - Simulation main loop started, system time: 1616035989317
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 5.00%, done in 0.0 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 10.00%, done in 0.0 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 15.00%, done in 0.0 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 20.00%, done in 0.0 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 25.00%, done in 0.0 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 30.00%, done in 0.1 sec
+01-ccm-star.log: INFO [Thread-6] (LogScriptEngine.java:389) - Test script at 35.00%, done in 0.1 sec
+01-ccm-star.log: INFO [Thread-5] (LogScriptEngine.java:309) - Test script finished
+01-ccm-star.log: INFO [Thread-6] (Simulation.java:311) - Simulation main loop stopped, system time: 1616035989370	Duration: 53 ms	Simulated time 1551 ms	Ratio 29.264150943396228
+01-ccm-star.log: INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+01-ccm-star.testlog:Random seed: 1
+01-ccm-star.testlog:TEST OK
+01-ccm-star.testlog:Test ended at simulation time: 1551800

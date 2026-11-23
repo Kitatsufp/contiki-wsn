@@ -1,0 +1,10 @@
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/econotag-flash-test'

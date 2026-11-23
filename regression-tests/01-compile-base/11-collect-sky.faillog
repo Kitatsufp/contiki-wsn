@@ -1,0 +1,10 @@
+make[2]: Entering directory '/home/user/contiki/examples/collect'
+  AR        contiki-sky.a
+  CC        collect-view-shell.c
+  CC        ../../platform/sky/./contiki-sky-main.c
+../../platform/sky/./contiki-sky-main.c:473:1: fatal error: opening dependency file obj_sky/contiki-sky-main.d: Permission denied
+compilation terminated.
+../../Makefile.include:240: recipe for target 'obj_sky/contiki-sky-main.o' failed
+make[2]: *** [obj_sky/contiki-sky-main.o] Error 1
+rm collect-view-shell.co
+make[2]: Leaving directory '/home/user/contiki/examples/collect'

@@ -1,0 +1,17 @@
+make[2]: Entering directory '/home/user/contiki/examples/sensniff'
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf *.cc2530dk *.lnk *.lk *.sym *.lib *.ihx *.rel *.mem *.rst *.asm *.hex *.omf *.cdb *.banks *.flags *.banked-hex symbols.c symbols.h
+rm -rf obj_cc2530dk
+make[2]: Leaving directory '/home/user/contiki/examples/sensniff'
+make[2]: Entering directory '/home/user/contiki/examples/sensniff'
+mkdir obj_cc2530dk
+cat     ../../platform/cc2530dk/./segment.rules      ../../cpu/cc253x/./segment.rules              | \
+   sed -e 's/#.*$//' -e 's/^\s*//' -e '/^$/d' > obj_cc2530dk/segment.rules
+  CC        ../../platform/cc2530dk/./contiki-main.c
+make[2]: sdcc: Command not found
+../../cpu/cc253x/Makefile.customrules-cc253x:16: recipe for target 'obj_cc2530dk/contiki-main.rel' failed
+make[2]: *** [obj_cc2530dk/contiki-main.rel] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/sensniff'

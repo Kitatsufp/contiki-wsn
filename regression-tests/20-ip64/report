@@ -1,0 +1,37 @@
+(standard input):
+01-cooja-ip64-http-socket.log: WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+01-cooja-ip64-http-socket.log: INFO [main] (Cooja.java:1315) - > Starting Cooja
+01-cooja-ip64-http-socket.log: INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+01-cooja-ip64-http-socket.log: INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+01-cooja-ip64-http-socket.log: INFO [main] (Simulation.java:421) - Simulation random seed: 1
+01-cooja-ip64-http-socket.log: INFO [main] (CompileContiki.java:140) - > make ip64-router.cooja-ip64 TARGET=cooja-ip64 
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> 
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> > make ip64-router.cooja-ip64 TARGET=cooja-ip64 
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >>   CC        ../../platform/cooja-ip64/./contiki-cooja-ip64-main.c
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> ../../platform/cooja-ip64/./contiki-cooja-ip64-main.c:38:17: fatal error: jni.h: No such file or directory
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> compilation terminated.
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> ../../Makefile.include:253: recipe for target 'contiki-cooja-ip64-main.o' failed
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> Process returned error code 2
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:350) - >> make: *** [contiki-cooja-ip64-main.o] Error 1
+01-cooja-ip64-http-socket.log:FATAL [main] (ContikiMoteType.java:353) - Compilation error: Bad return value
+01-cooja-ip64-http-socket.log:FATAL [main] (Cooja.java:1337) - Exception when loading simulation: 
+01-cooja-ip64-http-socket.log:org.contikios.cooja.Cooja$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3450)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3361)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Cooja.quickStartSimulationConfig(Cooja.java:1330)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Cooja.main(Cooja.java:3239)
+01-cooja-ip64-http-socket.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:340)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.contikimote.ContikiMoteType.setConfigXML(ContikiMoteType.java:1333)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Simulation.setConfigXML(Simulation.java:690)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+01-cooja-ip64-http-socket.log:	... 3 more
+01-cooja-ip64-http-socket.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:328)
+01-cooja-ip64-http-socket.log:	... 6 more
+01-cooja-ip64-http-socket.log:Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+01-cooja-ip64-http-socket.log:	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+01-cooja-ip64-http-socket.log:	at java.lang.Thread.run(Thread.java:748)
+01-cooja-ip64-http-socket.1.faillog: FAIL ಠ_ಠ

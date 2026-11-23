@@ -1,0 +1,36 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make hello-world.elf TARGET=micaz 
+Message:
+Message:> make hello-world.elf TARGET=micaz 
+Message:make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+Message:  CC        ../../platform/micaz/dev/adc.c
+Message:make[2]: avr-gcc: Command not found
+Message:make[2]: *** [obj_micaz/adc.o] Error 127
+Message:../../Makefile.include:240: recipe for target 'obj_micaz/adc.o' failed
+Message:make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+Message:Process returned error code 2
+FATAL [main] (MicaZMoteType.java:405) - Compilation error: Bad return value
+FATAL [main] (Cooja.java:1337) - Exception when loading simulation: 
+org.contikios.cooja.Cooja$SimulationCreationException: Mote type creation error: Mote type creation failed: Bad return value
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3450)
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3361)
+	at org.contikios.cooja.Cooja.quickStartSimulationConfig(Cooja.java:1330)
+	at org.contikios.cooja.Cooja.main(Cooja.java:3239)
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Mote type creation failed: Bad return value
+	at org.contikios.cooja.avrmote.MicaZMoteType.configureAndInit(MicaZMoteType.java:392)
+	at org.contikios.cooja.avrmote.MicaZMoteType.setConfigXML(MicaZMoteType.java:325)
+	at org.contikios.cooja.Simulation.setConfigXML(Simulation.java:690)
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+	... 3 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+	at org.contikios.cooja.avrmote.MicaZMoteType.configureAndInit(MicaZMoteType.java:380)
+	... 6 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+	at java.lang.Thread.run(Thread.java:748)

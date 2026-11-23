@@ -1,0 +1,15 @@
+make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+mkdir obj_avr-rss2
+  CC        ../../../../apps/servreg-hack/servreg-hack.c
+make[2]: avr-gcc: Command not found
+../../../../Makefile.include:240: recipe for target 'obj_avr-rss2/servreg-hack.o' failed
+make[2]: *** [obj_avr-rss2/servreg-hack.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'

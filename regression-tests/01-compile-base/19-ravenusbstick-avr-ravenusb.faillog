@@ -1,0 +1,10 @@
+make[3]: Entering directory '/home/user/contiki/examples/ravenusbstick'
+mkdir obj_avr-ravenusb
+  CC        ../../core/cfs/cfs-eeprom.c
+make[3]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-ravenusb/cfs-eeprom.o' failed
+make[3]: *** [obj_avr-ravenusb/cfs-eeprom.o] Error 127
+make[3]: Leaving directory '/home/user/contiki/examples/ravenusbstick'
+Makefile:2: recipe for target 'all' failed
+make[2]: *** [all] Error 2
+make[2]: Leaving directory '/home/user/contiki/examples/ravenusbstick'

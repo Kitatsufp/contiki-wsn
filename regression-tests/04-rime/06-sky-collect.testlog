@@ -1,0 +1,46 @@
+Random seed: 1
+Node 3 booted
+Node 7 booted
+Node 4 booted
+Node 2 booted
+Node 5 booted
+Node 6 booted
+Node 1 booted
+All nodes booted, creating sink at node 1
+Got data from node 3: tot=1
+Got data from node 4: tot=1
+Got data from node 5: tot=1
+Got data from node 1: tot=1
+Got data from node 2: tot=1
+Got data from node 7: tot=1
+Got data from node 6: tot=1
+Got data from node 3: tot=2
+Got data from node 7: tot=2
+Got data from node 4: tot=2
+Got data from node 5: tot=2
+Got data from node 2: tot=2
+Got data from node 1: tot=2
+Got data from node 6: tot=2
+Got data from node 3: tot=3
+Got data from node 7: tot=3
+Got data from node 4: tot=3
+Got data from node 2: tot=3
+Got data from node 1: tot=3
+Got data from node 5: tot=3
+Got data from node 6: tot=3
+Got data from node 3: tot=4
+Got data from node 7: tot=4
+Got data from node 4: tot=4
+Got data from node 5: tot=4
+Got data from node 2: tot=4
+Got data from node 6: tot=4
+Got data from node 1: tot=4
+Got data from node 3: tot=5
+Got data from node 4: tot=5
+Got data from node 2: tot=5
+Got data from node 5: tot=5
+Got data from node 6: tot=5
+Got data from node 1: tot=5
+Got data from node 7: tot=5
+TEST OK
+Test ended at simulation time: 110257551

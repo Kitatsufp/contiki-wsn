@@ -1,0 +1,41 @@
+05-netperf01-sky-netperf.testlog:TEST OK
+03-sky-netperf-cxmac.testlog:TEST OK
+02-sky-netperf-lpp.1.faillog: FAIL ಠ_ಠ
+==> 01-sky-netperf.log <==
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034291811
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 28.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 18.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 15.1 sec
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034294519	Duration: 2708 ms	Simulated time 15253 ms	Ratio 5.632570162481536
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+
+==> 02-sky-netperf-lpp.log <==
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+	... 3 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+	at org.contikios.cooja.mspmote.SkyMoteType.configureAndInit(SkyMoteType.java:151)
+	... 6 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+	at java.lang.Thread.run(Thread.java:748)
+
+==> 03-sky-netperf-cxmac.log <==
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 100000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-2] (Simulation.java:252) - Simulation main loop started, system time: 1616034302994
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 5.00%, done in 24.8 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 10.00%, done in 19.4 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 15.00%, done in 16.5 sec
+ INFO [Thread-2] (LogScriptEngine.java:389) - Test script at 20.00%, done in 15.5 sec
+ INFO [Thread-1] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-2] (Simulation.java:311) - Simulation main loop stopped, system time: 1616034307203	Duration: 4209 ms	Simulated time 21485 ms	Ratio 5.104537894986933
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+
+==> 02-sky-netperf-lpp.1.faillog <==
+ FAIL ಠ_ಠ

@@ -1,0 +1,10 @@
+rm -rf 
+rm -rf obj_micaz
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+mkdir obj_micaz
+  CC        ../../platform/micaz/dev/adc.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_micaz/adc.o' failed
+make[2]: *** [obj_micaz/adc.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'

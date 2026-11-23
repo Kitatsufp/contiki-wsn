@@ -1,0 +1,6 @@
+
+   text	   data	    bss	    dec	    hex	filename
+ 131516	   3164	  10284	 144964	  23644	er-example-server.stm32nucleo-spirit1
+
+   text	   data	    bss	    dec	    hex	filename
+ 126156	   2968	  10392	 139516	  220fc	er-example-client.stm32nucleo-spirit1

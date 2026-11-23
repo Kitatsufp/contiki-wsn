@@ -1,0 +1,123 @@
+-------- Start FFDC ------s
+FFDC.CWNAN.20240107.160905.934.dmp
+Product      :- Really Small Message Broker
+Version      :- 1.3.0.2
+Build        :- Mar 16 2018 08:33:43
+Features     :- bridge MQTTS 
+Pointer size :- 4 bytes
+Date/Time    :- Sun Jan  7 16:09:05 2024
+
+Reason       :- Some memory not freed at shutdown, possible memory leak
+
+=========== Start of stack trace ==========
+main (254)
+=========== End of stack trace ==========
+
+Heap scan start, total 3056 bytes
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8e8d280
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8e8d380
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8e8d570
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea0ce0
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8ea0de0
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea0f40
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8ea1810
+  Content           
+Heap element size 80, line 171, file Log.c, ptr 0x8ea1940
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea19b0
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8ea1d50
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8ea1df0
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea2388
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea2f50
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea3010
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea3560
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea3580
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea3600
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8ea45b0
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8ea4838
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea4948
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea4d98
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea5ed0
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea6290
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8ea7c48
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea80d0
+  Content           
+Heap element size 80, line 171, file Log.c, ptr 0x8ea8248
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea86f0
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8ea9288
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8ea9308
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eaa008
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eaa8e8
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eab150
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eab1a0
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eabf70
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eac2d0
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eac788
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eaca40
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eaca90
+  Content           
+Heap element size 80, line 171, file Log.c, ptr 0x8ead048
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8ead190
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8ead7f8
+  Content           
+Heap element size 128, line 171, file Log.c, ptr 0x8ead988
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eada90
+  Content           
+Heap element size 80, line 171, file Log.c, ptr 0x8eadb60
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eadf78
+  Content           
+Heap element size 16, line 88, file LinkedList.c, ptr 0x8eadfe8
+  Content           
+Heap element size 192, line 171, file Log.c, ptr 0x8eae008
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eae0f0
+  Content           
+Heap element size 128, line 171, file Log.c, ptr 0x8eae170
+  Content           
+Heap element size 112, line 171, file Log.c, ptr 0x8eae770
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8eae7f0
+  Content           
+Heap element size 64, line 171, file Log.c, ptr 0x8eae840
+  Content           
+Heap element size 80, line 171, file Log.c, ptr 0x8eae890
+  Content           
+Heap scan end

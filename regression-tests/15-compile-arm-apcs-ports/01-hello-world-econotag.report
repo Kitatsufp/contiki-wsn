@@ -1,0 +1,20 @@
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../platform/econotag/Makefile.econotag:9: ../..
+rm -f *~ *core core *.srec \
+*.lst *.map \
+*.cprg *.bin *.data contiki*.a *.firmware core-labels.S *.ihex *.ini \
+*.ce *.co
+rm -rf 
+rm -rf obj_econotag
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'

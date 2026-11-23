@@ -1,0 +1,145 @@
+01-compile-basehello-world/ avr-raven: FAIL ಠ.ಠ
+hello-world/ exp5438: OK
+hello-world/ eval-adf7xxxmb4z: FAIL ಠ.ಠ
+hello-world/ micaz: FAIL ಠ.ಠ
+hello-world/ minimal-net: OK
+hello-world/ native: OK
+hello-world/ sky: OK
+hello-world/ wismote: OK
+hello-world/ z1: OK
+eeprom-test/ native: OK
+collect/ sky: OK
+er-rest-example/ wismote: OK
+ipso-objects/ wismote: OK
+example-shell/ native: OK
+netperf/ sky: OK
+powertrace/ sky: OK
+rime/ sky: OK
+rime/ z1: OK
+ravenusbstick/ avr-ravenusb: FAIL ಠ.ಠ
+servreg-hack/ sky: OK
+sky/ sky: OK
+sky-ip/ sky: OK
+sky-shell/ sky: OK
+sky-shell-exec/ sky: FAIL ಠ.ಠ
+sky-shell-webserver/ sky: OK
+tcp-socket/ minimal-net: OK
+telnet-server/ minimal-net: OK
+webserver/ minimal-net: OK
+webserver-ipv6/ eval-adf7xxxmb4z: FAIL ಠ.ಠ
+wget/ minimal-net: OK
+zolertia/z1/ z1: OK
+settings-example/ avr-raven: FAIL ಠ.ಠ
+ipv6/multicast/ sky: OK
+sensniff/ z1: OK
+cfs-coffee/ sky: OK
+cfs-coffee/ z1: OK
+cfs-coffee/ wismote: OK
+cfs-coffee/ avr-raven: FAIL ಠ.ಠ
+==> 01-hello-world-avr-raven.faillog <==
+rm -rf 
+rm -rf obj_avr-raven
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+mkdir obj_avr-raven
+  CC        ../../platform/avr-raven/./contiki-raven-main.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 03-hello-world-eval-adf7xxxmb4z.faillog <==
+rm -rf obj_eval-adf7xxxmb4z
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../platform/eval-adf7xxxmb4z/Makefile.eval-adf7xxxmb4z:47: ../..
+mkdir obj_eval-adf7xxxmb4z
+  CC        ../../cpu/rl78/adf7023/ADF7023.c
+/bin/sh: 1: /usr/share/*rl78*/bin/rl78-elf-gcc: not found
+../../Makefile.include:240: recipe for target 'obj_eval-adf7xxxmb4z/ADF7023.o' failed
+make[2]: *** [obj_eval-adf7xxxmb4z/ADF7023.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 04-hello-world-micaz.faillog <==
+rm -rf 
+rm -rf obj_micaz
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+mkdir obj_micaz
+  CC        ../../platform/micaz/dev/adc.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_micaz/adc.o' failed
+make[2]: *** [obj_micaz/adc.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 11-collect-sky.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/collect'
+  AR        contiki-sky.a
+  CC        collect-view-shell.c
+  CC        ../../platform/sky/./contiki-sky-main.c
+../../platform/sky/./contiki-sky-main.c:473:1: fatal error: opening dependency file obj_sky/contiki-sky-main.d: Permission denied
+compilation terminated.
+../../Makefile.include:240: recipe for target 'obj_sky/contiki-sky-main.o' failed
+make[2]: *** [obj_sky/contiki-sky-main.o] Error 1
+rm collect-view-shell.co
+make[2]: Leaving directory '/home/user/contiki/examples/collect'
+
+==> 19-ravenusbstick-avr-ravenusb.faillog <==
+make[3]: Entering directory '/home/user/contiki/examples/ravenusbstick'
+mkdir obj_avr-ravenusb
+  CC        ../../core/cfs/cfs-eeprom.c
+make[3]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-ravenusb/cfs-eeprom.o' failed
+make[3]: *** [obj_avr-ravenusb/cfs-eeprom.o] Error 127
+make[3]: Leaving directory '/home/user/contiki/examples/ravenusbstick'
+Makefile:2: recipe for target 'all' failed
+make[2]: *** [all] Error 2
+make[2]: Leaving directory '/home/user/contiki/examples/ravenusbstick'
+
+==> 24-sky-shell-exec-sky.faillog <==
+  CC        ../../core/net/llsec/anti-replay.c
+  CC        ../../core/net/llsec/ccm-star-packetbuf.c
+  CC        ../../core/net/llsec/noncoresec/noncoresec.c
+  CC        symbols.c
+symbols.c:320:12: error: conflicting types for built-in function ‘snprintf’ [-Werror]
+symbols.c:329:12: error: conflicting types for built-in function ‘strncpy’ [-Werror]
+cc1: all warnings being treated as errors
+../../Makefile.include:240: recipe for target 'obj_sky/symbols.o' failed
+make[2]: *** [obj_sky/symbols.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/sky-shell-exec'
+
+==> 29-webserver-ipv6-eval-adf7xxxmb4z.faillog <==
+rm -rf obj_eval-adf7xxxmb4z
+make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+make[2]: Entering directory '/home/user/contiki/examples/webserver-ipv6'
+../../platform/eval-adf7xxxmb4z/Makefile.eval-adf7xxxmb4z:47: ../..
+mkdir obj_eval-adf7xxxmb4z
+  CC        ../../apps/webserver/webserver-nogui.c
+/bin/sh: 1: /usr/share/*rl78*/bin/rl78-elf-gcc: not found
+../../Makefile.include:240: recipe for target 'obj_eval-adf7xxxmb4z/webserver-nogui.o' failed
+make[2]: *** [obj_eval-adf7xxxmb4z/webserver-nogui.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+
+==> 32-settings-example-avr-raven.faillog <==
+rm -rf 
+rm -rf obj_avr-raven
+make[2]: Leaving directory '/home/user/contiki/examples/settings-example'
+make[2]: Entering directory '/home/user/contiki/examples/settings-example'
+mkdir obj_avr-raven
+  CC        ../../platform/avr-raven/./contiki-raven-main.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/settings-example'
+
+==> 38-cfs-coffee-avr-raven.faillog <==
+rm -rf 
+rm -rf obj_avr-raven
+make[2]: Leaving directory '/home/user/contiki/examples/cfs-coffee'
+make[2]: Entering directory '/home/user/contiki/examples/cfs-coffee'
+mkdir obj_avr-raven
+  CC        ../../platform/avr-raven/./contiki-raven-main.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-raven/contiki-raven-main.o' failed
+make[2]: *** [obj_avr-raven/contiki-raven-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/cfs-coffee'

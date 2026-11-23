@@ -1,0 +1,41 @@
+[10:07:52 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[10:07:52 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[10:07:52 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[10:07:52 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[10:07:52 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[10:07:52 - main] [CompileContiki.java:140] [INFO] - > echo CLEANING 
+[10:07:52 - main] [CompileContiki.java:140] [INFO] - > make TARGET=sky clean CLEAN=symbols.? 
+[10:07:52 - main] [CompileContiki.java:140] [INFO] - > echo COMPILING FIRMWARE WITH CORE 
+[10:07:52 - main] [CompileContiki.java:140] [INFO] - > make sky-shell-exec.sky TARGET=sky SMALL=0 
+[10:07:57 - main] [CompileContiki.java:140] [INFO] - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+[10:07:58 - main] [CompileContiki.java:140] [INFO] - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+[10:07:58 - main] [CompileContiki.java:140] [INFO] - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+[10:07:58 - main] [CompileContiki.java:140] [INFO] - > make sky-shell-exec.sky CORE=sky-shell-exec.sky TARGET=sky SMALL=0 
+[10:07:59 - main] [CompileContiki.java:140] [INFO] - > echo COMPILING CONTIKI EXECUTABLE 
+[10:07:59 - main] [CompileContiki.java:140] [INFO] - > make hello-world.ce TARGET=sky SMALL=0 
+[10:07:59 - main] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki/examples/sky-shell-exec/sky-shell-exec.sky
+[10:07:59 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[10:07:59 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.MoteInterfaceViewer
+[10:07:59 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[10:07:59 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 50000 ms
+[10:08:00 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[10:08:00 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1616036880032
+[10:08:00 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[10:08:00 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[10:08:00 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.MoteInterfaceViewer
+[10:08:00 - Thread-1] [LogScriptEngine.java:312] [FATAL] - Test script error, terminating Cooja.
+[10:08:00 - Thread-1] [LogScriptEngine.java:313] [FATAL] - Script error:
+<eval>:24 TypeError: Java method [jdk.internal.dynalink.beans.SimpleDynamicMethod Runtime java.lang.Runtime.getRuntime()] cannot be used as a constructor.
+	at jdk.nashorn.internal.runtime.ECMAErrors.error(ECMAErrors.java:57)
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:213)
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:185)
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkBean(NashornBottomLinker.java:95)
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:73)
+	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124)
+	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154)
+	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253)
+	at jdk.nashorn.internal.scripts.Script$Recompilation$1$40$\^eval\_.run(<eval>:24)
+	at jdk.nashorn.javaadapters.java.lang.Runnable.run(Unknown Source)
+	at org.contikios.cooja.plugins.LogScriptEngine$4.run(LogScriptEngine.java:300)
+	at java.lang.Thread.run(Thread.java:748)

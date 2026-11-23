@@ -1,0 +1,20 @@
+07-elfloader01-sky-shell-exec-serial.1.faillog: FAIL ಠ_ಠ
+==> 01-sky-shell-exec-serial.log <==
+	at jdk.nashorn.internal.runtime.ECMAErrors.typeError(ECMAErrors.java:172)
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.linkBean(NashornBottomLinker.java:95)
+	at jdk.nashorn.internal.runtime.linker.NashornBottomLinker.getGuardedInvocation(NashornBottomLinker.java:73)
+	at jdk.internal.dynalink.support.CompositeGuardingDynamicLinker.getGuardedInvocation(CompositeGuardingDynamicLinker.java:124)
+	at jdk.internal.dynalink.support.LinkerServicesImpl.getGuardedInvocation(LinkerServicesImpl.java:154)
+	at jdk.internal.dynalink.DynamicLinker.relink(DynamicLinker.java:253)
+	at jdk.nashorn.internal.scripts.Script$Recompilation$1$40$\^eval\_.run(<eval>:24)
+	at jdk.nashorn.javaadapters.java.lang.Runnable.run(Unknown Source)
+	at org.contikios.cooja.plugins.LogScriptEngine$4.run(LogScriptEngine.java:300)
+	at java.lang.Thread.run(Thread.java:748)
+
+==> 01-sky-shell-exec-serial.1.faillog <==
+Random seed: 1
+Running test on:  /home/user/contiki/regression-tests/07-elfloader/../../examples/sky-shell-exec/hello-world.ce
+Waiting for node startup
+Preparing node for incoming data
+Uploading hello-world.b64:
+ FAIL ಠ_ಠ

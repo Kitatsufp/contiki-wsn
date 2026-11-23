@@ -1,0 +1,39 @@
+[09:53:06 - main] [Cooja.java:3172] [WARN] - JAVA_HOME environment variable not set, Cooja motes may not compile
+[09:53:06 - main] [Cooja.java:1315] [INFO] - > Starting Cooja
+[09:53:06 - main] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[09:53:06 - main] [Cooja.java:2886] [INFO] - External tools user settings: /root/.cooja.user.properties
+[09:53:06 - main] [Simulation.java:421] [INFO] - Simulation random seed: 1
+[09:53:06 - main] [CompileContiki.java:140] [INFO] - > make tests.cooja TARGET=cooja 
+[09:53:06 - main] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/verification/obj_cooja/mtype734.cooja
+[09:53:07 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+[09:53:07 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+[09:53:07 - main] [ContikiMoteType.java:500] [INFO] - mtype734.cooja: offsetting Cooja mote address space: 0x83ed1000
+[09:53:07 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83efc020 ( 578 == 0x242 bytes)
+[09:53:07 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83efc280 ( 67048 == 0x105e8 bytes)
+[09:53:07 - main] [CompileContiki.java:140] [INFO] - > make tests.cooja TARGET=cooja 
+[09:53:08 - main] [ContikiMoteType.java:404] [INFO] - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/examples/llsec/ccm-star-tests/encryption/obj_cooja/mtype716.cooja
+[09:53:08 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2b020 ( 578 == 0x242 bytes)
+[09:53:08 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x2b280 ( 67048 == 0x105e8 bytes)
+[09:53:08 - main] [ContikiMoteType.java:500] [INFO] - mtype716.cooja: offsetting Cooja mote address space: 0x83cc4000
+[09:53:08 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83cef020 ( 578 == 0x242 bytes)
+[09:53:08 - main] [ContikiMoteType.java:573] [INFO] - Parsed section at 0x83cef280 ( 67048 == 0x105e8 bytes)
+[09:53:08 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:53:08 - main] [ContikiRadio.java:397] [INFO] - Radio bitrate reconfigured to (kbps): 250.0
+[09:53:08 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+[09:53:08 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+[09:53:08 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+[09:53:08 - main] [Cooja.java:1781] [INFO] - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+[09:53:08 - main] [ScriptRunner.java:430] [INFO] - Test script deactivated
+[09:53:09 - main] [LogScriptEngine.java:265] [INFO] - Script timeout in 2000 ms
+[09:53:09 - main] [ScriptRunner.java:387] [INFO] - Test script activated
+[09:53:09 - Thread-6] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1616035989317
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 5.00%, done in 0.0 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 10.00%, done in 0.0 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 15.00%, done in 0.0 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 20.00%, done in 0.0 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 25.00%, done in 0.0 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 30.00%, done in 0.1 sec
+[09:53:09 - Thread-6] [LogScriptEngine.java:389] [INFO] - Test script at 35.00%, done in 0.1 sec
+[09:53:09 - Thread-5] [LogScriptEngine.java:309] [INFO] - Test script finished
+[09:53:09 - Thread-6] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1616035989370	Duration: 53 ms	Simulated time 1551 ms	Ratio 29.264150943396228
+[09:53:09 - AWT-EventQueue-0] [ScriptRunner.java:430] [INFO] - Test script deactivated

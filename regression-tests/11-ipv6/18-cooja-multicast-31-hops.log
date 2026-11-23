@@ -1,0 +1,74 @@
+ WARN [main] (Cooja.java:3172) - JAVA_HOME environment variable not set, Cooja motes may not compile
+ INFO [main] (Cooja.java:1315) - > Starting Cooja
+ INFO [main] (Cooja.java:2856) - External tools default settings: /external_tools_linux.config
+ INFO [main] (Cooja.java:2886) - External tools user settings: /root/.cooja.user.properties
+ INFO [main] (Simulation.java:421) - Simulation random seed: 1
+ INFO [main] (CompileContiki.java:140) - > make root.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib1 and Contiki library '/home/user/contiki/examples/ipv6/multicast/obj_cooja/mtype442.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a2a0 ( 42824 == 0xa748 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype442.cooja: offsetting Cooja mote address space: 0x83ecb000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83ef5020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83ef52a0 ( 42824 == 0xa748 bytes)
+ INFO [main] (CompileContiki.java:140) - > make intermediate.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib2 and Contiki library '/home/user/contiki/examples/ipv6/multicast/obj_cooja/mtype451.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 590 == 0x24e bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a280 ( 42632 == 0xa688 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype451.cooja: offsetting Cooja mote address space: 0x83df4000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83e1e020 ( 590 == 0x24e bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83e1e280 ( 42632 == 0xa688 bytes)
+ INFO [main] (CompileContiki.java:140) - > make sink.cooja TARGET=cooja 
+ INFO [main] (ContikiMoteType.java:404) - Creating core communicator between Java class Lib3 and Contiki library '/home/user/contiki/examples/ipv6/multicast/obj_cooja/mtype732.cooja
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x2a2a0 ( 42632 == 0xa688 bytes)
+ INFO [main] (ContikiMoteType.java:500) - mtype732.cooja: offsetting Cooja mote address space: 0x83c1d000
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83c47020 ( 610 == 0x262 bytes)
+ INFO [main] (ContikiMoteType.java:573) - Parsed section at 0x83c472a0 ( 42632 == 0xa688 bytes)
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (ContikiRadio.java:397) - Radio bitrate reconfigured to (kbps): 250.0
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.SimControl
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Visualizer
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.LogListener
+ INFO [main] (Cooja.java:1781) - Visualized plugin was not started: class org.contikios.cooja.plugins.Notes
+ INFO [main] (ScriptRunner.java:430) - Test script deactivated
+ INFO [main] (LogScriptEngine.java:265) - Script timeout in 300000 ms
+ INFO [main] (ScriptRunner.java:387) - Test script activated
+ INFO [Thread-8] (Simulation.java:252) - Simulation main loop started, system time: 1616037154645
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 5.00%, done in 6.3 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 10.00%, done in 4.9 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 15.00%, done in 4.3 sec
+ INFO [Thread-8] (LogScriptEngine.java:389) - Test script at 20.00%, done in 3.8 sec
+ INFO [Thread-7] (LogScriptEngine.java:309) - Test script finished
+ INFO [Thread-8] (Simulation.java:311) - Simulation main loop stopped, system time: 1616037155643	Duration: 998 ms	Simulated time 62220 ms	Ratio 62.344689378757515
+ INFO [AWT-EventQueue-0] (ScriptRunner.java:430) - Test script deactivated
+FATAL [Thread-9] (AbstractRadioMedium.java:196) - Connection source turned off radio: Radio at Contiki 27

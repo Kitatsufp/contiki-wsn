@@ -1,0 +1,15 @@
+21-large-rpl01-cooja-http-socket-50.1.faillog: FAIL ಠ_ಠ
+==> 01-cooja-http-socket-50.log <==
+	at org.contikios.cooja.Cooja.loadSimulationConfig(Cooja.java:3431)
+	... 3 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: Bad return value
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:269)
+	at org.contikios.cooja.dialogs.CompileContiki.compile(CompileContiki.java:100)
+	at org.contikios.cooja.contikimote.ContikiMoteType.configureAndInit(ContikiMoteType.java:328)
+	... 6 more
+Caused by: org.contikios.cooja.MoteType$MoteTypeCreationException: 
+	at org.contikios.cooja.dialogs.CompileContiki$3.run(CompileContiki.java:218)
+	at java.lang.Thread.run(Thread.java:748)
+
+==> 01-cooja-http-socket-50.1.faillog <==
+ FAIL ಠ_ಠ

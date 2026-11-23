@@ -1,0 +1,13 @@
+Random seed: 1
+1: Sender -> Receiver OK
+1: Receiver -> Sender OK
+2: Sender -> Receiver OK
+2: Receiver -> Sender OK
+3: Sender -> Receiver OK
+3: Receiver -> Sender OK
+4: Sender -> Receiver OK
+4: Receiver -> Sender OK
+5: Sender -> Receiver OK
+5: Receiver -> Sender OK
+TEST OK
+Test ended at simulation time: 91893680

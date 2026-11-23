@@ -1,0 +1,10 @@
+rm -rf obj_eval-adf7xxxmb4z
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../platform/eval-adf7xxxmb4z/Makefile.eval-adf7xxxmb4z:47: ../..
+mkdir obj_eval-adf7xxxmb4z
+  CC        ../../cpu/rl78/adf7023/ADF7023.c
+/bin/sh: 1: /usr/share/*rl78*/bin/rl78-elf-gcc: not found
+../../Makefile.include:240: recipe for target 'obj_eval-adf7xxxmb4z/ADF7023.o' failed
+make[2]: *** [obj_eval-adf7xxxmb4z/ADF7023.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'

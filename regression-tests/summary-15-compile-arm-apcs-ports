@@ -1,0 +1,91 @@
+15-compile-arm-apcs-portshello-world/ econotag: FAIL ಠ.ಠ
+hello-world/ mbxxx: OK
+ipv6/rpl-border-router/ econotag: FAIL ಠ.ಠ
+er-rest-example/ econotag: FAIL ಠ.ಠ
+webserver-ipv6/ econotag: FAIL ಠ.ಠ
+ipv6/multicast/ econotag: FAIL ಠ.ಠ
+econotag-flash-test/ econotag: FAIL ಠ.ಠ
+econotag-ecc-test/ econotag: FAIL ಠ.ಠ
+==> 01-hello-world-econotag.faillog <==
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 03-ipv6-rpl-border-router-econotag.faillog <==
+../../../platform/econotag/Makefile.econotag:9: ../../..
+mkdir obj_econotag
+ln -sf ../../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../../platform/econotag/./main.c
+../../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/rpl-border-router'
+
+==> 04-er-rest-example-econotag.faillog <==
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/er-rest-example'
+
+==> 05-webserver-ipv6-econotag.faillog <==
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/webserver-ipv6'
+
+==> 06-ipv6-multicast-econotag.faillog <==
+../../../platform/econotag/Makefile.econotag:9: ../../..
+mkdir obj_econotag
+ln -sf ../../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../../platform/econotag/./main.c
+../../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/ipv6/multicast'
+
+==> 07-econotag-flash-test-econotag.faillog <==
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/econotag-flash-test'
+
+==> 08-econotag-ecc-test-econotag.faillog <==
+../../platform/econotag/Makefile.econotag:9: ../..
+mkdir obj_econotag
+ln -sf ../../../cpu/mc1322x/board/board.h obj_econotag/board.h
+  CC        ../../platform/econotag/./main.c
+../../platform/econotag/./main.c:1:0: error: AAPCS does not support -mcallee-super-interworking
+ /*
+ ^
+../../cpu/mc1322x/Makefile.mc1322x:97: recipe for target 'obj_econotag/main.o' failed
+make[2]: *** [obj_econotag/main.o] Error 1
+make[2]: Leaving directory '/home/user/contiki/examples/econotag-ecc-test'

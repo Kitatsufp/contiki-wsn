@@ -1,0 +1,64 @@
+23-compile-avrexamples/avr-rss2/hello-sensors/ avr-rss2: FAIL ಠ.ಠ
+examples/avr-rss2/ipv6/rpl-udp-report/ avr-rss2: FAIL ಠ.ಠ
+examples/avr-rss2/ipv6/rpl-border-router/ avr-rss2: FAIL ಠ.ಠ
+examples/powertrace/ avr-rss2: FAIL ಠ.ಠ
+examples/rime/ avr-rss2: FAIL ಠ.ಠ
+==> 01-examples-avr-rss2-hello-sensors-avr-rss2.faillog <==
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+mkdir obj_avr-rss2
+  CC        ../../../platform/avr-rss2/./contiki-main.c
+make[2]: avr-gcc: Command not found
+../../../Makefile.include:240: recipe for target 'obj_avr-rss2/contiki-main.o' failed
+make[2]: *** [obj_avr-rss2/contiki-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/hello-sensors'
+
+==> 02-examples-avr-rss2-ipv6-rpl-udp-report-avr-rss2.faillog <==
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+mkdir obj_avr-rss2
+  CC        ../../../../apps/servreg-hack/servreg-hack.c
+make[2]: avr-gcc: Command not found
+../../../../Makefile.include:240: recipe for target 'obj_avr-rss2/servreg-hack.o' failed
+make[2]: *** [obj_avr-rss2/servreg-hack.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-udp-report'
+
+==> 03-examples-avr-rss2-ipv6-rpl-border-router-avr-rss2.faillog <==
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+make[2]: Entering directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+mkdir obj_avr-rss2
+  CC        enc28j60-ip64-driver.c
+make[2]: avr-gcc: Command not found
+../../../../Makefile.include:240: recipe for target 'obj_avr-rss2/enc28j60-ip64-driver.o' failed
+make[2]: *** [obj_avr-rss2/enc28j60-ip64-driver.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/avr-rss2/ipv6/rpl-border-router'
+
+==> 04-examples-powertrace-avr-rss2.faillog <==
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/powertrace'
+make[2]: Entering directory '/home/user/contiki/examples/powertrace'
+mkdir obj_avr-rss2
+  CC        ../../apps/powertrace/powertrace.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-rss2/powertrace.o' failed
+make[2]: *** [obj_avr-rss2/powertrace.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/powertrace'
+
+==> 05-examples-rime-avr-rss2.faillog <==
+rm -rf 
+rm -rf obj_avr-rss2
+make[2]: Leaving directory '/home/user/contiki/examples/rime'
+make[2]: Entering directory '/home/user/contiki/examples/rime'
+mkdir obj_avr-rss2
+  CC        ../../platform/avr-rss2/./contiki-main.c
+make[2]: avr-gcc: Command not found
+../../Makefile.include:240: recipe for target 'obj_avr-rss2/contiki-main.o' failed
+make[2]: *** [obj_avr-rss2/contiki-main.o] Error 127
+make[2]: Leaving directory '/home/user/contiki/examples/rime'

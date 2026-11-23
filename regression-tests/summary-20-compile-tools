@@ -1,0 +1,5 @@
+20-compile-toolstools/sky: OK
+tools/tools: OK
+tools/stm32w: OK
+tools/z80=hex2bin: OK
+Info: The following tools need fixing and are not tested: stm32w/uip6_bridge sky/uip6-bridge

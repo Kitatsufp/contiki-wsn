@@ -1,0 +1,35 @@
+24-compile-nrf52-portshello-world/ nrf52dk: FAIL ಠ.ಠ
+nrf52dk/coap-demo/ nrf52dk: FAIL ಠ.ಠ
+nrf52dk/coap-demo/ nrf52dk: FAIL ಠ.ಠ
+nrf52dk/mqtt-demo/ nrf52dk: FAIL ಠ.ಠ
+nrf52dk/blink-hello/ nrf52dk: FAIL ಠ.ಠ
+nrf52dk/timer-test/ nrf52dk: FAIL ಠ.ಠ
+==> 01-hello-world-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/hello-world'
+../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/hello-world'
+
+==> 02-nrf52dk-coap-demo-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+
+==> 03-nrf52dk-coap-demo-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/coap-demo'
+
+==> 04-nrf52dk-mqtt-demo-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/mqtt-demo'
+../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/mqtt-demo'
+
+==> 05-nrf52dk-blink-hello-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/blink-hello'
+../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/blink-hello'
+
+==> 06-nrf52dk-timer-test-nrf52dk.faillog <==
+make[2]: Entering directory '/home/user/contiki/examples/nrf52dk/timer-test'
+../../../cpu/nrf52832/Makefile.nrf52832:2: *** NRF52_SDK_ROOT not defined! You must specify where nRF52 SDK resides!.  Stop.
+make[2]: Leaving directory '/home/user/contiki/examples/nrf52dk/timer-test'
