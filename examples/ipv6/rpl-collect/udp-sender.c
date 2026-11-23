@@ -167,13 +167,14 @@ collect_common_send(void)
           p != NULL;
           p = nbr_table_next(rpl_parents, p)) {
         uint16_t e = rpl_get_parent_link_metric(p);
-        printf("NBR %u etx %u.%02u rank %u q %u.%u cost %ld%s%s\n",
+        printf("NBR %u etx %u.%02u rank %u q %u.%u cost %ld F%d%s%s\n",
                rpl_get_parent_ipaddr(p)->u8[15],
                e / 128, (unsigned)(((e % 128) * 100UL) / 128),
                (unsigned)p->rank,
                (unsigned)(p->queue / 16),
                (unsigned)((p->queue % 16) * 10 / 16),
                (long)rpl_combined_cost(p),
+               rpl_parent_is_fresh(p),
                (p == preferred_parent) ? " *" : "",
                (p == best) ? " <best" : "");
       }
