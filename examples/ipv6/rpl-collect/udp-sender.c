@@ -125,6 +125,8 @@ collect_common_send(void)
   linkaddr_t parent;
   rpl_dag_t *dag;
   uint16_t link_etx = 0;
+  uint16_t etx = 0;
+  uint16_t parent_rank = 0;
   if(client_conn == NULL) {
     /* Not setup yet */
     return;
@@ -183,7 +185,7 @@ collect_common_send(void)
         printf("PICK pref %u cost %ld best %u cost %ld diff %ld myrank %u\n",
                rpl_get_parent_ipaddr(preferred_parent)->u8[15], (long)pref_c,
                rpl_get_parent_ipaddr(best)->u8[15], (long)best_c,
-               (long)(pref_c - best_c), (unsigned)dag->rank);
+               (long)(pref_c - best_c), (unsigned)dag->rank);  
       }
     }
     if(preferred_parent != NULL) {
@@ -193,9 +195,15 @@ collect_common_send(void)
         /* Use parts of the IPv6 address as the parent address, in reversed byte order. */
         parent.u8[LINKADDR_SIZE - 1] = nbr->ipaddr.u8[sizeof(uip_ipaddr_t) - 2];
         parent.u8[LINKADDR_SIZE - 2] = nbr->ipaddr.u8[sizeof(uip_ipaddr_t) - 1];
-        parent_etx = rpl_get_parent_rank((uip_lladdr_t *) uip_ds6_nbr_get_ll(nbr)) / 2;
+        parent_rank = rpl_get_parent_rank((uip_lladdr_t *) uip_ds6_nbr_get_ll(nbr));
+	parent_etx = rpl_get_parent_rank((uip_lladdr_t *) uip_ds6_nbr_get_ll(nbr));
       }
 	link_etx = rpl_get_parent_link_metric(preferred_parent);
+	etx = link_etx + parent_etx;
+
+      printf("DBG parent_rank=%u parent_etx=%u link_etx=%u etx=%u my_rank=%u\n",
+             (unsigned)parent_rank, (unsigned)parent_etx,
+             (unsigned)link_etx, (unsigned)etx, (unsigned)dag->rank);
     }
     rtmetric = dag->rank;
     beacon_interval = (uint16_t) ((2L << dag->instance->dio_intcurrent) / 1000);
@@ -208,7 +216,7 @@ collect_common_send(void)
 
   /* num_neighbors = collect_neighbor_list_num(&tc.neighbor_list); */
   collect_view_construct_message(&msg.msg, &parent,
-                                 link_etx, rtmetric,
+                                 etx, rtmetric,
                                  num_neighbors, beacon_interval);
 
 /*---------------------ADDITION PART------------------------------------------*/
@@ -306,3 +314,4 @@ PROCESS_THREAD(udp_client_process, ev, data)
   PROCESS_END();
 }
 /*---------------------------------------------------------------------------*/
+

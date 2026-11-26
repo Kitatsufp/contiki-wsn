@@ -50,7 +50,7 @@ static unsigned long time_offset;
 static int send_active = 1;
 
 #ifndef PERIOD
-#define PERIOD  2
+#define PERIOD  5
 #endif
 #define RANDWAIT (PERIOD)
 
@@ -64,9 +64,9 @@ get_node_period(void)
   uint8_t id = linkaddr_node_addr.u8[LINKADDR_SIZE - 1];
 
   switch(id) {
-  case 2:
+  case 50:
     return 10;
-  case 3:
+  case 60:
     return 60;
   default:
     return PERIOD;

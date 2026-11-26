@@ -51,7 +51,7 @@ to the threshold of 96 in the non-squared case) */
 #define BIAS_NODE  3
 #endif
 #ifndef BIAS_ETX
-#define BIAS_ETX   128
+#define BIAS_ETX   0
 #endif
 
 #ifndef ETX_REF
@@ -61,17 +61,17 @@ to the threshold of 96 in the non-squared case) */
 #define RANK_REF 2048              /* about 16 hops of 128: set to your deepest rank */
 #endif
 #ifndef NORM_SWITCH
-#define NORM_SWITCH 5             /* hysteresis on the 0..1000 scale (5 points) */
+#define NORM_SWITCH 20             /* hysteresis on the 0..1000 scale (5 points) */
 #endif
 /* Weights in percent. They must add up to 100. */
 #ifndef W_ETX
 #define W_ETX    10
 #endif
 #ifndef W_QUEUE
-#define W_QUEUE  80
+#define W_QUEUE  50
 #endif
 #ifndef W_RANK
-#define W_RANK   10
+#define W_RANK   40
 #endif
 /*---------------------------------------------------------------------------*/
 static void
@@ -116,6 +116,16 @@ parent_link_metric(rpl_parent_t *p)
     if(ll != NULL && ll->u8[LINKADDR_SIZE - 1] == BIAS_NODE) {
       m += BIAS_ETX;
     }
+
+    if(ll != NULL && ll->u8[LINKADDR_SIZE - 1] == BIAS_NODE+1) {
+      m += BIAS_ETX;
+    }
+     ll = rpl_get_parent_lladdr(p);
+    if(ll != NULL && ll->u8[LINKADDR_SIZE - 1] == BIAS_NODE+2) {
+      m += BIAS_ETX;
+    }
+
+
     /*------------------------------------------------------------------------*/
     return (uint16_t)MIN(m, 0xffff);
   }
@@ -229,8 +239,8 @@ best_parent(rpl_parent_t *p1, rpl_parent_t *p2)
   }
 
   dag = p1->dag; /* Both parents are in the same DAG. */
-  p1_cost = parent_combined_cost(p1);
-  p2_cost = parent_combined_cost(p2);
+  p1_cost = parent_path_cost(p1);
+  p2_cost = parent_path_cost(p2);
 
   /* Maintain stability of the preferred parent in case of similar costs. */
   if(p1 == dag->preferred_parent || p2 == dag->preferred_parent) {

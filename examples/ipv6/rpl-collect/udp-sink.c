@@ -51,6 +51,8 @@ struct node_stat {
   uint16_t etx, rank;
 };
 static struct node_stat nodes[MAX_NODES];
+static uint16_t rank_all_max;
+static uint8_t  rank_all_node;
 /*---------------------------------------------------------------------------*/
 static struct uip_udp_conn *server_conn;
 
@@ -159,6 +161,11 @@ sink_stats_update(const linkaddr_t *s, uint8_t seqno,
   n->drop = m->sensors[DROP_SLOT];
   n->etx  = m->sensors[ETX_SLOT];
   n->rank = m->sensors[RANK_SLOT];
+    uint16_t r = m->sensors[RANK_SLOT];
+    if(r != 0 && r != 0xffff && r > rank_all_max) {   /* 0 = not joined, 0xffff = infinite */
+      rank_all_max = r;
+      rank_all_node = n->id / 257;
+    }
 }
 /*---------------------ADDITION PART------------------------------------------*/
 /* Jain index in 1/1000 using integer math only (no float, saves ROM). */
@@ -311,7 +318,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
          UIP_HTONS(server_conn->rport));
 
   /* 10 s while debugging. Use 60 s for the real measurements. */
-  etimer_set(&stat_timer, CLOCK_SECOND * 10);
+  etimer_set(&stat_timer, CLOCK_SECOND * 60);
   while(1) {
     PROCESS_YIELD();
     if(ev == tcpip_event) {
@@ -321,6 +328,7 @@ PROCESS_THREAD(udp_server_process, ev, data)
       rpl_repair_root(RPL_DEFAULT_INSTANCE);
     } else if(ev == PROCESS_EVENT_TIMER && data == &stat_timer) {
       sink_stats_print();
+      printf("RANKMAX %u (node %u)\n", rank_all_max, rank_all_node);
       etimer_reset(&stat_timer);
     }
   }

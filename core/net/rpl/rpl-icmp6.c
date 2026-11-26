@@ -540,7 +540,7 @@ dio_output(rpl_instance_t *instance, uip_ipaddr_t *uc_addr)
 /*---------------------ADDITION PART--------------------------------------*/
   {
      uint16_t q = csma_loss_byte();
-    printf("DIOTX %u\n", q);
+//    printf("DIOTX %u\n", q);
     buffer[pos++] = RPL_OPTION_QUEUE;
     buffer[pos++] = 1;
     buffer[pos++] = (q > 255) ? 255 : q;

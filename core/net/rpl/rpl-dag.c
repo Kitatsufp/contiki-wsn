@@ -1578,8 +1578,8 @@ rpl_process_dio(uip_ipaddr_t *from, rpl_dio_t *dio)
   }
   p->rank = dio->rank;
 /*---------------------ADDITION PART------------------------------------------*/
-  p->queue = (3 * p->queue + (uint16_t)dio->queue * 16) / 4;
-  printf("DIORX %u %u\n", from->u8[15], dio->queue);
+  p->queue = (p->queue + (uint16_t)dio->queue * 16) / 2;
+//  printf("DIORX %u %u\n", from->u8[15], dio->queue);
 /*---------------------------------------------------------------------------*/
   if(dio->rank == INFINITE_RANK && p == dag->preferred_parent) {
     /* Our preferred parent advertised an infinite rank, reset DIO timer */

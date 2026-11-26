@@ -1,63 +1,236 @@
-[12:37:10 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
-[12:37:10 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/user/.cooja.user.properties
-[12:37:16 - Thread-0] [Simulation.java:421] [INFO] - Simulation random seed: 123456
-[12:37:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
-[12:37:16 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:17 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
-[12:37:18 - Thread-0] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[12:37:22 - Thread-1] [Simulation.java:421] [INFO] - Simulation random seed: 123456
-[12:37:22 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
-[12:37:22 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:37:23 - Thread-1] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[12:37:25 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795433845061
-[12:41:46 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795434106897	Duration: 261836 ms	Simulated time 142232 ms	Ratio 0.54321025374662
-[12:51:19 - Thread-3] [AbstractRadioMedium.java:196] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@b1bd6c
-[12:51:20 - Thread-3] [Simulation.java:421] [INFO] - Simulation random seed: 123456
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:20 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
-[12:51:21 - Thread-3] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
-[12:51:21 - Thread-4] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795434681613
-[12:53:06 - Thread-4] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795434786299	Duration: 104686 ms	Simulated time 56651 ms	Ratio 0.5411516344114782
-[12:53:17 - Thread-5] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795434797269
-[12:54:29 - Thread-5] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795434869592	Duration: 72323 ms	Simulated time 92713 ms	Ratio 1.2819296765897432
-[12:58:44 - Thread-6] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795435124630
-[13:00:38 - Thread-6] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795435238420	Duration: 113790 ms	Simulated time 151582 ms	Ratio 1.3321205729853238
+[09:50:58 - AWT-EventQueue-0] [Cooja.java:2856] [INFO] - External tools default settings: /external_tools_linux.config
+[09:50:58 - AWT-EventQueue-0] [Cooja.java:2886] [INFO] - External tools user settings: /home/user/.cooja.user.properties
+[09:51:13 - Thread-0] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[09:51:13 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[09:51:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:14 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:51:15 - Thread-0] [Visualizer.java:256] [INFO] - Registered external visualizer: org.contikios.cooja.plugins.skins.DGRMVisualizerSkin
+[09:51:16 - Thread-0] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:53:59 - Thread-1] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:53:59 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:54:00 - Thread-1] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:54:03 - Thread-2] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795683243526
+[09:57:20 - Thread-2] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795683440686	Duration: 197160 ms	Simulated time 346857 ms	Ratio 1.759266585514303
+[09:57:21 - Thread-3] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[09:57:21 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:22 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:23 - Thread-3] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:57:23 - Thread-3] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:58:00 - Thread-4] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[09:58:00 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[09:58:00 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[09:58:01 - Thread-4] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[09:58:02 - Thread-5] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795683482882
+[10:00:04 - Thread-5] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795683604370	Duration: 121488 ms	Simulated time 193432 ms	Ratio 1.5921901751613328
+[10:00:46 - Thread-6] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795683646888
+[10:01:25 - Thread-6] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795683685607	Duration: 38719 ms	Simulated time 268014 ms	Ratio 6.922027944936595
+[10:20:37 - AWT-EventQueue-0] [Cooja.java:3490] [INFO] - Saved to file: /home/user/contiki-3.0/examples/ipv6/rpl-collect/new.csc
+[10:57:31 - Thread-7] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795687051779
+[10:57:42 - Thread-7] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795687062456	Duration: 10677 ms	Simulated time 287910 ms	Ratio 26.96543973026131
+[11:13:39 - Thread-8] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:39 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:13:40 - Thread-8] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[11:13:41 - Thread-9] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795688021462
+[11:14:20 - Thread-9] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795688060418	Duration: 38956 ms	Simulated time 70096 ms	Ratio 1.7993633843310401
+[11:47:15 - Thread-10] [AbstractRadioMedium.java:196] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@1a14ec8
+[11:47:15 - Thread-10] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[11:47:15 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[11:47:15 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[11:47:16 - Thread-10] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[11:47:17 - Thread-11] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795690037848
+[11:52:47 - Thread-11] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795690367983	Duration: 330135 ms	Simulated time 843908 ms	Ratio 2.5562512305571965
+[12:00:46 - Thread-12] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:46 - Thread-12] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:00:47 - Thread-12] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[12:00:49 - Thread-13] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795690849608
+[12:04:32 - Thread-13] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795691072630	Duration: 223022 ms	Simulated time 540826 ms	Ratio 2.4249894629229405
+[12:10:46 - Thread-14] [AbstractRadioMedium.java:196] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@12c2f75
+[12:10:46 - Thread-14] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[12:10:46 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[12:10:47 - Thread-14] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[12:10:52 - Thread-15] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795691452983
+[12:14:31 - Thread-15] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795691671536	Duration: 218553 ms	Simulated time 526401 ms	Ratio 2.4085736640540283
+[13:12:15 - Thread-16] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[13:12:15 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[13:12:15 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[13:12:16 - Thread-16] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[13:12:18 - Thread-17] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795695138634
+[13:15:13 - Thread-17] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795695313509	Duration: 174875 ms	Simulated time 295284 ms	Ratio 1.688543245175125
+[14:21:54 - Thread-18] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[14:21:54 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:55 - Thread-18] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:21:56 - Thread-18] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[14:21:57 - Thread-19] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795699317266
+[14:22:48 - Thread-19] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795699368667	Duration: 51401 ms	Simulated time 48180 ms	Ratio 0.9373358494970915
+[14:25:00 - Thread-20] [AbstractRadioMedium.java:196] [FATAL] - Connection source turned off radio: org.contikios.cooja.mspmote.interfaces.Msp802154Radio@749986
+[14:25:00 - Thread-20] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[14:25:00 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:01 - Thread-20] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:25:02 - Thread-20] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[14:25:03 - Thread-21] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795699503479
+[14:25:56 - Thread-21] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795699556310	Duration: 52831 ms	Simulated time 51358 ms	Ratio 0.972118642463705
+[14:30:39 - Thread-22] [Simulation.java:421] [INFO] - Simulation random seed: 123456
+[14:30:39 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sink.sky
+[14:30:39 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:40 - Thread-22] [MspMote.java:235] [INFO] - Loading firmware from: /home/user/contiki-3.0/examples/ipv6/rpl-collect/udp-sender.sky
+[14:30:41 - Thread-22] [TimeLine.java:567] [INFO] - Zoom level: 500.0 microseconds/pixel 
+[14:30:42 - Thread-23] [Simulation.java:252] [INFO] - Simulation main loop started, system time: 1795699842211
+[14:32:03 - Thread-23] [Simulation.java:311] [INFO] - Simulation main loop stopped, system time: 1795699923955	Duration: 81744 ms	Simulated time 80588 ms	Ratio 0.9858582892934038
+[14:35:13 - AWT-EventQueue-0] [Cooja.java:3490] [INFO] - Saved to file: /home/user/contiki-3.0/examples/ipv6/rpl-collect/rpl-traffic-new.csc

@@ -344,14 +344,10 @@
   <plugin>
     org.contikios.cooja.plugins.Visualizer
     <plugin_config>
-      <moterelations>true</moterelations>
-      <skin>org.contikios.cooja.plugins.skins.IDVisualizerSkin</skin>
-      <skin>org.contikios.cooja.plugins.skins.UDGMVisualizerSkin</skin>
-      <skin>org.contikios.cooja.plugins.skins.TrafficVisualizerSkin</skin>
       <viewport>2.131016565814986 0.0 0.0 2.131016565814986 193.28092144450915 45.95889112761704</viewport>
     </plugin_config>
     <width>400</width>
-    <z>1</z>
+    <z>3</z>
     <height>400</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
@@ -359,12 +355,12 @@
   <plugin>
     org.contikios.cooja.plugins.LogListener
     <plugin_config>
-      <filter />
+      <filter>ID:1</filter>
       <formatted_time />
       <coloring />
     </plugin_config>
     <width>550</width>
-    <z>2</z>
+    <z>1</z>
     <height>240</height>
     <location_x>400</location_x>
     <location_y>160</location_y>
@@ -393,7 +389,7 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>690</width>
-    <z>3</z>
+    <z>2</z>
     <height>166</height>
     <location_x>0</location_x>
     <location_y>481</location_y>
